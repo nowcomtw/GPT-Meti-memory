@@ -1,0 +1,937 @@
+[
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11555,
+    "asset": "MainShip_Event_NoWeapons",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Main Ship",
+    "current": "主艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11556,
+    "asset": "_Tutorial1_DummyShip3",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Decommissioned ship",
+    "current": "退役艦船"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11557,
+    "asset": "_Tutorial1_DummyShip4",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Decommissioned ship",
+    "current": "退役艦船"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11558,
+    "asset": "_Tutorial1_DummySquadron0Dmg",
+    "class": "Gameplay.SquadronData",
+    "field": "<Name>k__BackingField",
+    "source": "Attack Squadron",
+    "current": "攻擊中隊"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11558,
+    "asset": "_Tutorial1_DummySquadron0Dmg",
+    "class": "Gameplay.SquadronData",
+    "field": "<Description>k__BackingField",
+    "source": "Group of rapid-response combat vessels. With small fire power. Particularly effective against corvettes.",
+    "current": "由快速反應戰鬥飛行器組成的中隊，火力較小，對護衛艦特別有效。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11559,
+    "asset": "_Tutorial1_DummySquadronCapital",
+    "class": "Gameplay.SquadronData",
+    "field": "<Name>k__BackingField",
+    "source": "Attack Squadron",
+    "current": "攻擊中隊"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11559,
+    "asset": "_Tutorial1_DummySquadronCapital",
+    "class": "Gameplay.SquadronData",
+    "field": "<Description>k__BackingField",
+    "source": "Group of rapid-response combat vessels. With small fire power. Particularly effective against corvettes.",
+    "current": "由快速反應戰鬥飛行器組成的中隊，火力較小，對護衛艦特別有效。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11560,
+    "asset": "_Tutorial3_Alien_Destroyer_Second_800Hp_Laser1",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Light Destroyer",
+    "current": "輕型驅逐艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11561,
+    "asset": "_Tutorial3_Alien_Frigate_SecondWave_2000Hp",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Frigate",
+    "current": "巡防艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11562,
+    "asset": "_Tutorial3_Alien_Frigate_Second_800Hp_Missile0",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Light Frigate",
+    "current": "輕型巡防艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11563,
+    "asset": "_Tutorial3_Savable_Ship_1",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Side ship 1",
+    "current": "支援艦 1"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11564,
+    "asset": "_Tutorial3_SideShip6",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "The Behemoth",
+    "current": "貝希摩斯號"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11565,
+    "asset": "_Tutorial3_alien_Carrier_2200",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Light Carrier",
+    "current": "輕型航艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11566,
+    "asset": "_Tutorial3_alien_MothershipBomber_Visible",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Mothership Bomber",
+    "current": "母艦轟炸艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "ODIN_DISPLAY_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11570,
+    "asset": "old_SideShip3_PlayerFleet_Starting_Farm",
+    "class": "Gameplay.ShipData",
+    "field": "<Name>k__BackingField",
+    "source": "Eden",
+    "current": "伊甸號"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 81,
+    "source": "\n<color=red>Not enough ammo - {0} required.</color>",
+    "current": "\n<color=red>彈藥不足，需要 {0}。</color>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 88,
+    "source": "\nTraining time: ",
+    "current": "\n訓練時間："
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 253,
+    "source": " Remaining",
+    "current": " 剩餘"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 280,
+    "source": " and produces less food.</color>",
+    "current": "，因此食物產量降低。</color>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 343,
+    "source": " damage",
+    "current": " 傷害"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 448,
+    "source": " is short on ",
+    "current": " 缺少 "
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 451,
+    "source": " is under attack!",
+    "current": " 正遭受攻擊！"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 454,
+    "source": " left",
+    "current": " 剩餘"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 493,
+    "source": " range",
+    "current": " 射程"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 549,
+    "source": " waste per day is thrown away.</color>",
+    "current": " 單位廢棄物會被丟棄。</color>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 605,
+    "source": "\" to activate.",
+    "current": "\" 即可使用。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 1243,
+    "source": "+{0}% range",
+    "current": "+{0}% 射程"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 1993,
+    "source": "</b> and <b>",
+    "current": "</b> 與 <b>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 1994,
+    "source": "</b> is already used by <b>",
+    "current": "</b> 已被 <b>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 1996,
+    "source": "</b> will become <b>Unbound</b>.",
+    "current": "</b> 將變成<b>未綁定</b>。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 1997,
+    "source": "</b> will use <b>",
+    "current": "</b> 將使用 <b>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2002,
+    "source": "</b>. Replace it? <b>",
+    "current": "</b> 使用。是否取代？<b>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2141,
+    "source": "<color=red>About ",
+    "current": "<color=red>每天約有 "
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2142,
+    "source": "<color=red>Locked - build a Research Center to unlock.</color>",
+    "current": "<color=red>尚未解鎖，請建造研究中心。</color>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2143,
+    "source": "<color=red>{0} people have no living space ({1} / {2}).</color>",
+    "current": "<color=red>有 {0} 人沒有居住空間（{1} / {2}）。</color>"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2498,
+    "source": "Accommodated",
+    "current": "有住處"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2558,
+    "source": "Add to Queue",
+    "current": "加入佇列"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2635,
+    "source": "Alien's destroyed your last ship",
+    "current": "外星人摧毀了你的最後一艘艦船"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2642,
+    "source": "All Weapons",
+    "current": "所有武器"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2650,
+    "source": "All your people died, because of hunger.",
+    "current": "所有人民都因飢餓而死亡。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2651,
+    "source": "All your people died, because of thirst.",
+    "current": "所有人民都因缺水而死亡。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2900,
+    "source": "Arrival",
+    "current": "抵達"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 2955,
+    "source": "Attack Move Command",
+    "current": "攻擊移動指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3063,
+    "source": "Autosave - Day {0}",
+    "current": "自動存檔 - 第 {0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3064,
+    "source": "Available Upgrades",
+    "current": "可用升級"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3108,
+    "source": "Back to Hangar Command",
+    "current": "返回機庫指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3331,
+    "source": "Borderless",
+    "current": "無邊框"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3420,
+    "source": "Buy",
+    "current": "購買"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 3422,
+    "source": "By destroying this building you will receive",
+    "current": "拆解這個建築可獲得"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4080,
+    "source": "Capacity",
+    "current": "容量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4174,
+    "source": "Charging",
+    "current": "充能中"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4175,
+    "source": "Charging ",
+    "current": "充能中："
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4266,
+    "source": "Collect Area Command",
+    "current": "區域收集指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4267,
+    "source": "Collect Debris Command",
+    "current": "收集散落物資指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4531,
+    "source": "Cooldown: {0:0.#} s\nDuration: {1:0.#} s\nAmmo cost: {2}",
+    "current": "冷卻時間：{0:0.#} 秒\n持續時間：{1:0.#} 秒\n彈藥消耗：{2}"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4805,
+    "source": "DAY 0",
+    "current": "第 0 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4806,
+    "source": "DAY {0}",
+    "current": "第 {0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4818,
+    "source": "DEMO v",
+    "current": "試玩版 v"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 4990,
+    "source": "Day {0}",
+    "current": "第 {0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5113,
+    "source": "Deflection Chance",
+    "current": "偏轉機率"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5121,
+    "source": "Delete \"",
+    "current": "刪除 \""
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5122,
+    "source": "Delete Save",
+    "current": "刪除存檔"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5139,
+    "source": "Demo finished",
+    "current": "試玩版結束"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5297,
+    "source": "Do you really want to exit game and return to Windows?",
+    "current": "確定要結束遊戲並返回 Windows 嗎？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5298,
+    "source": "Do you really want to start a new game ?",
+    "current": "確定要開始新遊戲嗎？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5440,
+    "source": "ENTER SYSTEM",
+    "current": "進入星系"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 5877,
+    "source": "Exit Game",
+    "current": "結束遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6271,
+    "source": "Follow Mission",
+    "current": "追蹤任務"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6272,
+    "source": "Follow Selected",
+    "current": "跟隨選取目標"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6396,
+    "source": "GALAXY MAP",
+    "current": "銀河地圖"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6451,
+    "source": "Game Over",
+    "current": "遊戲結束"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6754,
+    "source": "Give",
+    "current": "交付"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6768,
+    "source": "Global Fleet Well Being",
+    "current": "艦隊整體福祉"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6815,
+    "source": "Guard Command",
+    "current": "護衛指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 6985,
+    "source": "High",
+    "current": "高"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 7001,
+    "source": "Hold Fire / Fire At Will Command",
+    "current": "停止開火／自由開火指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 7005,
+    "source": "Homeless",
+    "current": "無家可歸"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 7225,
+    "source": "In Queue",
+    "current": "已加入佇列"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 7232,
+    "source": "In stock: {0}",
+    "current": "庫存：{0}"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8176,
+    "source": "Launch Nuke Command",
+    "current": "發射核彈指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8338,
+    "source": "Load Game",
+    "current": "載入遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8411,
+    "source": "Low",
+    "current": "低"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8416,
+    "source": "Low morale claimed the last of your people",
+    "current": "低落的士氣奪走了最後的人民"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8494,
+    "source": "Main Ship",
+    "current": "主艦"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8540,
+    "source": "Manual Save",
+    "current": "手動存檔"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8616,
+    "source": "Medium",
+    "current": "中"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8727,
+    "source": "Military",
+    "current": "軍事"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8738,
+    "source": "Mine Command",
+    "current": "採礦指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8744,
+    "source": "Mining Ships",
+    "current": "採礦船"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8783,
+    "source": "Missing resources",
+    "current": "缺少資源"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8871,
+    "source": "Move Command",
+    "current": "移動指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8919,
+    "source": "M{0}:Y{1}",
+    "current": "第 {1} 年 {0} 月"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 8932,
+    "source": "NO",
+    "current": "否"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9018,
+    "source": "New Game",
+    "current": "開始新遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9058,
+    "source": "No Upgrade Available",
+    "current": "沒有可用升級"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9106,
+    "source": "No military crew",
+    "current": "沒有軍事人員"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9107,
+    "source": "No mission selected",
+    "current": "尚未選取任務"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9123,
+    "source": "No research selected",
+    "current": "尚未選取研究"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9124,
+    "source": "No resource selected",
+    "current": "尚未選取資源"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9134,
+    "source": "No squadron docked",
+    "current": "沒有停靠的中隊"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9141,
+    "source": "No tasks",
+    "current": "沒有任務"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9150,
+    "source": "No workers",
+    "current": "沒有工人"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9151,
+    "source": "No workers at research center",
+    "current": "研究中心沒有工人"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9217,
+    "source": "Not allowed",
+    "current": "無法使用此按鍵"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9683,
+    "source": "Overwrite \"",
+    "current": "覆寫 \""
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9684,
+    "source": "Overwrite Save",
+    "current": "覆寫存檔"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9709,
+    "source": "PLAY TUTORIAL",
+    "current": "進行教學"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9761,
+    "source": "Pan Down",
+    "current": "向下移動視角"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9762,
+    "source": "Pan Left",
+    "current": "向左移動視角"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9763,
+    "source": "Pan Right",
+    "current": "向右移動視角"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9764,
+    "source": "Pan Up",
+    "current": "向上移動視角"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9857,
+    "source": "Pause / Unpause",
+    "current": "暫停／繼續"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9860,
+    "source": "Paused",
+    "current": "已暫停"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9959,
+    "source": "Population",
+    "current": "人口"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 9960,
+    "source": "Population growth",
+    "current": "人口成長"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10017,
+    "source": "Press \"",
+    "current": "按 \""
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10092,
+    "source": "Production",
+    "current": "生產"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10102,
+    "source": "Progress since the last FTL jump will be lost. Restart from the checkpoint?",
+    "current": "上次 FTL 躍遷後的進度將會遺失。要從檢查點重新開始嗎？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10243,
+    "source": "Ram Command",
+    "current": "撞擊指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10315,
+    "source": "Recycling",
+    "current": "拆解中"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10375,
+    "source": "Release All From Hangar Command",
+    "current": "機庫全部出動指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10486,
+    "source": "Replace Keybinding",
+    "current": "取代按鍵綁定"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10516,
+    "source": "Requires research to unlock",
+    "current": "需要研究才能解鎖"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10528,
+    "source": "Reset Camera",
+    "current": "重設視角"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10530,
+    "source": "Reset Game Data",
+    "current": "重設遊戲資料"
+  }
+]

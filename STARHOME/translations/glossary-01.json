@@ -1,0 +1,726 @@
+[
+  {
+    "source": " 2 Days Left ",
+    "translation": " 剩餘 2 天 "
+  },
+  {
+    "source": " Squadron Hangar",
+    "translation": " 中隊機庫"
+  },
+  {
+    "source": "(DANGER!) Too low on water!",
+    "translation": "（危險！）水量嚴重不足！"
+  },
+  {
+    "source": "+80 Well Being",
+    "translation": "+80 福祉"
+  },
+  {
+    "source": "0 Available",
+    "translation": "可用：0"
+  },
+  {
+    "source": "0.5s",
+    "translation": "0.5 秒"
+  },
+  {
+    "source": "00:10 seconds left",
+    "translation": "剩餘 00:10 秒"
+  },
+  {
+    "source": "20 Days",
+    "translation": "20 天"
+  },
+  {
+    "source": "20 Days Remaining",
+    "translation": "剩餘 20 天"
+  },
+  {
+    "source": "300 d",
+    "translation": "300 天"
+  },
+  {
+    "source": "50 days",
+    "translation": "50 天"
+  },
+  {
+    "source": "60 Available",
+    "translation": "可用：60"
+  },
+  {
+    "source": "754 Days",
+    "translation": "754 天"
+  },
+  {
+    "source": "A potential wreck or active threat. Move closer to reveal what it is.",
+    "translation": "可能是殘骸，也可能是威脅。靠近後才能確認。"
+  },
+  {
+    "source": "ALREADY BUILT",
+    "translation": "已建造"
+  },
+  {
+    "source": "Acquire {targetMetal} Metal and {targetElectronics} Electronics for Research Center module. In storage: {amountMetal} Metal and {amountElectronics} Electronics.",
+    "translation": "取得研究中心模組所需的 {targetMetal} 金屬與 {targetElectronics} 電子零件。目前庫存：{amountMetal} 金屬與 {amountElectronics} 電子零件。"
+  },
+  {
+    "source": "Acquire {targetMetal} Metal for Farm module. In storage: {amountMetal} Metal.",
+    "translation": "取得農場模組所需的 {targetMetal} 金屬。目前庫存：{amountMetal} 金屬。"
+  },
+  {
+    "source": "Acquire {targetMetal} Metal for Metallurgy module. In storage: {amountMetal} Metal.",
+    "translation": "取得冶金模組所需的 {targetMetal} 金屬。目前庫存：{amountMetal} 金屬。"
+  },
+  {
+    "source": "Acquire {targetMetal} Metal for Recycling Station module. In storage: {amountMetal} Metal.",
+    "translation": "取得回收站模組所需的 {targetMetal} 金屬。目前庫存：{amountMetal} 金屬。"
+  },
+  {
+    "source": "Action",
+    "translation": "操作"
+  },
+  {
+    "source": "Activate & Train Crew",
+    "translation": "啟用並訓練船員"
+  },
+  {
+    "source": "Add to WISHLIST",
+    "translation": "加入願望清單"
+  },
+  {
+    "source": "Adv. Living Quarters",
+    "translation": "進階居住艙"
+  },
+  {
+    "source": "Adv. Mining Bay",
+    "translation": "進階採礦艙"
+  },
+  {
+    "source": "Advanced Ammunition Factory",
+    "translation": "進階彈藥工廠"
+  },
+  {
+    "source": "Advanced Armory",
+    "translation": "進階軍械庫"
+  },
+  {
+    "source": "Advanced Electronic Workshop",
+    "translation": "進階電子工坊"
+  },
+  {
+    "source": "Advanced Electronics Workshop",
+    "translation": "進階電子工坊"
+  },
+  {
+    "source": "Advanced Farm",
+    "translation": "進階農場"
+  },
+  {
+    "source": "Advanced Goods Factory",
+    "translation": "進階商品工廠"
+  },
+  {
+    "source": "Advanced Labs",
+    "translation": "進階實驗室"
+  },
+  {
+    "source": "Advanced Living Quarters",
+    "translation": "進階生活艙"
+  },
+  {
+    "source": "Advanced Metallurgy",
+    "translation": "進階冶金廠"
+  },
+  {
+    "source": "Advanced Mining Laser",
+    "translation": "進階採礦雷射"
+  },
+  {
+    "source": "Advanced Recycling Station",
+    "translation": "進階回收站"
+  },
+  {
+    "source": "Advanced Storage",
+    "translation": "進階倉庫"
+  },
+  {
+    "source": "Advanced Supply Hold",
+    "translation": "進階補給艙"
+  },
+  {
+    "source": "Advanced Universal Repair Bay",
+    "translation": "進階通用維修艙"
+  },
+  {
+    "source": "Agressive Mode",
+    "translation": "進攻模式"
+  },
+  {
+    "source": "Aim Matrix",
+    "translation": "瞄準矩陣"
+  },
+  {
+    "source": "Alien Corvette",
+    "translation": "外星護衛艦"
+  },
+  {
+    "source": "Alien Droid Factory",
+    "translation": "外星機器人工廠"
+  },
+  {
+    "source": "Alien Flak Mark 1",
+    "translation": "外星防空砲 Mark 1"
+  },
+  {
+    "source": "Alien Flak Mark 2",
+    "translation": "外星防空砲 Mark 2"
+  },
+  {
+    "source": "Alien Flak Mark 3",
+    "translation": "外星防空砲 Mark 3"
+  },
+  {
+    "source": "Alien Goods Factory",
+    "translation": "外星商品工廠"
+  },
+  {
+    "source": "Alien Hangar",
+    "translation": "外星機庫"
+  },
+  {
+    "source": "Alien Hangar 1",
+    "translation": "外星機庫 1"
+  },
+  {
+    "source": "Alien Hangar 2",
+    "translation": "外星機庫 2"
+  },
+  {
+    "source": "Alien Hangar 3 ",
+    "translation": "外星機庫 3 "
+  },
+  {
+    "source": "Alien Laser Mark 1",
+    "translation": "外星雷射砲 Mark 1"
+  },
+  {
+    "source": "Alien Laser Mark 2",
+    "translation": "外星雷射砲 Mark 2"
+  },
+  {
+    "source": "Alien Nuke Launcher",
+    "translation": "外星核彈發射器"
+  },
+  {
+    "source": "Alien Storage Unit",
+    "translation": "外星儲存單元"
+  },
+  {
+    "source": "Alien shop",
+    "translation": "外星商店"
+  },
+  {
+    "source": "All",
+    "translation": "全部"
+  },
+  {
+    "source": "All people have accomodations",
+    "translation": "所有人都有住處"
+  },
+  {
+    "source": "Allied Armada",
+    "translation": "盟軍艦隊"
+  },
+  {
+    "source": "Allies",
+    "translation": "友軍"
+  },
+  {
+    "source": "Allows to repair squadrons directly during the space exploration and FTL travel phase.",
+    "translation": "可在太空探索與 FTL 航行期間直接修復中隊。"
+  },
+  {
+    "source": "Ally Ship was Destroyed",
+    "translation": "友軍艦船遭到摧毀"
+  },
+  {
+    "source": "Already Visited",
+    "translation": "已造訪"
+  },
+  {
+    "source": "Also, these towers are somehow jamming our FTL computers, we have to destroy them, or we are stuck here forever.",
+    "translation": "另外，這些防禦塔似乎正在干擾我們的 FTL 電腦。必須摧毀它們，否則我們就會永遠困在這裡。"
+  },
+  {
+    "source": "Amber",
+    "translation": "琥珀"
+  },
+  {
+    "source": "Ambient",
+    "translation": "環境音"
+  },
+  {
+    "source": "Ammo",
+    "translation": "彈藥"
+  },
+  {
+    "source": "Ammo Factory",
+    "translation": "彈藥工廠"
+  },
+  {
+    "source": "Ammo in the ship's magazine / magazine capacity.",
+    "translation": "艦上彈藥庫目前的彈藥量／容量上限。"
+  },
+  {
+    "source": "Ammunition",
+    "translation": "彈藥"
+  },
+  {
+    "source": "Ammunition Factory",
+    "translation": "彈藥工廠"
+  },
+  {
+    "source": "An ancient artefact… and almost intact. Whoever built it may have understood things we’re only beginning to discover.",
+    "translation": "一件古代遺物……而且幾乎完好無損。建造它的文明，或許早已理解我們才剛開始探索的知識。"
+  },
+  {
+    "source": "Ancient Artefact entrance.",
+    "translation": "古代遺物入口。"
+  },
+  {
+    "source": "Ancient Gauss Cannon ",
+    "translation": "遠古高斯砲 "
+  },
+  {
+    "source": "And remember, Commander, every new citizen increases our demand for food and water. The larger our colony grows, the more farms and recycling stations we'll need.",
+    "translation": "別忘了，指揮官，每增加一位居民，食物與水的需求就會上升。殖民地越大，需要的農場與回收站也就越多。"
+  },
+  {
+    "source": "And you believe this beacon can lead us there?",
+    "translation": "你認為這枚信標能帶我們找到那裡？"
+  },
+  {
+    "source": "Antialiasing",
+    "translation": "反鋸齒"
+  },
+  {
+    "source": "Apply",
+    "translation": "套用"
+  },
+  {
+    "source": "Are you sure:",
+    "translation": "是否確定："
+  },
+  {
+    "source": "Armory",
+    "translation": "軍械庫"
+  },
+  {
+    "source": "Arrange selected squadrons into a line formation.",
+    "translation": "將所選中隊編成橫列隊形。"
+  },
+  {
+    "source": "Arrange selected squadrons into a square formation.",
+    "translation": "將所選中隊編成方形隊形。"
+  },
+  {
+    "source": "Arrange selected squadrons into an X formation.",
+    "translation": "將所選中隊編成 X 形隊形。"
+  },
+  {
+    "source": "Arrange selected squadrons into an arrow formation.",
+    "translation": "將所選中隊編成箭形隊形。"
+  },
+  {
+    "source": "Arrow Formation",
+    "translation": "箭形編隊"
+  },
+  {
+    "source": "Artefact",
+    "translation": "古代遺物"
+  },
+  {
+    "source": "Artefact Defence Tower",
+    "translation": "遺物防禦塔"
+  },
+  {
+    "source": "Artefact?",
+    "translation": "古代遺物？"
+  },
+  {
+    "source": "Ashen",
+    "translation": "灰燼"
+  },
+  {
+    "source": "Assigns a military crew and begins training. This module cannot operate until training is complete.",
+    "translation": "配置軍事人員並開始訓練。訓練完成前，此模組無法運作。"
+  },
+  {
+    "source": "Asteroid",
+    "translation": "小行星"
+  },
+  {
+    "source": "Asteroid destroyed.",
+    "translation": "小行星已摧毀。"
+  },
+  {
+    "source": "Attack Move",
+    "translation": "攻擊移動"
+  },
+  {
+    "source": "Attack Squadron",
+    "translation": "攻擊中隊"
+  },
+  {
+    "source": "Attack Squadron Factory",
+    "translation": "攻擊中隊工廠"
+  },
+  {
+    "source": "Audio",
+    "translation": "音效"
+  },
+  {
+    "source": "Augmented Flak Cannon",
+    "translation": "強化防空砲"
+  },
+  {
+    "source": "Augmented gauss Cannon Core",
+    "translation": "強化高斯砲核心"
+  },
+  {
+    "source": "Available Upgrades",
+    "translation": "可用升級"
+  },
+  {
+    "source": "Back",
+    "translation": "返回"
+  },
+  {
+    "source": "BattleCruiser",
+    "translation": "戰鬥巡洋艦"
+  },
+  {
+    "source": "BattleShip",
+    "translation": "戰列艦"
+  },
+  {
+    "source": "Beacon",
+    "translation": "信標"
+  },
+  {
+    "source": "Boarding vessel. Latches onto a human hull and puts a landing party aboard, then returns to the fleet for a fresh one.",
+    "translation": "登艦作戰船艦。附著在人類艦船的船殼上，派遣登陸小隊登艦，然後返回艦隊補充新小隊。"
+  },
+  {
+    "source": "Boost",
+    "translation": "加速"
+  },
+  {
+    "source": "Boosts mining efficiency of all miners in the system by 50% for 60 seconds. Each miner has a 50% chance to take heavy damage and lose its engines for 20 seconds. Can be used once per system.",
+    "translation": "使本星系所有採礦船的採礦效率提高 50%，持續 60 秒。每艘採礦船有 50% 機率遭受重創，且引擎失效 20 秒。每個星系只能使用一次。"
+  },
+  {
+    "source": "Bridge",
+    "translation": "艦橋"
+  },
+  {
+    "source": "Bright",
+    "translation": "明亮"
+  },
+  {
+    "source": "Broken",
+    "translation": "破碎"
+  },
+  {
+    "source": "Brutal",
+    "translation": "殘酷"
+  },
+  {
+    "source": "Bug Report",
+    "translation": "回報問題"
+  },
+  {
+    "source": "Bug Report Sent!",
+    "translation": "問題回報已送出！"
+  },
+  {
+    "source": "Build a Metallugry module.",
+    "translation": "建造冶金模組。"
+  },
+  {
+    "source": "Build a Research Center Module.",
+    "translation": "建造研究中心模組。"
+  },
+  {
+    "source": "Build the essentials. Repair what you can. Search the stars for what was lost.",
+    "translation": "建造必要設施，盡力修復艦船，並在群星之間尋找失落之物。"
+  },
+  {
+    "source": "But those defence towers are still active. We can’t send anyone near the structure while its weapons are operational.",
+    "translation": "但那些防禦塔仍在運作。武器還能開火，就不能派人接近那座建築。"
+  },
+  {
+    "source": "Buy",
+    "translation": "購買"
+  },
+  {
+    "source": "CANCEL",
+    "translation": "取消"
+  },
+  {
+    "source": "COMPLETED",
+    "translation": "已完成"
+  },
+  {
+    "source": "CONFIRM",
+    "translation": "確認"
+  },
+  {
+    "source": "Camera Movement",
+    "translation": "移動視角"
+  },
+  {
+    "source": "Can be salvaged for resources, functional equipment or other interesting stuff.",
+    "translation": "可回收資源、仍可使用的裝備，或其他有用的物品。"
+  },
+  {
+    "source": "Cancel",
+    "translation": "取消"
+  },
+  {
+    "source": "Cancel current orders for selected units.",
+    "translation": "取消所選單位目前的命令。"
+  },
+  {
+    "source": "Canteen",
+    "translation": "食堂"
+  },
+  {
+    "source": "Capacity",
+    "translation": "容量"
+  },
+  {
+    "source": "Cargo",
+    "translation": "貨物"
+  },
+  {
+    "source": "Carrier",
+    "translation": "航艦"
+  },
+  {
+    "source": "Carrier Corvette",
+    "translation": "護衛艦航艦"
+  },
+  {
+    "source": "Chance to dodge an incoming shot. Depends on the squadron's combat mode.",
+    "translation": "閃避來襲攻擊的機率，會隨中隊的戰鬥模式而改變。"
+  },
+  {
+    "source": "Charging 330 d",
+    "translation": "充能中：330 天"
+  },
+  {
+    "source": "Chemicals",
+    "translation": "化學品"
+  },
+  {
+    "source": "Chips, Cabels, Advanced parts that every geek needs",
+    "translation": "晶片、電纜與各種進階零件，科技迷的必需品。"
+  },
+  {
+    "source": "Click and drag with the left mouse button to draw a selection box around your Mining Ships. Release to select them together and issue commands to the whole group.",
+    "translation": "按住滑鼠左鍵並拖曳，用選取框圈住採礦船。放開按鍵後即可同時選取，對整組船艦下達命令。"
+  },
+  {
+    "source": "Click on Nuke button and launch Nuke on Asteroid. Move your ship in range if needed.",
+    "translation": "點擊核彈按鈕，向小行星發射核彈。必要時先將船艦移至射程內。"
+  },
+  {
+    "source": "Click on dock button. The ship will find it's way to hangar.",
+    "translation": "點擊停靠按鈕，艦船就會自行返回機庫。"
+  },
+  {
+    "source": "Click on guard button and left-click capital ship with your Squadron to guard it.",
+    "translation": "選取中隊後點擊護衛按鈕，再以滑鼠左鍵點擊主力艦，命令中隊護衛它。"
+  },
+  {
+    "source": "Click on this text in this Mission Panel to locate its objective and move to the mission area. This works with most of non-tutorial objectives.",
+    "translation": "點擊任務面板中的這段文字，即可定位目標並將視角移至任務區域。大多數正式任務也能這樣操作。"
+  },
+  {
+    "source": "Click on wreck button and save resource from wreck.",
+    "translation": "點擊殘骸按鈕，回收殘骸中的資源。"
+  },
+  {
+    "source": "Click the Fast Forward button in UI Panel to speed up the game. It's useful when you're waiting for something to happen.",
+    "translation": "點擊介面上的快轉按鈕，加快遊戲速度。等待船艦抵達或事件發生時十分實用。"
+  },
+  {
+    "source": "Close",
+    "translation": "關閉"
+  },
+  {
+    "source": "Cobalt",
+    "translation": "鈷藍"
+  },
+  {
+    "source": "Collapsing",
+    "translation": "崩塌中"
+  },
+  {
+    "source": "Collect Area",
+    "translation": "區域收集"
+  },
+  {
+    "source": "Collect Cargo",
+    "translation": "收集貨物"
+  },
+  {
+    "source": "Collect Multiple Cargo Containers",
+    "translation": "收集多個貨櫃"
+  },
+  {
+    "source": "Collect Raw Materials.",
+    "translation": "收集原料。"
+  },
+  {
+    "source": "Collect ammo and unload it at the Main Ship.",
+    "translation": "收集彈藥，並卸載至主艦。"
+  },
+  {
+    "source": "Collect cargo from destroyed ships.",
+    "translation": "收集被摧毀艦船留下的貨物。"
+  },
+  {
+    "source": "Collect cargo from near by wreck with your mining ship.",
+    "translation": "用採礦船收集附近殘骸中的貨物。"
+  },
+  {
+    "source": "Colony Emergency",
+    "translation": "殖民地危機"
+  },
+  {
+    "source": "Commander",
+    "translation": "指揮官"
+  },
+  {
+    "source": "Commander! Our FTL engine seems to be malfunctioning!",
+    "translation": "指揮官！我們的 FTL 引擎似乎故障了！"
+  },
+  {
+    "source": "Commander! We done what we could, but now we must focus on what’s left.",
+    "translation": "指揮官！我們已盡力而為，現在必須把心力放在還保有的事物上。"
+  },
+  {
+    "source": "Commander, destroy the defence towers. Once the area is secure, we can send a salvage team to investigate.",
+    "translation": "指揮官，摧毀防禦塔。等周圍安全了，我們就能派回收小隊進去調查。"
+  },
+  {
+    "source": "Commander, it is time to run our mandatory training. We’ll test our weapons and practise some manoeuvres. Wouldn’t want your skills to turn rusty.",
+    "translation": "指揮官，該進行例行訓練了。我們會測試武器並練習一些機動操作，可不能讓你的身手生疏了。"
+  },
+  {
+    "source": "Commander, our FTL engine is prepared. We can escape this star system for good.",
+    "translation": "指揮官，FTL 引擎已就緒。我們終於能逃離這個星系了。"
+  },
+  {
+    "source": "Commander, second ship just went dark!",
+    "translation": "指揮官，第二艘艦船剛剛失去訊號了！"
+  },
+  {
+    "source": "Commander, there has been trouble among the fleet. Among the wreckage, we found an intact beacon core and someone claims to know where it leads.",
+    "translation": "指揮官，艦隊裡有些騷動。我們在殘骸中找到一枚完整的信標核心，有人聲稱知道它會指向哪裡。"
+  },
+  {
+    "source": "Commander, there is an unidentified alien vessel near by. They're not showing any signs of hostility. In fact, they seem to be offering us something.",
+    "translation": "指揮官，附近有一艘身分不明的外星船艦。它們沒有表現出敵意，反而像是想賣些東西給我們。"
+  },
+  {
+    "source": "Commander, there might be remnants of enemy alien ships. We must proceed with carefulness.",
+    "translation": "指揮官，這裡可能還有殘存的敵方外星艦船。我們必須謹慎行動。"
+  },
+  {
+    "source": "Commander, this is an emergency. We are under an attack! We need your help in our colony. Use your FTL jump to get here immediately or we are doomed!",
+    "translation": "指揮官，情況緊急！我們遭到攻擊了！殖民地需要你的援助。立刻使用 FTL 躍遷趕來，否則我們就完了！"
+  },
+  {
+    "source": "Commander, this is reckless. We have people to protect. Chasing a forgotten planet could lead us straight to our grave.",
+    "translation": "指揮官，這太魯莽了。我們還有人要保護。追逐一顆被遺忘的行星，可能只會把我們送進墳墓。"
+  },
+  {
+    "source": "Commander, we can't afford to waste nukes like that. They're not exactly cheap. Try again!",
+    "translation": "指揮官，我們可經不起這樣浪費核彈，它們並不便宜。再試一次！"
+  },
+  {
+    "source": "Commander, we can’t afford to waste nukes like that. They’re not exactly cheap. Try again!",
+    "translation": "指揮官，我們可不能這樣浪費核彈。這東西可不便宜，再試一次！"
+  },
+  {
+    "source": "Commander, we found lechu coordinates! But it seems that the data is encypted and incomplete. I suggest we start try to decipher them.",
+    "translation": "指揮官，我們找到利丘的座標了！但資料似乎經過加密，而且不完整。我建議立即著手解密。"
+  },
+  {
+    "source": "Commander, we must try to help anyone who is still alive!",
+    "translation": "指揮官，我們必須盡力救出還活著的人！"
+  },
+  {
+    "source": "Commander, we're detecting an emergency transmission. It's being broadcast to all fleets.",
+    "translation": "指揮官，我們偵測到緊急通訊，正在向所有艦隊廣播。"
+  },
+  {
+    "source": "Commander. Construct a new Flak module. ",
+    "translation": "指揮官，建造一個新的防空砲模組。 "
+  },
+  {
+    "source": "Commander. We couldn't save the Behemoth… the pride of humanity, our finest ship.",
+    "translation": "指揮官，我們沒能救下貝希摩斯號……那是人類的驕傲，我們最優秀的艦船。"
+  },
+  {
+    "source": "Compass",
+    "translation": "羅盤"
+  },
+  {
+    "source": "Complete Research of Decipher Server.",
+    "translation": "完成解密伺服器的研究。"
+  },
+  {
+    "source": "Completed",
+    "translation": "已完成"
+  },
+  {
+    "source": "Composite Armor",
+    "translation": "複合裝甲"
+  },
+  {
+    "source": "Confirm",
+    "translation": "確認"
+  },
+  {
+    "source": "Congratulations Commander! We made possible!",
+    "translation": "恭喜你，指揮官！我們辦到了！"
+  },
+  {
+    "source": "Construct Storage Module for storing more Raw Materials.",
+    "translation": "建造倉儲模組，以儲存更多原料。"
+  },
+  {
+    "source": "Construct Supply Hold module for storing more Water.",
+    "translation": "建造補給艙模組，以儲存更多水。"
+  },
+  {
+    "source": "Construction Materials",
+    "translation": "建造材料"
+  },
+  {
+    "source": "Consumption",
+    "translation": "消耗"
+  },
+  {
+    "source": "Continue",
+    "translation": "繼續"
+  },
+  {
+    "source": "Controls",
+    "translation": "操作設定"
+  }
+]

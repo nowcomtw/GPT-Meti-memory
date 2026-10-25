@@ -1,0 +1,1027 @@
+[
+  {
+    "index": 81,
+    "source": "\n<color=red>Not enough ammo - {0} required.</color>",
+    "translation": "\n<color=red>彈藥不足，需要 {0}。</color>"
+  },
+  {
+    "index": 88,
+    "source": "\nTraining time: ",
+    "translation": "\n訓練時間："
+  },
+  {
+    "index": 253,
+    "source": " Remaining",
+    "translation": " 剩餘"
+  },
+  {
+    "index": 275,
+    "source": " and ",
+    "translation": "與"
+  },
+  {
+    "index": 280,
+    "source": " and produces less food.</color>",
+    "translation": "，因此食物產量降低。</color>"
+  },
+  {
+    "index": 343,
+    "source": " damage",
+    "translation": " 傷害"
+  },
+  {
+    "index": 448,
+    "source": " is short on ",
+    "translation": " 缺少 "
+  },
+  {
+    "index": 451,
+    "source": " is under attack!",
+    "translation": " 正遭受攻擊！"
+  },
+  {
+    "index": 454,
+    "source": " left",
+    "translation": " 剩餘"
+  },
+  {
+    "index": 493,
+    "source": " range",
+    "translation": " 射程"
+  },
+  {
+    "index": 549,
+    "source": " waste per day is thrown away.</color>",
+    "translation": " 單位廢棄物會被丟棄。</color>"
+  },
+  {
+    "index": 605,
+    "source": "\" to activate.",
+    "translation": "\" 即可使用。"
+  },
+  {
+    "index": 1243,
+    "source": "+{0}% range",
+    "translation": "+{0}% 射程"
+  },
+  {
+    "index": 1993,
+    "source": "</b> and <b>",
+    "translation": "</b> 與 <b>"
+  },
+  {
+    "index": 1994,
+    "source": "</b> is already used by <b>",
+    "translation": "</b> 已被 <b>"
+  },
+  {
+    "index": 1996,
+    "source": "</b> will become <b>Unbound</b>.",
+    "translation": "</b> 將變成<b>未綁定</b>。"
+  },
+  {
+    "index": 1997,
+    "source": "</b> will use <b>",
+    "translation": "</b> 將使用 <b>"
+  },
+  {
+    "index": 2002,
+    "source": "</b>. Replace it? <b>",
+    "translation": "</b> 使用。是否取代？<b>"
+  },
+  {
+    "index": 2141,
+    "source": "<color=red>About ",
+    "translation": "<color=red>每天約有 "
+  },
+  {
+    "index": 2142,
+    "source": "<color=red>Locked - build a Research Center to unlock.</color>",
+    "translation": "<color=red>尚未解鎖，請建造研究中心。</color>"
+  },
+  {
+    "index": 2143,
+    "source": "<color=red>{0} people have no living space ({1} / {2}).</color>",
+    "translation": "<color=red>有 {0} 人沒有居住空間（{1} / {2}）。</color>"
+  },
+  {
+    "index": 2449,
+    "source": "APPLY",
+    "translation": "套用"
+  },
+  {
+    "index": 2498,
+    "source": "Accommodated",
+    "translation": "有住處"
+  },
+  {
+    "index": 2558,
+    "source": "Add to Queue",
+    "translation": "加入佇列"
+  },
+  {
+    "index": 2635,
+    "source": "Alien's destroyed your last ship",
+    "translation": "外星人摧毀了你的最後一艘艦船"
+  },
+  {
+    "index": 2642,
+    "source": "All Weapons",
+    "translation": "所有武器"
+  },
+  {
+    "index": 2650,
+    "source": "All your people died, because of hunger.",
+    "translation": "所有人民都因飢餓而死亡。"
+  },
+  {
+    "index": 2651,
+    "source": "All your people died, because of thirst.",
+    "translation": "所有人民都因缺水而死亡。"
+  },
+  {
+    "index": 2900,
+    "source": "Arrival",
+    "translation": "抵達"
+  },
+  {
+    "index": 2930,
+    "source": "Asteroid #{0}",
+    "translation": "小行星 #{0}"
+  },
+  {
+    "index": 2955,
+    "source": "Attack Move Command",
+    "translation": "攻擊移動指令"
+  },
+  {
+    "index": 3063,
+    "source": "Autosave - Day {0}",
+    "translation": "自動存檔 - 第 {0} 天"
+  },
+  {
+    "index": 3064,
+    "source": "Available Upgrades",
+    "translation": "可用升級"
+  },
+  {
+    "index": 3108,
+    "source": "Back to Hangar Command",
+    "translation": "返回機庫指令"
+  },
+  {
+    "index": 3331,
+    "source": "Borderless",
+    "translation": "無邊框"
+  },
+  {
+    "index": 3420,
+    "source": "Buy",
+    "translation": "購買"
+  },
+  {
+    "index": 3422,
+    "source": "By destroying this building you will receive",
+    "translation": "拆解這個建築可獲得"
+  },
+  {
+    "index": 3440,
+    "source": "CANCEL",
+    "translation": "取消"
+  },
+  {
+    "index": 4080,
+    "source": "Capacity",
+    "translation": "容量"
+  },
+  {
+    "index": 4174,
+    "source": "Charging",
+    "translation": "充能中"
+  },
+  {
+    "index": 4175,
+    "source": "Charging ",
+    "translation": "充能中："
+  },
+  {
+    "index": 4249,
+    "source": "Close",
+    "translation": "關閉"
+  },
+  {
+    "index": 4266,
+    "source": "Collect Area Command",
+    "translation": "區域收集指令"
+  },
+  {
+    "index": 4267,
+    "source": "Collect Debris Command",
+    "translation": "收集散落物資指令"
+  },
+  {
+    "index": 4440,
+    "source": "Construction",
+    "translation": "建造"
+  },
+  {
+    "index": 4451,
+    "source": "Consumption",
+    "translation": "消耗"
+  },
+  {
+    "index": 4531,
+    "source": "Cooldown: {0:0.#} s\nDuration: {1:0.#} s\nAmmo cost: {2}",
+    "translation": "冷卻時間：{0:0.#} 秒\n持續時間：{1:0.#} 秒\n彈藥消耗：{2}"
+  },
+  {
+    "index": 4578,
+    "source": "Corvette #{0}",
+    "translation": "護衛艦 #{0}"
+  },
+  {
+    "index": 4805,
+    "source": "DAY 0",
+    "translation": "第 0 天"
+  },
+  {
+    "index": 4806,
+    "source": "DAY {0}",
+    "translation": "第 {0} 天"
+  },
+  {
+    "index": 4818,
+    "source": "DEMO v",
+    "translation": "試玩版 v"
+  },
+  {
+    "index": 4827,
+    "source": "DISCARD",
+    "translation": "放棄變更"
+  },
+  {
+    "index": 4990,
+    "source": "Day {0}",
+    "translation": "第 {0} 天"
+  },
+  {
+    "index": 5113,
+    "source": "Deflection Chance",
+    "translation": "偏轉機率"
+  },
+  {
+    "index": 5121,
+    "source": "Delete \"",
+    "translation": "刪除 \""
+  },
+  {
+    "index": 5122,
+    "source": "Delete Save",
+    "translation": "刪除存檔"
+  },
+  {
+    "index": 5139,
+    "source": "Demo finished",
+    "translation": "試玩版結束"
+  },
+  {
+    "index": 5297,
+    "source": "Do you really want to exit game and return to Windows?",
+    "translation": "確定要結束遊戲並返回 Windows 嗎？"
+  },
+  {
+    "index": 5298,
+    "source": "Do you really want to start a new game ?",
+    "translation": "確定要開始新遊戲嗎？"
+  },
+  {
+    "index": 5440,
+    "source": "ENTER SYSTEM",
+    "translation": "進入星系"
+  },
+  {
+    "index": 5465,
+    "source": "EXIT",
+    "translation": "離開"
+  },
+  {
+    "index": 5877,
+    "source": "Exit Game",
+    "translation": "結束遊戲"
+  },
+  {
+    "index": 6036,
+    "source": "FLEET",
+    "translation": "艦隊"
+  },
+  {
+    "index": 6190,
+    "source": "FighterSquadron #{0}",
+    "translation": "戰鬥機中隊 #{0}"
+  },
+  {
+    "index": 6271,
+    "source": "Follow Mission",
+    "translation": "追蹤任務"
+  },
+  {
+    "index": 6272,
+    "source": "Follow Selected",
+    "translation": "跟隨選取目標"
+  },
+  {
+    "index": 6302,
+    "source": "Food",
+    "translation": "食物"
+  },
+  {
+    "index": 6396,
+    "source": "GALAXY MAP",
+    "translation": "銀河地圖"
+  },
+  {
+    "index": 6451,
+    "source": "Game Over",
+    "translation": "遊戲結束"
+  },
+  {
+    "index": 6754,
+    "source": "Give",
+    "translation": "交付"
+  },
+  {
+    "index": 6768,
+    "source": "Global Fleet Well Being",
+    "translation": "艦隊整體福祉"
+  },
+  {
+    "index": 6815,
+    "source": "Guard Command",
+    "translation": "護衛指令"
+  },
+  {
+    "index": 6985,
+    "source": "High",
+    "translation": "高"
+  },
+  {
+    "index": 7001,
+    "source": "Hold Fire / Fire At Will Command",
+    "translation": "停止開火／自由開火指令"
+  },
+  {
+    "index": 7005,
+    "source": "Homeless",
+    "translation": "無家可歸"
+  },
+  {
+    "index": 7030,
+    "source": "HumanStation #{0}",
+    "translation": "人類太空站 #{0}"
+  },
+  {
+    "index": 7225,
+    "source": "In Queue",
+    "translation": "已加入佇列"
+  },
+  {
+    "index": 7232,
+    "source": "In stock: {0}",
+    "translation": "庫存：{0}"
+  },
+  {
+    "index": 8176,
+    "source": "Launch Nuke Command",
+    "translation": "發射核彈指令"
+  },
+  {
+    "index": 8338,
+    "source": "Load Game",
+    "translation": "載入遊戲"
+  },
+  {
+    "index": 8411,
+    "source": "Low",
+    "translation": "低"
+  },
+  {
+    "index": 8416,
+    "source": "Low morale claimed the last of your people",
+    "translation": "低落的士氣奪走了最後的人民"
+  },
+  {
+    "index": 8494,
+    "source": "Main Ship",
+    "translation": "主艦"
+  },
+  {
+    "index": 8540,
+    "source": "Manual Save",
+    "translation": "手動存檔"
+  },
+  {
+    "index": 8616,
+    "source": "Medium",
+    "translation": "中"
+  },
+  {
+    "index": 8727,
+    "source": "Military",
+    "translation": "軍事"
+  },
+  {
+    "index": 8738,
+    "source": "Mine Command",
+    "translation": "採礦指令"
+  },
+  {
+    "index": 8744,
+    "source": "Mining Ships",
+    "translation": "採礦船"
+  },
+  {
+    "index": 8783,
+    "source": "Missing resources",
+    "translation": "缺少資源"
+  },
+  {
+    "index": 8871,
+    "source": "Move Command",
+    "translation": "移動指令"
+  },
+  {
+    "index": 8919,
+    "source": "M{0}:Y{1}",
+    "translation": "第 {1} 年 {0} 月"
+  },
+  {
+    "index": 8932,
+    "source": "NO",
+    "translation": "否"
+  },
+  {
+    "index": 9018,
+    "source": "New Game",
+    "translation": "開始新遊戲"
+  },
+  {
+    "index": 9058,
+    "source": "No Upgrade Available",
+    "translation": "沒有可用升級"
+  },
+  {
+    "index": 9106,
+    "source": "No military crew",
+    "translation": "沒有軍事人員"
+  },
+  {
+    "index": 9107,
+    "source": "No mission selected",
+    "translation": "尚未選取任務"
+  },
+  {
+    "index": 9123,
+    "source": "No research selected",
+    "translation": "尚未選取研究"
+  },
+  {
+    "index": 9124,
+    "source": "No resource selected",
+    "translation": "尚未選取資源"
+  },
+  {
+    "index": 9134,
+    "source": "No squadron docked",
+    "translation": "沒有停靠的中隊"
+  },
+  {
+    "index": 9141,
+    "source": "No tasks",
+    "translation": "沒有任務"
+  },
+  {
+    "index": 9150,
+    "source": "No workers",
+    "translation": "沒有工人"
+  },
+  {
+    "index": 9151,
+    "source": "No workers at research center",
+    "translation": "研究中心沒有工人"
+  },
+  {
+    "index": 9217,
+    "source": "Not allowed",
+    "translation": "無法使用此按鍵"
+  },
+  {
+    "index": 9422,
+    "source": "Off",
+    "translation": "關閉"
+  },
+  {
+    "index": 9683,
+    "source": "Overwrite \"",
+    "translation": "覆寫 \""
+  },
+  {
+    "index": 9684,
+    "source": "Overwrite Save",
+    "translation": "覆寫存檔"
+  },
+  {
+    "index": 9709,
+    "source": "PLAY TUTORIAL",
+    "translation": "進行教學"
+  },
+  {
+    "index": 9761,
+    "source": "Pan Down",
+    "translation": "向下移動視角"
+  },
+  {
+    "index": 9762,
+    "source": "Pan Left",
+    "translation": "向左移動視角"
+  },
+  {
+    "index": 9763,
+    "source": "Pan Right",
+    "translation": "向右移動視角"
+  },
+  {
+    "index": 9764,
+    "source": "Pan Up",
+    "translation": "向上移動視角"
+  },
+  {
+    "index": 9857,
+    "source": "Pause / Unpause",
+    "translation": "暫停／繼續"
+  },
+  {
+    "index": 9860,
+    "source": "Paused",
+    "translation": "已暫停"
+  },
+  {
+    "index": 9959,
+    "source": "Population",
+    "translation": "人口"
+  },
+  {
+    "index": 9960,
+    "source": "Population growth",
+    "translation": "人口成長"
+  },
+  {
+    "index": 10017,
+    "source": "Press \"",
+    "translation": "按 \""
+  },
+  {
+    "index": 10092,
+    "source": "Production",
+    "translation": "生產"
+  },
+  {
+    "index": 10102,
+    "source": "Progress since the last FTL jump will be lost. Restart from the checkpoint?",
+    "translation": "上次 FTL 躍遷後的進度將會遺失。要從檢查點重新開始嗎？"
+  },
+  {
+    "index": 10207,
+    "source": "READY",
+    "translation": "準備完成"
+  },
+  {
+    "index": 10211,
+    "source": "REPLACE",
+    "translation": "替換"
+  },
+  {
+    "index": 10213,
+    "source": "RESTART",
+    "translation": "重新開始"
+  },
+  {
+    "index": 10243,
+    "source": "Ram Command",
+    "translation": "撞擊指令"
+  },
+  {
+    "index": 10251,
+    "source": "Raptor #{0}",
+    "translation": "採礦船 #{0}"
+  },
+  {
+    "index": 10315,
+    "source": "Recycling",
+    "translation": "拆解中"
+  },
+  {
+    "index": 10375,
+    "source": "Release All From Hangar Command",
+    "translation": "機庫全部出動指令"
+  },
+  {
+    "index": 10486,
+    "source": "Replace Keybinding",
+    "translation": "取代按鍵綁定"
+  },
+  {
+    "index": 10516,
+    "source": "Requires research to unlock",
+    "translation": "需要研究才能解鎖"
+  },
+  {
+    "index": 10528,
+    "source": "Reset Camera",
+    "translation": "重設視角"
+  },
+  {
+    "index": 10530,
+    "source": "Reset Game Data",
+    "translation": "重設遊戲資料"
+  },
+  {
+    "index": 10562,
+    "source": "Restart Game",
+    "translation": "重新開始遊戲"
+  },
+  {
+    "index": 10563,
+    "source": "Restart Last Checkpoint",
+    "translation": "從上一個檢查點重新開始"
+  },
+  {
+    "index": 10621,
+    "source": "Rotate Left",
+    "translation": "向左旋轉"
+  },
+  {
+    "index": 10622,
+    "source": "Rotate Right",
+    "translation": "向右旋轉"
+  },
+  {
+    "index": 10664,
+    "source": "SKIP",
+    "translation": "略過"
+  },
+  {
+    "index": 10756,
+    "source": "Save Game",
+    "translation": "儲存遊戲"
+  },
+  {
+    "index": 10865,
+    "source": "Select a primary resource to activate storage bonus capacity",
+    "translation": "選擇主要儲存資源，以啟用額外倉儲容量"
+  },
+  {
+    "index": 10873,
+    "source": "Selectable options",
+    "translation": "可選項目"
+  },
+  {
+    "index": 10891,
+    "source": "Send",
+    "translation": "傳送"
+  },
+  {
+    "index": 11158,
+    "source": "Skip Tutorial",
+    "translation": "略過教學"
+  },
+  {
+    "index": 11266,
+    "source": "Speed Fast",
+    "translation": "快速遊戲速度"
+  },
+  {
+    "index": 11267,
+    "source": "Speed Hyper",
+    "translation": "超快遊戲速度"
+  },
+  {
+    "index": 11268,
+    "source": "Speed Normal",
+    "translation": "正常遊戲速度"
+  },
+  {
+    "index": 11296,
+    "source": "Squadron #{0}",
+    "translation": "中隊 #{0}"
+  },
+  {
+    "index": 11297,
+    "source": "Squadron inbound",
+    "translation": "中隊正在返航"
+  },
+  {
+    "index": 11321,
+    "source": "Start Game",
+    "translation": "開始遊戲"
+  },
+  {
+    "index": 11393,
+    "source": "Stop Command",
+    "translation": "停止指令"
+  },
+  {
+    "index": 11394,
+    "source": "Stop Construction\n(Return 100% Resources)",
+    "translation": "停止建造\n（退還 100% 資源）"
+  },
+  {
+    "index": 11395,
+    "source": "Stop Deconstruction",
+    "translation": "停止拆解"
+  },
+  {
+    "index": 11398,
+    "source": "Stop production",
+    "translation": "停止生產"
+  },
+  {
+    "index": 12292,
+    "source": "The module is not working. Its crew was lost and it will be manned again once enough free people are available.",
+    "translation": "此模組未運作。原有工作人員已損失，待有足夠閒置人員後會重新配置。"
+  },
+  {
+    "index": 12706,
+    "source": "This building will stop production immediately",
+    "translation": "此建築將立即停止生產"
+  },
+  {
+    "index": 12713,
+    "source": "This deletes all saved games, settings and key bindings. It cannot be undone. Continue?",
+    "translation": "這會刪除所有存檔、設定與按鍵綁定，而且無法復原。是否繼續？"
+  },
+  {
+    "index": 12754,
+    "source": "This module is not available in the demo version.",
+    "translation": "試玩版尚未開放此模組。"
+  },
+  {
+    "index": 12846,
+    "source": "To continue production, you need missing resources",
+    "translation": "補足缺少的資源，才能繼續生產"
+  },
+  {
+    "index": 12850,
+    "source": "To follow this mission press V",
+    "translation": "按 V 追蹤這項任務"
+  },
+  {
+    "index": 12858,
+    "source": "Toggle Galaxy Map",
+    "translation": "切換銀河地圖"
+  },
+  {
+    "index": 12859,
+    "source": "Toggle Journal",
+    "translation": "切換任務日誌"
+  },
+  {
+    "index": 12899,
+    "source": "Total People",
+    "translation": "總人口"
+  },
+  {
+    "index": 12904,
+    "source": "Total indicator of people health and morale",
+    "translation": "綜合反映人民健康與士氣的指標"
+  },
+  {
+    "index": 12957,
+    "source": "Training Military Personnel",
+    "translation": "訓練軍事人員"
+  },
+  {
+    "index": 13065,
+    "source": "Turn Off",
+    "translation": "關閉"
+  },
+  {
+    "index": 13068,
+    "source": "Tutorial Hint",
+    "translation": "教學提示"
+  },
+  {
+    "index": 13365,
+    "source": "Unbound",
+    "translation": "未綁定"
+  },
+  {
+    "index": 13376,
+    "source": "Under Construction",
+    "translation": "建造中"
+  },
+  {
+    "index": 13379,
+    "source": "Unemployed",
+    "translation": "未就業"
+  },
+  {
+    "index": 13493,
+    "source": "Unfollow",
+    "translation": "取消追蹤"
+  },
+  {
+    "index": 13799,
+    "source": "Unlimited",
+    "translation": "無限制"
+  },
+  {
+    "index": 13802,
+    "source": "Unload Cargo Command",
+    "translation": "卸載貨物指令"
+  },
+  {
+    "index": 13835,
+    "source": "Unsaved Changes",
+    "translation": "尚未儲存的變更"
+  },
+  {
+    "index": 13836,
+    "source": "Unsaved progress will be lost. Load anyway?",
+    "translation": "尚未儲存的進度將會遺失。仍要載入嗎？"
+  },
+  {
+    "index": 13931,
+    "source": "Use the galaxy map to inspect nearby systems and follow the highlighted objective when you are ready.",
+    "translation": "使用銀河地圖查看附近星系，準備好後即可前往標示的任務目標。"
+  },
+  {
+    "index": 14184,
+    "source": "Water",
+    "translation": "水"
+  },
+  {
+    "index": 14194,
+    "source": "Weapon Stats",
+    "translation": "武器屬性"
+  },
+  {
+    "index": 14203,
+    "source": "Well Being",
+    "translation": "福祉"
+  },
+  {
+    "index": 14235,
+    "source": "Windowed",
+    "translation": "視窗化"
+  },
+  {
+    "index": 14270,
+    "source": "Wreck #{0}",
+    "translation": "殘骸 #{0}"
+  },
+  {
+    "index": 14404,
+    "source": "YES",
+    "translation": "是"
+  },
+  {
+    "index": 14413,
+    "source": "You Survived: {0} Days",
+    "translation": "存活天數：{0} 天"
+  },
+  {
+    "index": 14435,
+    "source": "You don't have any workers assigned for production",
+    "translation": "尚未配置生產人員"
+  },
+  {
+    "index": 14436,
+    "source": "You have already finished the tutorial. Skip it and start with bonus resources?",
+    "translation": "你已完成教學。要略過教學，並以額外資源開始遊戲嗎？"
+  },
+  {
+    "index": 14438,
+    "source": "You have unsaved changes. Apply or discard?",
+    "translation": "你有尚未儲存的變更。要套用還是捨棄？"
+  },
+  {
+    "index": 14450,
+    "source": "Your People, the soul of your fleet, main workforce. Need to be accommodated in Living Quarters. Need to have enough water and food.",
+    "translation": "人民是艦隊的靈魂，也是主要勞動力。需要居住艙安置，並確保水與食物充足。"
+  },
+  {
+    "index": 14451,
+    "source": "Your fleet got nuked by Aliens",
+    "translation": "你的艦隊遭到外星人的核彈摧毀"
+  },
+  {
+    "index": 14452,
+    "source": "Your fleet was destroyed by its own nuke",
+    "translation": "你的艦隊被自己的核彈摧毀"
+  },
+  {
+    "index": 19155,
+    "source": "s reload",
+    "translation": " 秒裝填"
+  },
+  {
+    "index": 20623,
+    "source": "{0} Available",
+    "translation": "可用：{0}"
+  },
+  {
+    "index": 20626,
+    "source": "{0} Days",
+    "translation": "{0} 天"
+  },
+  {
+    "index": 20745,
+    "source": "{0}, {1}{2:0}% Ammo Cost",
+    "translation": "{0}，{1}{2:0}% 彈藥消耗"
+  },
+  {
+    "index": 20800,
+    "source": "{0}D",
+    "translation": "{0} 天"
+  },
+  {
+    "index": 20801,
+    "source": "{0}D {1}H",
+    "translation": "{0} 天 {1} 小時"
+  },
+  {
+    "index": 20802,
+    "source": "{0}H",
+    "translation": "{0} 小時"
+  },
+  {
+    "index": 20816,
+    "source": "{0}s",
+    "translation": "{0} 秒"
+  },
+  {
+    "index": 20823,
+    "source": "{0}{1:0.##} Research capacity",
+    "translation": "{0}{1:0.##} 研究容量"
+  },
+  {
+    "index": 20824,
+    "source": "{0}{1:0}% Alien trader spawn chance",
+    "translation": "{0}{1:0}% 外星商人出現機率"
+  },
+  {
+    "index": 20825,
+    "source": "{0}{1:0}% Attack Speed",
+    "translation": "{0}{1:0}% 攻擊速度"
+  },
+  {
+    "index": 20826,
+    "source": "{0}{1:0}% Consumption",
+    "translation": "{0}{1:0}% 消耗"
+  },
+  {
+    "index": 20827,
+    "source": "{0}{1:0}% Explosion Range",
+    "translation": "{0}{1:0}% 爆炸範圍"
+  },
+  {
+    "index": 20828,
+    "source": "{0}{1:0}% FTL Fuel cost",
+    "translation": "{0}{1:0}% FTL 燃料消耗"
+  },
+  {
+    "index": 20829,
+    "source": "{0}{1:0}% HP",
+    "translation": "{0}{1:0}% 生命值"
+  },
+  {
+    "index": 20830,
+    "source": "{0}{1:0}% Hidden deposit chance",
+    "translation": "{0}{1:0}% 隱藏礦藏機率"
+  },
+  {
+    "index": 20831,
+    "source": "{0}{1:0}% Miner cargo",
+    "translation": "{0}{1:0}% 採礦船貨艙容量"
+  },
+  {
+    "index": 20832,
+    "source": "{0}{1:0}% Mining efficiency",
+    "translation": "{0}{1:0}% 採礦效率"
+  },
+  {
+    "index": 20833,
+    "source": "{0}{1:0}% Production",
+    "translation": "{0}{1:0}% 生產量"
+  },
+  {
+    "index": 20834,
+    "source": "{0}{1:0}% Projectile Speed",
+    "translation": "{0}{1:0}% 彈體速度"
+  },
+  {
+    "index": 20835,
+    "source": "{0}{1:0}% Radar range",
+    "translation": "{0}{1:0}% 雷達範圍"
+  }
+]

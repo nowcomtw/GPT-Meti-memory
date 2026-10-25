@@ -1,0 +1,306 @@
+[
+  {
+    "source": "Used to refine Fuel, manufacture Nukes and Goods, and support advanced farming. Can be rarely mined from asteroids or produced in Labs.",
+    "translation": "用於精煉燃料、製造核彈與商品，以及支援進階農業。可從小行星中少量開採，或由實驗室生產。"
+  },
+  {
+    "source": "V-Sync",
+    "translation": "垂直同步"
+  },
+  {
+    "source": "Vagrant",
+    "translation": "流浪"
+  },
+  {
+    "source": "Vanguard",
+    "translation": "先鋒"
+  },
+  {
+    "source": "Vector",
+    "translation": "向量"
+  },
+  {
+    "source": "Veiled",
+    "translation": "迷霧"
+  },
+  {
+    "source": "Version",
+    "translation": "版本"
+  },
+  {
+    "source": "Vigil",
+    "translation": "守望"
+  },
+  {
+    "source": "Vitaneum Medical Bay",
+    "translation": "維塔尼姆醫療艙"
+  },
+  {
+    "source": "Voyager",
+    "translation": "航行者"
+  },
+  {
+    "source": "Wait a second. Our radars just detected an unknown object. It could be a threat, or a wreck worth salvaging. Let's approach it carefully.",
+    "translation": "等一下，雷達剛偵測到一個不明物體。可能是威脅，也可能是值得回收的殘骸。我們小心靠近。"
+  },
+  {
+    "source": "Wait for Arrival",
+    "translation": "等待抵達"
+  },
+  {
+    "source": "Wait for the FTL jump to charge and open the galaxy map, left-click the big yellow FTL button at the top of your screen.",
+    "translation": "等待超光速跳躍充能完成，再以滑鼠左鍵點擊畫面頂端的大型黃色 FTL 按鈕，開啟星系地圖。"
+  },
+  {
+    "source": "Wandering",
+    "translation": "漂泊"
+  },
+  {
+    "source": "Waste",
+    "translation": "廢棄物"
+  },
+  {
+    "source": "Waste Procesing Labs",
+    "translation": "廢棄物處理實驗室"
+  },
+  {
+    "source": "Waste Storage",
+    "translation": "廢棄物倉庫"
+  },
+  {
+    "source": "Waste keeps coming, but there is no room left for it, so the surplus is thrown away.\nBuild more waste storage or modules that process waste.",
+    "translation": "廢棄物持續產生，但已沒有空間儲存，多出的部分只能丟棄。\n請建造更多廢棄物儲存設施，或可處理廢棄物的模組。"
+  },
+  {
+    "source": "Waste storage is full",
+    "translation": "廢棄物儲存空間已滿"
+  },
+  {
+    "source": "Water",
+    "translation": "水"
+  },
+  {
+    "source": "Water is life. Used by your people and farms to produce Food. Can be found on planets or wrecks.",
+    "translation": "水是生命之源。人員與農場都需要用水，農場可藉此生產食物。可從行星或殘骸取得。"
+  },
+  {
+    "source": "We are not interested.",
+    "translation": "我們沒有興趣。"
+  },
+  {
+    "source": "We can't execute that order. It would put our ship at risk. Move the ship away.",
+    "translation": "無法執行這道命令，這會危及本艦。請先將船移開。"
+  },
+  {
+    "source": "We don't know when it's gonna be fixed. We must endure while it's being repaired.",
+    "translation": "不知道什麼時候才能修好。修復完成前，我們得撐下去。"
+  },
+  {
+    "source": "We figured it out. Lechu’s coordinates are marked on the galaxy map now. Let’s hope we got them right.",
+    "translation": "解開了。利丘的座標已標示在銀河地圖上。希望這次沒有弄錯。"
+  },
+  {
+    "source": "We made it! I can't believe my eyes.",
+    "translation": "我們到了！真不敢相信自己的眼睛。"
+  },
+  {
+    "source": "We must research the Decipher Server to find out more.",
+    "translation": "必須研究解密伺服器，才能取得更多資訊。"
+  },
+  {
+    "source": "We need more time to decrypt the data.",
+    "translation": "我們需要更多時間解密資料。"
+  },
+  {
+    "source": "We need to deploy the Attack Squadron and Miner ships before we can begin operations.",
+    "translation": "開始行動前，我們需要先讓攻擊中隊與採礦船出動。"
+  },
+  {
+    "source": "We need to prepare ourselves. Now.",
+    "translation": "我們必須做好準備，現在就行動。"
+  },
+  {
+    "source": "We should begin mining operations immediately. Send the mining ships to the asteroids.",
+    "translation": "我們應立即開始採礦。請派採礦船前往小行星。"
+  },
+  {
+    "source": "We still have no idea what we're dealing with. Get that wreck aboard. If there's anything we can recover, we need to know what we're up against.",
+    "translation": "我們還不知道面對的是什麼敵人。把那處殘骸回收。如果裡面有任何可用的資料，我們必須弄清楚對手的底細。"
+  },
+  {
+    "source": "We will take the resources. Thanks!",
+    "translation": "我們收下資源，謝謝！"
+  },
+  {
+    "source": "We've deployed a few target drones for practice. Send our Squadrons to engage them.",
+    "translation": "我們已部署幾架靶機供演習使用。請派中隊前往交戰。"
+  },
+  {
+    "source": "We've marked it as an enemy ship. Let's destroy them.",
+    "translation": "我們已將目標標記為敵艦。摧毀它們吧。"
+  },
+  {
+    "source": "We've received a report. It's just a wreck. We can salvage it using one of our Miner ships.",
+    "translation": "報告已送達，確認只是一處殘骸。我們可以派採礦船前往回收。"
+  },
+  {
+    "source": "Weak against all weapon types",
+    "translation": "對所有武器類型的抵抗力都很弱"
+  },
+  {
+    "source": "Weapon Stats",
+    "translation": "武器屬性"
+  },
+  {
+    "source": "Weapons",
+    "translation": "武器"
+  },
+  {
+    "source": "Welcome, Commander. We have arrived at our destination. The fleet is ready for the practice drill.",
+    "translation": "歡迎，指揮官。我們已抵達目的地，艦隊已準備好進行演習。"
+  },
+  {
+    "source": "Well Being",
+    "translation": "福祉"
+  },
+  {
+    "source": "We’d love to hear your feedback!\nYour input will help us make the best possible version of the game.",
+    "translation": "我們很期待聽到你的意見！\n你的回饋將幫助我們把遊戲做得更好。"
+  },
+  {
+    "source": "When enabled, selected ships move together at the speed of the slowest ship.",
+    "translation": "啟用後，所選船艦會以其中最慢船艦的速度一同移動。"
+  },
+  {
+    "source": "With our ships out, we can command them to perform tasks. See that asteroid nearby? Send Miner to mine its resources.",
+    "translation": "艦船出動後，就能指派工作了。看到附近那顆小行星了嗎？派採礦船去開採資源。"
+  },
+  {
+    "source": "With selected Miner's, right-click on large asteroid to start mining.",
+    "translation": "選取採礦船後，以滑鼠右鍵點擊大型小行星，開始開採。"
+  },
+  {
+    "source": "With selected Miner, right-click on any minable asteroid to start mining.",
+    "translation": "選取採礦船後，以滑鼠右鍵點擊可開採的小行星，即可開始採礦。"
+  },
+  {
+    "source": "With selected ship right-click in the highligted coordinate near Asteroid to send it there.",
+    "translation": "選取船艦後，以滑鼠右鍵點擊小行星附近標示的位置，命令船艦前往。"
+  },
+  {
+    "source": "With selected ships click on the coordinate near Asteroid to send them there.",
+    "translation": "選取艦船後，點擊小行星附近的位置，命令它們前往。"
+  },
+  {
+    "source": "With your Mining Ships selected, use Collect Area and drag a box around the cargo containers you want to collect. Your ships will pick them up automatically.",
+    "translation": "選取採礦船後，使用區域收集功能，拖曳方框圈住想收集的貨櫃，船艦便會自動拾取。"
+  },
+  {
+    "source": "Workers",
+    "translation": "工人"
+  },
+  {
+    "source": "Workers' Living Quarters",
+    "translation": "工人居住艙"
+  },
+  {
+    "source": "Workforce",
+    "translation": "勞動力"
+  },
+  {
+    "source": "Working Canteen",
+    "translation": "食堂運作中"
+  },
+  {
+    "source": "Working MedicalBay",
+    "translation": "醫療艙運作中"
+  },
+  {
+    "source": "Wreck",
+    "translation": "殘骸"
+  },
+  {
+    "source": "Wreck Discovered",
+    "translation": "發現殘骸"
+  },
+  {
+    "source": "Wreckage",
+    "translation": "殘骸"
+  },
+  {
+    "source": "Wreckage is unstable and might explode. We do not have time to salvage everything, what should we take? ",
+    "translation": "殘骸結構不穩，隨時可能爆炸。我們沒有時間回收所有東西，該帶走什麼？ "
+  },
+  {
+    "source": "Write here what your bug is",
+    "translation": "請在此描述遇到的問題"
+  },
+  {
+    "source": "Wyatt",
+    "translation": "懷亞特"
+  },
+  {
+    "source": "X Formation",
+    "translation": "X 形編隊"
+  },
+  {
+    "source": "Yes",
+    "translation": "是"
+  },
+  {
+    "source": "You can unpause and pause game in UI panel.",
+    "translation": "可以透過介面面板暫停或繼續遊戲。"
+  },
+  {
+    "source": "You have reached end of the DEMO.",
+    "translation": "你已完成試玩版的內容。"
+  },
+  {
+    "source": "You like some challenge",
+    "translation": "適合喜歡適度挑戰的玩家。"
+  },
+  {
+    "source": "You lost all your ships",
+    "translation": "你的所有艦船都已損失"
+  },
+  {
+    "source": "You might need to built more then one farm to satisfy needs for your citizens, keep that in mind.",
+    "translation": "記住，可能需要不只一座農場，才能滿足居民的需求。"
+  },
+  {
+    "source": "You want a relaxed experience",
+    "translation": "適合想輕鬆體驗遊戲的玩家。"
+  },
+  {
+    "source": "You will suffer",
+    "translation": "準備好受苦吧。"
+  },
+  {
+    "source": "Your people eat more food than your farms produce. When food runs out, people start dying.\nBuild more farms, keep them staffed and supplied with their inputs, or lower food rations.",
+    "translation": "族人的食物消耗高於農場產量。食物耗盡後，人口便會開始死亡。\n請建造更多農場，配置足夠人手並供應所需原料，或降低食物配給。"
+  },
+  {
+    "source": "Your ship has just entered a threat’s range. If it were an enemy ship, it would already know about your presence. If you get closer you will see for yourself if it's wreck or enemy ship.",
+    "translation": "你的艦船剛進入威脅範圍。如果對方是敵艦，它已經知道你的位置了。再靠近一些，就能看清它究竟是殘骸還是敵艦。"
+  },
+  {
+    "source": "Zenith",
+    "translation": "天頂"
+  },
+  {
+    "source": "Zoom Speed",
+    "translation": "縮放速度"
+  },
+  {
+    "source": "employed",
+    "translation": "已就業"
+  },
+  {
+    "source": "{Count} people died!",
+    "translation": "有 {Count} 人死亡！"
+  },
+  {
+    "source": "{Count} people were born.",
+    "translation": "有 {Count} 人出生。"
+  }
+]

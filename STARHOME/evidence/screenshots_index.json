@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01_recycling_tooltip.png",
+    "size": 175504,
+    "sha256": "b6928233cda08dae49e5c5c55d205b1f915fa4e1018ab99e7a40f6bfb65c7448",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "02_population_dialogue.png",
+    "size": 158546,
+    "sha256": "793a8accbd691fa5caa39ae38004aef0b5570d9155ac2ef0993a72b630a53baf",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "03_metallurgy_research.png",
+    "size": 100192,
+    "sha256": "21b7972c59ab2506e433d351e2a146e64bf0b82389a0616a40095557ae9d8634",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "04_research_started.png",
+    "size": 101872,
+    "sha256": "961d2a05403d16d313496deae1735a5ce5a3981e3307de9e98fb93d79a8091e8",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "05_population_final.png",
+    "size": 148738,
+    "sha256": "485bc87511c6bb9820594bdd2ec669a73c92e1514ce589f049eba1aec3754d90",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "06_ftl_exit_final.png",
+    "size": 168204,
+    "sha256": "6ead12c7ef298c1139561a0d5cd006fe184e724adc7b8316af5a973a0005d5b5",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "07_production_overview_final.png",
+    "size": 203837,
+    "sha256": "039731d7688a2fce29fd76d68002249d2fdcee02e796e7080ecb9e9b7f95f103",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  },
+  {
+    "file": "08_exit_confirmation_final.png",
+    "size": 90483,
+    "sha256": "5091940a8c27f99acfc264d0ddb5a943d5cb02e5bdaf54b8460664375ff33750",
+    "status": "LOCAL_ONLY_NOT_UPLOADED"
+  }
+]

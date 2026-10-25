@@ -1,0 +1,750 @@
+[
+  {
+    "source": "Convert {consumedResources} into {producedResources}",
+    "translation": "將 {consumedResources} 轉換成 {producedResources}"
+  },
+  {
+    "source": "Corvette",
+    "translation": "護衛艦"
+  },
+  {
+    "source": "Corvette Factory",
+    "translation": "護衛艦工廠"
+  },
+  {
+    "source": "Corvette Hangar",
+    "translation": "護衛艦機庫"
+  },
+  {
+    "source": "Corvette Missile",
+    "translation": "護衛艦飛彈"
+  },
+  {
+    "source": "Corvettes",
+    "translation": "護衛艦"
+  },
+  {
+    "source": "Corvettes docked in this ship's hangars.",
+    "translation": "停泊在本艦機庫內的護衛艦。"
+  },
+  {
+    "source": "Create {producedResources} from {consumedResources}",
+    "translation": "將 {consumedResources} 製成 {producedResources}"
+  },
+  {
+    "source": "Creates dense living space for 320 People. Each Dense Living Quarters penalizes the fleet with an increased chance of people getting sick.",
+    "translation": "提供可容納 320 人的高密度居住空間。每座高密度居住艙都會增加艦隊人員生病的機率。"
+  },
+  {
+    "source": "Creates living space for 100 People.",
+    "translation": "提供可容納 100 人的居住空間。"
+  },
+  {
+    "source": "Creates living space for 140 People. Increases Damage by 10%. Can be built once per fleet.",
+    "translation": "提供可容納 140 人的居住空間，並提高 10% 傷害。每支艦隊限建一座。"
+  },
+  {
+    "source": "Creates living space for 150 People, 20% less people are required as workforce in production modules. Can be built once per fleet.",
+    "translation": "提供可容納 150 人的居住空間，生產模組所需勞動力降低 20%。每支艦隊限建一座。"
+  },
+  {
+    "source": "Creates living space for 60 People.",
+    "translation": "提供可容納 60 人的居住空間。"
+  },
+  {
+    "source": "Creates {producedResources} from {consumedResources}",
+    "translation": "將 {consumedResources} 製成 {producedResources}"
+  },
+  {
+    "source": "Crimson",
+    "translation": "緋紅"
+  },
+  {
+    "source": "Critical",
+    "translation": "危急"
+  },
+  {
+    "source": "Critical Morale",
+    "translation": "士氣瀕臨崩潰"
+  },
+  {
+    "source": "Crude Electronics Plant",
+    "translation": "簡易電子零件廠"
+  },
+  {
+    "source": "Cruiser",
+    "translation": "巡洋艦"
+  },
+  {
+    "source": "Current",
+    "translation": "洋流"
+  },
+  {
+    "source": "DAY 56",
+    "translation": "第 56 天"
+  },
+  {
+    "source": "DEMO",
+    "translation": "試玩版"
+  },
+  {
+    "source": "DEMO FINISHED",
+    "translation": "試玩版結束"
+  },
+  {
+    "source": "DEMO v0.0.0",
+    "translation": "試玩版 v0.0.0"
+  },
+  {
+    "source": "Damage",
+    "translation": "傷害"
+  },
+  {
+    "source": "Damage output of the unit's weapons.",
+    "translation": "此單位武器的傷害輸出。"
+  },
+  {
+    "source": "Dawn",
+    "translation": "黎明"
+  },
+  {
+    "source": "Day 254",
+    "translation": "第 254 天"
+  },
+  {
+    "source": "Deactivate Module",
+    "translation": "停用模組"
+  },
+  {
+    "source": "Debris",
+    "translation": "散落物資"
+  },
+  {
+    "source": "Decommissioned ship",
+    "translation": "退役艦船"
+  },
+  {
+    "source": "Default Mode",
+    "translation": "標準模式"
+  },
+  {
+    "source": "Defence Headquarters",
+    "translation": "防禦指揮部"
+  },
+  {
+    "source": "Defend Capital ship and eliminate enemy crafts.",
+    "translation": "保護主力艦，並消滅敵方飛行器。"
+  },
+  {
+    "source": "Defend your fleet. Watch your capital ships with composite armor and no armor, they are weak against laser weapons.",
+    "translation": "保護艦隊。注意裝有複合裝甲及未配備裝甲的主力艦，它們不耐雷射武器攻擊。"
+  },
+  {
+    "source": "Defensive Mode",
+    "translation": "防禦模式"
+  },
+  {
+    "source": "Defensive weapon, can shoot down enemy missiles at low range.",
+    "translation": "近程防禦武器，可在近距離擊落敵方飛彈。"
+  },
+  {
+    "source": "Defensive weapon, can shoot down enemy missiles at slightly low range.",
+    "translation": "近程防禦武器，可在稍遠一些的近距離擊落敵方飛彈。"
+  },
+  {
+    "source": "Defensive weapon, can shoot down enemy missiles at very low range",
+    "translation": "近程防禦武器，可在極近距離擊落敵方飛彈"
+  },
+  {
+    "source": "Defensive weapon, can shoot down enemy missiles at very low range.",
+    "translation": "近程防禦武器，可在極近距離擊落敵方飛彈。"
+  },
+  {
+    "source": "Deflector Module",
+    "translation": "偏轉模組"
+  },
+  {
+    "source": "Delete",
+    "translation": "刪除"
+  },
+  {
+    "source": "Deliver FTL fuel to the Capital Ship.",
+    "translation": "將超光速燃料運回主力艦。"
+  },
+  {
+    "source": "Deliver ammo to the Capital Ship.",
+    "translation": "將彈藥運回主力艦。"
+  },
+  {
+    "source": "Deliver chemicals to the Capital Ship.",
+    "translation": "將化學品運回主力艦。"
+  },
+  {
+    "source": "Deliver electronics to the Capital Ship.",
+    "translation": "將電子零件運回主力艦。"
+  },
+  {
+    "source": "Deliver metal to the Capital Ship.",
+    "translation": "將金屬運回主力艦。"
+  },
+  {
+    "source": "Dense Living Quarters",
+    "translation": "高密度居住艙"
+  },
+  {
+    "source": "Description of the new building",
+    "translation": "新建築說明"
+  },
+  {
+    "source": "Destroy Asteroid",
+    "translation": "摧毀小行星"
+  },
+  {
+    "source": "Destroy all alien defence towers.",
+    "translation": "摧毀所有外星防禦塔。"
+  },
+  {
+    "source": "Destroy asteroid.",
+    "translation": "摧毀小行星。"
+  },
+  {
+    "source": "Destroy first decommissioned ship.",
+    "translation": "摧毀第一艘退役船艦。"
+  },
+  {
+    "source": "Destroy projected enemies.",
+    "translation": "摧毀投影的敵方單位。"
+  },
+  {
+    "source": "Destroy projected enemy.",
+    "translation": "摧毀投影的敵方單位。"
+  },
+  {
+    "source": "Destroy second decommissioned ship.",
+    "translation": "摧毀第二艘退役船艦。"
+  },
+  {
+    "source": "Destroy the enemy squadron projection!",
+    "translation": "摧毀敵方中隊的投影！"
+  },
+  {
+    "source": "Destroyed ships and asteroids may leave behind salvageable debris. It's often worth collecting. Send a mining ship to recover the dropped ammo immediately.",
+    "translation": "被摧毀的船艦與小行星可能留下可回收物資，通常值得收集。請立即派採礦船回收散落的彈藥。"
+  },
+  {
+    "source": "Destroyed ships and asteroids may leave behind salvageable debris. It's often worth collecting. Send a mining ship to recover the dropped water immediately.",
+    "translation": "被摧毀的艦船與小行星可能留下可回收的散落物資，通常很值得收集。立刻派採礦船回收掉落的水。"
+  },
+  {
+    "source": "Destroyed ships may leave behind salvageable debris. It’s often worth collecting. Send a mining ship to recover the dropped ammunition immediately.",
+    "translation": "被摧毀的艦船可能留下可回收的散落物資，通常很值得收集。立刻派採礦船回收掉落的彈藥。"
+  },
+  {
+    "source": "Destroyer",
+    "translation": "驅逐艦"
+  },
+  {
+    "source": "Difficulty",
+    "translation": "難度"
+  },
+  {
+    "source": "Disables this module and releases its military crew.\nWarning: Reactivating this module requires crew training before it can operate again.",
+    "translation": "停用此模組並釋出其軍事人員。\n警告：重新啟用後，必須完成船員訓練才能恢復運作。"
+  },
+  {
+    "source": "Distant",
+    "translation": "遙遠"
+  },
+  {
+    "source": "Distress Signal",
+    "translation": "求救訊號"
+  },
+  {
+    "source": "Dock",
+    "translation": "停靠"
+  },
+  {
+    "source": "Donate all resources to station.",
+    "translation": "將所有資源交付太空站。"
+  },
+  {
+    "source": "Don’t worry about their guns. They’re only firing blanks.",
+    "translation": "不用擔心它們的艦砲，發射的都只是空包彈。"
+  },
+  {
+    "source": "Double Rations",
+    "translation": "雙倍配給"
+  },
+  {
+    "source": "Double Shifts",
+    "translation": "雙班制"
+  },
+  {
+    "source": "Doubles this module's input and output. Every 10 days there is a 20% chance to lose 1 Well Being, and the penalty lasts another 10 days after the shift is turned off.",
+    "translation": "使此模組的資源投入與產出加倍。每 10 天有 20% 機率降低 1 點身心狀態；關閉此輪班制度後，懲罰仍會持續 10 天。"
+  },
+  {
+    "source": "Drag a box over floating cargo to send the selected units on the shortest route that collects all of it.",
+    "translation": "拖曳方框圈選漂浮貨物，讓所選單位沿最短路線收集全部貨物。"
+  },
+  {
+    "source": "Drift",
+    "translation": "漂流"
+  },
+  {
+    "source": "Droid Factory",
+    "translation": "機器人工廠"
+  },
+  {
+    "source": "Droids",
+    "translation": "機器人"
+  },
+  {
+    "source": "Drones",
+    "translation": "無人機"
+  },
+  {
+    "source": "Duration",
+    "translation": "所需時間"
+  },
+  {
+    "source": "EMP",
+    "translation": "電磁脈衝"
+  },
+  {
+    "source": "EXIT",
+    "translation": "離開"
+  },
+  {
+    "source": "Echo",
+    "translation": "回聲"
+  },
+  {
+    "source": "Eden",
+    "translation": "伊甸號"
+  },
+  {
+    "source": "Effects",
+    "translation": "音效"
+  },
+  {
+    "source": "Electronics",
+    "translation": "電子零件"
+  },
+  {
+    "source": "Electronics Workshop",
+    "translation": "電子工坊"
+  },
+  {
+    "source": "Eliminate enemy Light Carrier attacking your fleet.",
+    "translation": "消滅正在攻擊艦隊的敵方輕型航艦。"
+  },
+  {
+    "source": "Eliminate enemy Light Destroyer attacking your fleet.",
+    "translation": "消滅正在攻擊艦隊的敵方輕型驅逐艦。"
+  },
+  {
+    "source": "Eliminate enemy capital ships attacking your fleet.",
+    "translation": "消滅正在攻擊艦隊的敵方主力艦。"
+  },
+  {
+    "source": "Ember",
+    "translation": "餘燼"
+  },
+  {
+    "source": "Emergency Squadron Repair Bay",
+    "translation": "中隊緊急維修艙"
+  },
+  {
+    "source": "Emergency transmission! We are under attack! To any allied ships, we need immediate assistance! Anyone, please respond!",
+    "translation": "緊急通訊！我們正遭受攻擊！呼叫所有友軍艦船，我們急需支援！任何人，請回答！"
+  },
+  {
+    "source": "Endless",
+    "translation": "無盡"
+  },
+  {
+    "source": "Enemy Ship Detected",
+    "translation": "偵測到敵艦"
+  },
+  {
+    "source": "Enemy Ships Detected",
+    "translation": "偵測到敵艦"
+  },
+  {
+    "source": "Enemy battleship incoming! It's too large. Our Fleet won't hold against that thing!",
+    "translation": "敵方戰列艦接近中！太大了。我們的艦隊擋不住那個傢伙！"
+  },
+  {
+    "source": "Enemy threat",
+    "translation": "敵方威脅"
+  },
+  {
+    "source": "Engine seems to be still damaged, we need more time!",
+    "translation": "引擎似乎還沒修好，我們需要更多時間！"
+  },
+  {
+    "source": "Engines are recalibrated, let’s put them to use.",
+    "translation": "引擎已重新校準，來試試它們吧。"
+  },
+  {
+    "source": "Errant",
+    "translation": "逐風"
+  },
+  {
+    "source": "Escape from this star system",
+    "translation": "逃離這個星系"
+  },
+  {
+    "source": "Establishes law that, make recycling 20% more efficient in recycling modules. But consumes 10% more Waste.",
+    "translation": "制定回收法，使回收模組的效率提高 20%，但廢棄物消耗增加 10%。"
+  },
+  {
+    "source": "Evasion",
+    "translation": "閃避"
+  },
+  {
+    "source": "Exile",
+    "translation": "流亡者"
+  },
+  {
+    "source": "Exit to Desktop",
+    "translation": "結束遊戲"
+  },
+  {
+    "source": "Explorer",
+    "translation": "探索者"
+  },
+  {
+    "source": "Extraction vessel that can harvest resources from asteroids, space debris amd wrecks.",
+    "translation": "資源採集船，可從小行星、太空散落物資與殘骸中採集資源。"
+  },
+  {
+    "source": "FTL Fuel Storage",
+    "translation": "FTL 燃料倉庫"
+  },
+  {
+    "source": "FTL Override",
+    "translation": "強制 FTL 充能"
+  },
+  {
+    "source": "FTL engine is ready",
+    "translation": "FTL 引擎已就緒"
+  },
+  {
+    "source": "FTL engine ugprade 1",
+    "translation": "FTL 引擎升級 1"
+  },
+  {
+    "source": "FTL fuel is required for interstellar travel. Fuel cost depends on jump distance, fleet size, and the size of each ship.",
+    "translation": "星際旅行需要 FTL 燃料。消耗量取決於躍遷距離、艦隊規模及各艦船的大小。"
+  },
+  {
+    "source": "Face the unknown threat!",
+    "translation": "迎戰未知威脅！"
+  },
+  {
+    "source": "Factory Module that's producing Corvettes.",
+    "translation": "生產護衛艦的工廠模組。"
+  },
+  {
+    "source": "Factory Module that's producing Mining ships.",
+    "translation": "生產採礦船的工廠模組。"
+  },
+  {
+    "source": "Factory Module that's producing Squadrons.",
+    "translation": "生產中隊的工廠模組。"
+  },
+  {
+    "source": "Factory that produces Attack Squadrons",
+    "translation": "生產攻擊中隊的工廠"
+  },
+  {
+    "source": "Factory that produces Covette ships",
+    "translation": "生產護衛艦的工廠"
+  },
+  {
+    "source": "Factory that produces Mining Ship",
+    "translation": "生產採礦船的工廠"
+  },
+  {
+    "source": "Fading",
+    "translation": "漸逝"
+  },
+  {
+    "source": "False Beacon",
+    "translation": "誘餌信標"
+  },
+  {
+    "source": "Famine Prevention Law",
+    "translation": "防饑荒法令"
+  },
+  {
+    "source": "Farm",
+    "translation": "農場"
+  },
+  {
+    "source": "Fast Speed",
+    "translation": "快速"
+  },
+  {
+    "source": "Fertilized Farm",
+    "translation": "施肥農場"
+  },
+  {
+    "source": "Fight Or Run",
+    "translation": "戰鬥或撤退"
+  },
+  {
+    "source": "Fighters",
+    "translation": "戰機"
+  },
+  {
+    "source": "Fighters can guard your capital ships. To do this, select your fighter squadron and right-click one of your capital ships to defend it.\n",
+    "translation": "戰鬥機可以護衛主力艦。選取戰鬥機中隊，再以滑鼠右鍵點擊一艘我方主力艦，即可讓中隊保護它。\n"
+  },
+  {
+    "source": "Fighters docked in this ship's hangar.",
+    "translation": "停泊在本艦機庫內的戰機。"
+  },
+  {
+    "source": "Finding water should be our highest priority right now.",
+    "translation": "當務之急是尋找水資源。"
+  },
+  {
+    "source": "Fire a nuclear missile at the selected target or location.",
+    "translation": "向所選目標或位置發射核彈。"
+  },
+  {
+    "source": "First of all, let's build farm module. We must be able to provide food for people.",
+    "translation": "首先建造農場模組，必須確保人民有食物可吃。"
+  },
+  {
+    "source": "First ship is breaking apart, we didn’t make it.",
+    "translation": "第一艘艦船正在解體，我們沒能救下它。"
+  },
+  {
+    "source": "Flak - Mark 1",
+    "translation": "防空砲 - Mark 1"
+  },
+  {
+    "source": "Flak Barrage",
+    "translation": "防空彈幕"
+  },
+  {
+    "source": "Flak Mark 1",
+    "translation": "防空砲 Mark 1"
+  },
+  {
+    "source": "Flak Mark 2",
+    "translation": "防空砲 Mark 2"
+  },
+  {
+    "source": "Flak Mark 3",
+    "translation": "防空砲 Mark 3"
+  },
+  {
+    "source": "Fleet",
+    "translation": "艦隊"
+  },
+  {
+    "source": "Folks like to eat! Add 10% of Well Being. Can be built once.",
+    "translation": "大家都喜歡吃頓好飯！提高 10% 福祉。限建一座。"
+  },
+  {
+    "source": "Follow",
+    "translation": "追蹤"
+  },
+  {
+    "source": "Food",
+    "translation": "食物"
+  },
+  {
+    "source": "Food Running Out Fast",
+    "translation": "食物即將耗盡"
+  },
+  {
+    "source": "Food is going to become a problem sooner than we think. Let's build a farm module.",
+    "translation": "食物會比預期更早成為問題。先建造農場模組吧。"
+  },
+  {
+    "source": "Food is running out",
+    "translation": "食物即將耗盡"
+  },
+  {
+    "source": "Food storage critical",
+    "translation": "食物存量危急"
+  },
+  {
+    "source": "For now, we survive. We build what we need, search the stars for what we lost, and hope that someday… we’ll find peace.",
+    "translation": "眼下，我們先活下去。建造需要的設施，在群星間尋找失落之物，並盼望有一天……能重獲安寧。"
+  },
+  {
+    "source": "For truly experienced players",
+    "translation": "適合經驗豐富的玩家。"
+  },
+  {
+    "source": "Formation Move",
+    "translation": "編隊移動"
+  },
+  {
+    "source": "Frame Rate",
+    "translation": "畫面更新率"
+  },
+  {
+    "source": "Frigate",
+    "translation": "巡防艦"
+  },
+  {
+    "source": "Frontier",
+    "translation": "邊疆"
+  },
+  {
+    "source": "Frozen",
+    "translation": "冰封"
+  },
+  {
+    "source": "Fuel",
+    "translation": "燃料"
+  },
+  {
+    "source": "GALAXY\nMAP",
+    "translation": "銀河\n地圖"
+  },
+  {
+    "source": "Galaxy Map",
+    "translation": "星系地圖"
+  },
+  {
+    "source": "Game Over",
+    "translation": "遊戲結束"
+  },
+  {
+    "source": "Gameplay",
+    "translation": "遊戲設定"
+  },
+  {
+    "source": "Gauss Cannon - Mark 1",
+    "translation": "高斯砲 - Mark 1"
+  },
+  {
+    "source": "Gauss Cannon Mark 1",
+    "translation": "高斯砲 Mark 1"
+  },
+  {
+    "source": "Gauss Cannon Mark 2",
+    "translation": "高斯砲 Mark 2"
+  },
+  {
+    "source": "Gauss Cannon Mark 3",
+    "translation": "高斯砲 Mark 3"
+  },
+  {
+    "source": "Generates Research Points to unlock new technologies. The more Research Centers you build, the faster research progresses.",
+    "translation": "產生研究點數以解鎖新科技。建造越多研究中心，研究進度就越快。"
+  },
+  {
+    "source": "Gentleman, we should start with the station. Then we will see what we gonna do next.",
+    "translation": "各位，先從太空站著手吧。接下來怎麼做，到時再決定。"
+  },
+  {
+    "source": "Getting On Our Feet",
+    "translation": "站穩腳步"
+  },
+  {
+    "source": "Gilded",
+    "translation": "鎏金"
+  },
+  {
+    "source": "Give",
+    "translation": "交付"
+  },
+  {
+    "source": "Gives the fleet a chance to deflect incoming missiles and flak shots. Additional Deflector Modules have reduced effectiveness.",
+    "translation": "讓艦隊有機會偏轉來襲的飛彈與防空砲彈。建造多個偏轉模組時，額外模組的效果會遞減。"
+  },
+  {
+    "source": "Golden",
+    "translation": "黃金"
+  },
+  {
+    "source": "Good job, Commander! Now that it's safe, send one of our mining ships to investigate what seems to be an ancient structure.",
+    "translation": "做得好，指揮官！現在安全了，派一艘採礦船調查那座疑似古代建築的設施吧。"
+  },
+  {
+    "source": "Good. Next, we'll need a recycling station. It can turn sewage into clean water and recover valuable raw materials.",
+    "translation": "很好。接著需要一座回收站。它能將污水轉成乾淨的水，並回收有價值的原料。"
+  },
+  {
+    "source": "Goods",
+    "translation": "商品"
+  },
+  {
+    "source": "Goods Factory",
+    "translation": "商品工廠"
+  },
+  {
+    "source": "Goods Storage",
+    "translation": "商品倉庫"
+  },
+  {
+    "source": "Graphics ",
+    "translation": "顯示設定 "
+  },
+  {
+    "source": "Great! Now we need a recycling station. It will help us turn sewage into clean water and raw materials.",
+    "translation": "很好！現在需要一座回收站，它能幫我們將污水轉成乾淨的水與原料。"
+  },
+  {
+    "source": "Group of rapid-response combat vessels. With small fire power. Particularly effective against corvettes.",
+    "translation": "由快速反應戰鬥飛行器組成的中隊，火力較小，對護衛艦特別有效。"
+  },
+  {
+    "source": "Guard",
+    "translation": "護衛"
+  },
+  {
+    "source": "Half Rations",
+    "translation": "減半配給"
+  },
+  {
+    "source": "Harbor",
+    "translation": "港灣"
+  },
+  {
+    "source": "Heavy Rider",
+    "translation": "重型登艦艇"
+  },
+  {
+    "source": "Helps weapons on ships with accuracy and improving their damage. One can be built per ship.",
+    "translation": "協助艦載武器精準瞄準，並提高傷害。每艘艦船限建一座。"
+  },
+  {
+    "source": "Herald",
+    "translation": "先驅"
+  },
+  {
+    "source": "Hidden",
+    "translation": "隱匿"
+  },
+  {
+    "source": "High Ship Damage - 0-40% ship hp",
+    "translation": "嚴重受損 - 艦船生命值 0-40%"
+  },
+  {
+    "source": "High threat",
+    "translation": "高度威脅"
+  },
+  {
+    "source": "High-Tek Goods Factory",
+    "translation": "高科技商品工廠"
+  },
+  {
+    "source": "High-range offensive weapons that follow enemy ships. Can be shot down by flak.",
+    "translation": "遠程攻擊武器，可追蹤敵艦，但會被防空砲擊落。"
+  },
+  {
+    "source": "Hold Fire",
+    "translation": "停止開火"
+  }
+]

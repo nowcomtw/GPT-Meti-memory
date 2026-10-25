@@ -1,0 +1,13 @@
+{
+  "prepared_on": "2026-10-25",
+  "scope": "scheme_sources_and_text_only",
+  "translation_catalog_rows": 1843,
+  "glossary_entries": 955,
+  "runtime_indices": 212,
+  "placeholder_and_rich_text_comparison": "PASS",
+  "local_original_release_zip_sha256": "14be003abcea5b3aa401f002f4d4805cf28d29e60fcfa422e10966b1f412505b",
+  "game_binaries_or_backups_uploaded": false,
+  "saves_uploaded": false,
+  "new_native_playthrough_performed": false,
+  "fresh_machine_rebuild": "NOT_RUN"
+}

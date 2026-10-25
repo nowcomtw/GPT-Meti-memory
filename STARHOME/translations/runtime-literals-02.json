@@ -1,0 +1,37 @@
+[
+  {
+    "index": 20836,
+    "source": "{0}{1:0}% Required workers",
+    "translation": "{0}{1:0}% 所需工人"
+  },
+  {
+    "index": 20837,
+    "source": "{0}{1:0}% Speed",
+    "translation": "{0}{1:0}% 速度"
+  },
+  {
+    "index": 20838,
+    "source": "{0}{1:0}% Squadron damage",
+    "translation": "{0}{1:0}% 中隊傷害"
+  },
+  {
+    "index": 20839,
+    "source": "{0}{1:0}% Storage capacity",
+    "translation": "{0}{1:0}% 儲存容量"
+  },
+  {
+    "index": 20840,
+    "source": "{0}{1:0}% Weapon Range",
+    "translation": "{0}{1:0}% 武器射程"
+  },
+  {
+    "index": 20841,
+    "source": "{0}{1:0}% Weapon damage",
+    "translation": "{0}{1:0}% 武器傷害"
+  },
+  {
+    "index": 20842,
+    "source": "{0}{1:0}% {2} consumption",
+    "translation": "{0}{1:0}% {2}消耗"
+  }
+]

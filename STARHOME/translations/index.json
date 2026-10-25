@@ -1,0 +1,48 @@
+{
+  "catalog_rows": 1843,
+  "catalog_0_2_0_rows": 1789,
+  "catalog_0_2_1_rows": 54,
+  "glossary_entries": 955,
+  "final_runtime_literal_entries": 212,
+  "catalog_files": [
+    "translations/catalog-01.json",
+    "translations/catalog-02.json",
+    "translations/catalog-03.json",
+    "translations/catalog-04.json",
+    "translations/catalog-05.json",
+    "translations/catalog-06.json",
+    "translations/catalog-07.json",
+    "translations/catalog-08.json",
+    "translations/catalog-09.json",
+    "translations/catalog-10.json",
+    "translations/catalog-11.json",
+    "translations/catalog-12.json",
+    "translations/catalog-13.json",
+    "translations/catalog-14.json",
+    "translations/catalog-15.json",
+    "translations/catalog-16.json",
+    "translations/catalog-17.json",
+    "translations/catalog-18.json",
+    "translations/catalog-19.json",
+    "translations/catalog-20.json",
+    "translations/catalog-21.json",
+    "translations/catalog-22.json",
+    "translations/catalog-23.json",
+    "translations/catalog-24.json",
+    "translations/catalog-25.json",
+    "translations/catalog-26.json"
+  ],
+  "glossary_files": [
+    "translations/glossary-01.json",
+    "translations/glossary-02.json",
+    "translations/glossary-03.json",
+    "translations/glossary-04.json",
+    "translations/glossary-05.json",
+    "translations/glossary-06.json"
+  ],
+  "runtime_literal_files": [
+    "translations/runtime-literals-01.json",
+    "translations/runtime-literals-02.json"
+  ],
+  "note": "Counts describe stored rows, not full-playthrough coverage or unique visible sentences."
+}

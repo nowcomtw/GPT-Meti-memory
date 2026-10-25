@@ -1,0 +1,706 @@
+[
+  {
+    "source": "Hold control key and left-click squadrons in fleet menu to select them all.",
+    "translation": "按住 Ctrl，並在艦隊選單中以滑鼠左鍵點擊中隊，即可將它們全部選取。"
+  },
+  {
+    "source": "Hold left-click and move mouse over all ships to select them all.",
+    "translation": "按住滑鼠左鍵並拖曳，框選所有船艦。"
+  },
+  {
+    "source": "Hold left-click and move mouse over the Miner ships to select them all.",
+    "translation": "按住滑鼠左鍵並拖曳，框選所有採礦船。"
+  },
+  {
+    "source": "Hollow",
+    "translation": "空寂"
+  },
+  {
+    "source": "Horizon",
+    "translation": "地平線"
+  },
+  {
+    "source": "Hothouse Farm",
+    "translation": "溫室農場"
+  },
+  {
+    "source": "Hull",
+    "translation": "船體"
+  },
+  {
+    "source": "Hydrophonic Farm",
+    "translation": "水耕農場"
+  },
+  {
+    "source": "Hyper Speed",
+    "translation": "極速"
+  },
+  {
+    "source": "I did not think we would make it this far… But what if the aliens will find us here? They will destroy our new home.",
+    "translation": "沒想到我們真的能走到這一步……但如果外星人找到這裡呢？他們會摧毀我們的新家。"
+  },
+  {
+    "source": "I don’t think that will be possible. The electromagnetic interference in this system is extremely strong. Any transmission we send would be lost in the noise.",
+    "translation": "我認為不太可能。這個星系的電磁干擾極強，我們發出的任何通訊都會淹沒在雜訊裡。"
+  },
+  {
+    "source": "I'm in a great mood today, so let's have some fun. This nuke is meant for galactic combat, but I think we can afford a little test run on that asteroid.",
+    "translation": "今天心情不錯，來找點樂子吧。這枚核彈原本是用於星際作戰的，不過拿那顆小行星稍微測試一下，應該還負擔得起。"
+  },
+  {
+    "source": "I've finished analyzing the recovered data. Whoever attacked us went to great lengths to conceal where they came from. Makes me wonder why. But we have no way to trace their origin at this moment.",
+    "translation": "回收資料的分析已經完成。襲擊我們的傢伙費盡心思隱藏來處，實在讓人在意。不過，目前仍無法追查他們的來源。"
+  },
+  {
+    "source": "If any other lifeform exists. We can expect, they will have fleets like us. It is advised to fight enemy ships with our big ships, Squadrons may not be enough. Send our ship to destroy projected enemy ships.",
+    "translation": "如果還存在其他生命形式，他們很可能也和我們一樣擁有艦隊。建議用大型艦船對付敵艦，光靠中隊可能不夠。派我方艦船摧毀投影出的敵艦吧。"
+  },
+  {
+    "source": "If the situation demands it, Commander, you can assign your Squadron to guard our Capital ships.",
+    "translation": "指揮官，情況需要時，你可以指派中隊護衛我們的主力艦。"
+  },
+  {
+    "source": "If the situation demands, Commander, you can use your Squadron to guard your Capital ships.",
+    "translation": "情況需要時，指揮官，你可以讓中隊護衛主力艦。"
+  },
+  {
+    "source": "If we want to survive, we need to build more modules.",
+    "translation": "想活下去，就必須建造更多模組。"
+  },
+  {
+    "source": "Improvised Metallurgy",
+    "translation": "臨時冶金廠"
+  },
+  {
+    "source": "Include save file",
+    "translation": "附上存檔"
+  },
+  {
+    "source": "Income",
+    "translation": "收入"
+  },
+  {
+    "source": "Increased mining efficiency by 20%, drill on Miner ships is slightly faster.",
+    "translation": "採礦效率提高 20%，採礦船的鑽頭運轉速度略微加快。"
+  },
+  {
+    "source": "Increases chance for alien trader to appear by 30%. Can be built once. ",
+    "translation": "外星商人出現的機率提高 30%。限建一座。 "
+  },
+  {
+    "source": "Increases this module's output by 25%. Greater autonomy improves productivity, but rushed and unsafe work costs Well Being every 10 days.",
+    "translation": "使此模組的產出提高 25%。更高的自主性有助於提高生產力，但倉促且不安全的作業會每 10 天降低身心狀態。"
+  },
+  {
+    "source": "Industrial Ammunition Factory",
+    "translation": "工業彈藥工廠"
+  },
+  {
+    "source": "Industrial Chemical Farm",
+    "translation": "工業化學農場"
+  },
+  {
+    "source": "Industrial Labs",
+    "translation": "工業實驗室"
+  },
+  {
+    "source": "Industrial Metallurgy",
+    "translation": "工業冶金廠"
+  },
+  {
+    "source": "Industrial Storage",
+    "translation": "工業倉庫"
+  },
+  {
+    "source": "Insufficient resources",
+    "translation": "資源不足"
+  },
+  {
+    "source": "Inventory",
+    "translation": "物品欄"
+  },
+  {
+    "source": "Iron",
+    "translation": "鋼鐵"
+  },
+  {
+    "source": "It's a wreck. Send Miner to search the remnants.",
+    "translation": "是殘骸。派採礦船搜索其中的遺留物。"
+  },
+  {
+    "source": "It's better to keep our ships in the hangars when we don't need them. They're too vulnerable out in the open.",
+    "translation": "不需要出動時，最好讓小型艦船留在機庫裡。它們在外面太容易受到攻擊。"
+  },
+  {
+    "source": "Join DISCORD ",
+    "translation": "加入 DISCORD "
+  },
+  {
+    "source": "Join our fleet.",
+    "translation": "加入我們的艦隊吧。"
+  },
+  {
+    "source": "Join us for more updates!",
+    "translation": "加入社群，掌握更多更新消息！"
+  },
+  {
+    "source": "Jump! Jump now! We need to get our asses out of here!",
+    "translation": "躍遷！立刻躍遷！我們得趕緊逃離這個鬼地方！"
+  },
+  {
+    "source": "Keep in mind that each ship has its own ammunition storage. Its weapons can only use ammo stored aboard that ship, so it may stop firing even while other ships still have ammunition.",
+    "translation": "請記住，每艘船都有自己的彈藥庫。艦上武器只能使用本艦儲存的彈藥，因此即使其他船還有彈藥，這艘船仍可能因缺彈而停止射擊。"
+  },
+  {
+    "source": "Labs",
+    "translation": "實驗室"
+  },
+  {
+    "source": "Language",
+    "translation": "語言"
+  },
+  {
+    "source": "Lantern",
+    "translation": "燈火"
+  },
+  {
+    "source": "Laser Accelerator",
+    "translation": "雷射加速器"
+  },
+  {
+    "source": "Laser Cannon Mark 1",
+    "translation": "雷射砲 Mark 1"
+  },
+  {
+    "source": "Laser Cannon Mark 2",
+    "translation": "雷射砲 Mark 2"
+  },
+  {
+    "source": "Laser Cannon Mark 3",
+    "translation": "雷射砲 Mark 3"
+  },
+  {
+    "source": "Launch Nuke",
+    "translation": "發射核彈"
+  },
+  {
+    "source": "Launch all docked squadrons and raptors from selected ships.",
+    "translation": "讓所選船艦內停泊的所有中隊與猛禽機出動。"
+  },
+  {
+    "source": "Launch nuke at asteroid",
+    "translation": "向小行星發射核彈。"
+  },
+  {
+    "source": "Launches devastating but valuable nukes. Handle with caution.",
+    "translation": "發射威力驚人但十分珍貴的核彈。請謹慎使用。"
+  },
+  {
+    "source": "Learn the basics and be prepared to face unexpected challenges.",
+    "translation": "學習基本操作，準備迎接突如其來的挑戰。"
+  },
+  {
+    "source": "Leave",
+    "translation": "離開"
+  },
+  {
+    "source": "Left-click Squadron and left-click on dock button. The ship will find it's way to hangar.",
+    "translation": "以滑鼠左鍵選取中隊，再點擊停靠按鈕。艦船會自行返回機庫。"
+  },
+  {
+    "source": "Left-click on Capital ship to select it.",
+    "translation": "以滑鼠左鍵點擊主力艦來選取它。"
+  },
+  {
+    "source": "Left-click on any ship to select it.",
+    "translation": "以滑鼠左鍵點擊任一艦船，即可選取。"
+  },
+  {
+    "source": "Legacy",
+    "translation": "傳承"
+  },
+  {
+    "source": "Legend",
+    "translation": "圖例"
+  },
+  {
+    "source": "Let Squadrons destroy projected enemy Squadrons.",
+    "translation": "讓中隊摧毀模擬的敵方中隊。"
+  },
+  {
+    "source": "Let's leave now Commander!",
+    "translation": "指揮官，現在就離開吧！"
+  },
+  {
+    "source": "Let's see what they're selling. We might find something useful.",
+    "translation": "看看他們在賣什麼吧。也許有我們用得上的東西。"
+  },
+  {
+    "source": "Let's switch to Aggressive mode. It will reduce our Squadron's defenses, but our weapons will hit harder.",
+    "translation": "切換成進攻模式吧。這會降低中隊的防禦能力，但武器的威力也會更強。"
+  },
+  {
+    "source": "Let’s strengthen our offensive capabilities, Commander. Construct a new Gauss Cannon module on the ship with our farms so it can protect itself.",
+    "translation": "指揮官，先強化攻擊能力吧。在裝有農場的艦船上建造新的高斯砲模組，讓它能夠自衛。"
+  },
+  {
+    "source": "Light Armor",
+    "translation": "輕型裝甲"
+  },
+  {
+    "source": "Light Carrier",
+    "translation": "輕型航艦"
+  },
+  {
+    "source": "Light Destroyer",
+    "translation": "輕型驅逐艦"
+  },
+  {
+    "source": "Light Frigate",
+    "translation": "輕型巡防艦"
+  },
+  {
+    "source": "Likely Rich Resources",
+    "translation": "可能有豐富資源"
+  },
+  {
+    "source": "Likely Water Resources",
+    "translation": "可能有水資源"
+  },
+  {
+    "source": "Line Formation",
+    "translation": "橫列編隊"
+  },
+  {
+    "source": "Listen to dialogue.",
+    "translation": "聆聽對話。"
+  },
+  {
+    "source": "Lists every module with workers across your fleet. Filter by produced resource and change worker counts or shifts straight from the list.",
+    "translation": "列出艦隊中所有配置工作人員的模組。可依產出資源篩選，並直接從清單調整人數或輪班制度。"
+  },
+  {
+    "source": "Living Quarters",
+    "translation": "居住艙"
+  },
+  {
+    "source": "Load Game",
+    "translation": "載入遊戲"
+  },
+  {
+    "source": "Lonely",
+    "translation": "孤獨"
+  },
+  {
+    "source": "Look at that structure! How is it possible that our scientists didn’t catch a single glimpse of this?",
+    "translation": "看看那座建築！我們的科學家竟然從未發現它，這怎麼可能？"
+  },
+  {
+    "source": "Low Morale",
+    "translation": "士氣低落"
+  },
+  {
+    "source": "Low Resources ",
+    "translation": "資源不足 "
+  },
+  {
+    "source": "Low Ship Damage - 75-90% ship hp",
+    "translation": "輕度受損 - 艦船生命值 75-90%"
+  },
+  {
+    "source": "Low on water",
+    "translation": "水資源不足"
+  },
+  {
+    "source": "Lucid",
+    "translation": "澄明"
+  },
+  {
+    "source": "MAIN MISSIONS",
+    "translation": "主線任務"
+  },
+  {
+    "source": "MAX",
+    "translation": "最大"
+  },
+  {
+    "source": "MIlitary",
+    "translation": "軍事"
+  },
+  {
+    "source": "Main Command Centre of the ship - needs to have workers for operating ship",
+    "translation": "艦船的主要指揮中心，必須配置人員才能操縱艦船。"
+  },
+  {
+    "source": "Main Menu",
+    "translation": "主選單"
+  },
+  {
+    "source": "Main Ship",
+    "translation": "主艦"
+  },
+  {
+    "source": "Main ingredient for people’s energy. Without food your people start dying and would be forced to cannibalism.",
+    "translation": "人們獲取能量的主要來源。缺乏食物將導致人員死亡，甚至被迫同類相食。"
+  },
+  {
+    "source": "Manufacturing Electronics Plant",
+    "translation": "電子零件製造廠"
+  },
+  {
+    "source": "Many people are homeless",
+    "translation": "許多人無家可歸"
+  },
+  {
+    "source": "Master ",
+    "translation": "主音量 "
+  },
+  {
+    "source": "Maunal Save",
+    "translation": "手動存檔"
+  },
+  {
+    "source": "Max",
+    "translation": "最大"
+  },
+  {
+    "source": "Maximum flight speed.",
+    "translation": "最高航行速度。"
+  },
+  {
+    "source": "Maximum hull points. The bar shows the current hull.",
+    "translation": "船體耐久上限。狀態條顯示目前的船體耐久。"
+  },
+  {
+    "source": "Maybe. But people are losing hope. Searching for a home gives us better odds than drifting until humanity fades away.",
+    "translation": "也許吧。但人們正在失去希望。與其漂泊到人類消亡，去尋找家園至少還有一線生機。"
+  },
+  {
+    "source": "Medical Bay",
+    "translation": "醫療艙"
+  },
+  {
+    "source": "Medium Ship Damage - 40-74% ship hp",
+    "translation": "中度受損 - 艦船生命值 40-74%"
+  },
+  {
+    "source": "Medium threat",
+    "translation": "中度威脅"
+  },
+  {
+    "source": "Merchant First Encounter",
+    "translation": "初遇商人"
+  },
+  {
+    "source": "Meridian",
+    "translation": "子午線"
+  },
+  {
+    "source": "Message content",
+    "translation": "訊息內容"
+  },
+  {
+    "source": "Metallurgy",
+    "translation": "冶金廠"
+  },
+  {
+    "source": "Metals",
+    "translation": "金屬"
+  },
+  {
+    "source": "Middle Range offensive weapon.",
+    "translation": "中程攻擊武器。"
+  },
+  {
+    "source": "Midnight",
+    "translation": "午夜"
+  },
+  {
+    "source": "Military",
+    "translation": "軍事"
+  },
+  {
+    "source": "Military Barracks",
+    "translation": "軍營"
+  },
+  {
+    "source": "Military Personnel",
+    "translation": "軍事人員"
+  },
+  {
+    "source": "Milizarized Goods Factory",
+    "translation": "軍事化商品工廠"
+  },
+  {
+    "source": "Mine",
+    "translation": "開採"
+  },
+  {
+    "source": "Miners",
+    "translation": "採礦船"
+  },
+  {
+    "source": "Miners Ship raise their cargo limit to 1500 units.",
+    "translation": "採礦船的貨物容量上限提高至 1500 單位。"
+  },
+  {
+    "source": "Mining Bay",
+    "translation": "採礦艙"
+  },
+  {
+    "source": "Mining Ship",
+    "translation": "採礦船"
+  },
+  {
+    "source": "Mining Ship Factory",
+    "translation": "採礦船工廠"
+  },
+  {
+    "source": "Mining Ship Hangar",
+    "translation": "採礦船機庫"
+  },
+  {
+    "source": "Mining Ship's Hangar",
+    "translation": "採礦船機庫"
+  },
+  {
+    "source": "Mining raptors docked in this ship's hangars.",
+    "translation": "停泊在本艦機庫內的採礦猛禽機。"
+  },
+  {
+    "source": "Missile Launcher - Mark 1",
+    "translation": "飛彈發射器 - Mark 1"
+  },
+  {
+    "source": "Missile Launcher Mark 1",
+    "translation": "飛彈發射器 Mark 1"
+  },
+  {
+    "source": "Missile Launcher Mark 2",
+    "translation": "飛彈發射器 Mark 2"
+  },
+  {
+    "source": "Missile Launcher Mark 3",
+    "translation": "飛彈發射器 Mark 3"
+  },
+  {
+    "source": "Missile boat. Only flak, fighters and nuke blasts can reach it, and it is armoured against flak.",
+    "translation": "飛彈艇。只有防空砲、戰鬥機與核爆能攻擊它，且其裝甲善於抵禦防空砲。"
+  },
+  {
+    "source": "Mission Completed",
+    "translation": "任務完成"
+  },
+  {
+    "source": "Mission name",
+    "translation": "任務名稱"
+  },
+  {
+    "source": "Mix of elements that can be processed further to more advanced ones",
+    "translation": "多種元素的混合物，可進一步加工為更高階的資源。"
+  },
+  {
+    "source": "Modul Name",
+    "translation": "模組名稱"
+  },
+  {
+    "source": "Module ",
+    "translation": "模組 "
+  },
+  {
+    "source": "Module Effect",
+    "translation": "模組效果"
+  },
+  {
+    "source": "Module Slots",
+    "translation": "模組槽"
+  },
+  {
+    "source": "Module that's producing {producedResources} from {consumedResources}.",
+    "translation": "消耗 {consumedResources} 生產 {producedResources} 的模組。"
+  },
+  {
+    "source": "Module that's raising storage place for {storedResources} by 1000 units.",
+    "translation": "使 {storedResources} 的儲存容量增加 1000 單位的模組。"
+  },
+  {
+    "source": "Module that's raising storage place for {storedResources} by 400 units.",
+    "translation": "使 {storedResources} 的儲存容量增加 400 單位的模組。"
+  },
+  {
+    "source": "Module that's raising storage place for {storedResources} by 500 units.",
+    "translation": "使 {storedResources} 的儲存容量增加 500 單位的模組。"
+  },
+  {
+    "source": "More contacts incoming! Larger ships this time! They're closing fast!",
+    "translation": "又有目標接近！這次的艦船更大！他們正迅速逼近！"
+  },
+  {
+    "source": "Most people have accomodations",
+    "translation": "大多數人都有住處"
+  },
+  {
+    "source": "Mothership Bomber",
+    "translation": "母艦轟炸艦"
+  },
+  {
+    "source": "Motherships",
+    "translation": "母艦"
+  },
+  {
+    "source": "Move",
+    "translation": "移動"
+  },
+  {
+    "source": "Move the flagship to the designated position near the asteroid.",
+    "translation": "請將旗艦移動至小行星附近的指定位置。"
+  },
+  {
+    "source": "Multiple Ships Selected",
+    "translation": "已選取多艘艦船"
+  },
+  {
+    "source": "Multiselect",
+    "translation": "多重選取"
+  },
+  {
+    "source": "Music ",
+    "translation": "音樂 "
+  },
+  {
+    "source": "My name is Dr. Pavel Irek. I worked on the Lechu Project, a research initiative searching for a planet that could sustain human life.",
+    "translation": "我是帕維爾・伊雷克博士，曾參與利丘計畫。那是一項尋找適合人類居住行星的研究計畫。"
+  },
+  {
+    "source": "NEW MISSION",
+    "translation": "新任務"
+  },
+  {
+    "source": "NONE",
+    "translation": "無"
+  },
+  {
+    "source": "Name of Ship",
+    "translation": "艦船名稱"
+  },
+  {
+    "source": "Name of resource",
+    "translation": "資源名稱"
+  },
+  {
+    "source": "Name of the Save",
+    "translation": "存檔名稱"
+  },
+  {
+    "source": "Navigate the camera to the asteroid's position.",
+    "translation": "將視角移至小行星的位置。"
+  },
+  {
+    "source": "New Game",
+    "translation": "開始新遊戲"
+  },
+  {
+    "source": "New Save",
+    "translation": "新增存檔"
+  },
+  {
+    "source": "Next let's strengthen our defensive capabilities. Flak automatically targets nearby enemy missiles, destroying them before they can reach your ships.",
+    "translation": "接下來強化防禦能力。防空砲會自動瞄準附近的敵方飛彈，在它們擊中艦船前將其摧毀。"
+  },
+  {
+    "source": "Nice work. Now let's get some more practice. Our radars just picked up another treat. Head over there and investigate it.",
+    "translation": "做得好。再多練習一下吧。雷達剛偵測到另一個威脅，前往該處調查。"
+  },
+  {
+    "source": "No",
+    "translation": "否"
+  },
+  {
+    "source": "No Armor",
+    "translation": "無裝甲"
+  },
+  {
+    "source": "No Formation",
+    "translation": "解除編隊"
+  },
+  {
+    "source": "No casulties in current system",
+    "translation": "在目前星系沒有傷亡"
+  },
+  {
+    "source": "No resources available.",
+    "translation": "沒有可用資源。"
+  },
+  {
+    "source": "No response. There’s nothing on any channel. Fleet Command... may be gone.",
+    "translation": "沒有回應。所有頻道都毫無動靜。艦隊司令部……可能已經淪陷了。"
+  },
+  {
+    "source": "Nomad",
+    "translation": "遊牧者"
+  },
+  {
+    "source": "Normal Rations",
+    "translation": "標準配給"
+  },
+  {
+    "source": "Normal Speed",
+    "translation": "正常速度"
+  },
+  {
+    "source": "Northern",
+    "translation": "北境"
+  },
+  {
+    "source": "Not Available",
+    "translation": "不可用"
+  },
+  {
+    "source": "Not Available in DEMO",
+    "translation": "試玩版尚未開放"
+  },
+  {
+    "source": "Not Enough Resources ",
+    "translation": "資源不足 "
+  },
+  {
+    "source": "Not available in demo.",
+    "translation": "試玩版未開放。"
+  },
+  {
+    "source": "Not directly. It points to my destroyed colony in the Alpha Centauri system. If the black boxes are still there, they should contain Lechu’s precise coordinates.",
+    "translation": "無法直接到達。它指向我在半人馬座阿爾法星系中被摧毀的殖民地。如果黑盒子還在，裡面應該保存著利丘的精確座標。"
+  },
+  {
+    "source": "Not enough living space",
+    "translation": "居住空間不足"
+  },
+  {
+    "source": "Not shown",
+    "translation": "不顯示"
+  },
+  {
+    "source": "Now that we're in hyperspace, we finally have some time to work with the resources we've gathered. Let's put them to use and reconfigure the ships.",
+    "translation": "進入超空間後，我們總算有時間處理收集來的資源了。善用它們，重新配置艦船吧。"
+  },
+  {
+    "source": "Now, let’s try Defensive mode! Tradeoff for good defense is that the shots are less damaging.",
+    "translation": "接著試試防禦模式！防禦能力會提高，代價是攻擊傷害降低。"
+  },
+  {
+    "source": "Now, those are decommissioned ships. They will make a perfect target for our artillery guns.",
+    "translation": "接下來是幾艘退役船艦，很適合當作我們的艦砲射擊目標。"
+  },
+  {
+    "source": "Nuclear warhead. Overkill is sometimes the only option.",
+    "translation": "核彈頭。有時候，壓倒性的火力才是唯一選擇。"
+  },
+  {
+    "source": "Nuke",
+    "translation": "核彈"
+  },
+  {
+    "source": "Nuke Factory",
+    "translation": "核彈工廠"
+  }
+]

@@ -1,0 +1,879 @@
+[
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10562,
+    "source": "Restart Game",
+    "current": "重新開始遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10563,
+    "source": "Restart Last Checkpoint",
+    "current": "從上一個檢查點重新開始"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10621,
+    "source": "Rotate Left",
+    "current": "向左旋轉"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10622,
+    "source": "Rotate Right",
+    "current": "向右旋轉"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10756,
+    "source": "Save Game",
+    "current": "儲存遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10865,
+    "source": "Select a primary resource to activate storage bonus capacity",
+    "current": "選擇主要儲存資源，以啟用額外倉儲容量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 10873,
+    "source": "Selectable options",
+    "current": "可選項目"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11158,
+    "source": "Skip Tutorial",
+    "current": "略過教學"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11266,
+    "source": "Speed Fast",
+    "current": "快速遊戲速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11267,
+    "source": "Speed Hyper",
+    "current": "超快遊戲速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11268,
+    "source": "Speed Normal",
+    "current": "正常遊戲速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11297,
+    "source": "Squadron inbound",
+    "current": "中隊正在返航"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11321,
+    "source": "Start Game",
+    "current": "開始遊戲"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11393,
+    "source": "Stop Command",
+    "current": "停止指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11394,
+    "source": "Stop Construction\n(Return 100% Resources)",
+    "current": "停止建造\n（退還 100% 資源）"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11395,
+    "source": "Stop Deconstruction",
+    "current": "停止拆解"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 11398,
+    "source": "Stop production",
+    "current": "停止生產"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12292,
+    "source": "The module is not working. Its crew was lost and it will be manned again once enough free people are available.",
+    "current": "此模組未運作。原有工作人員已損失，待有足夠閒置人員後會重新配置。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12706,
+    "source": "This building will stop production immediately",
+    "current": "此建築將立即停止生產"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12713,
+    "source": "This deletes all saved games, settings and key bindings. It cannot be undone. Continue?",
+    "current": "這會刪除所有存檔、設定與按鍵綁定，而且無法復原。是否繼續？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12754,
+    "source": "This module is not available in the demo version.",
+    "current": "試玩版尚未開放此模組。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12846,
+    "source": "To continue production, you need missing resources",
+    "current": "補足缺少的資源，才能繼續生產"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12850,
+    "source": "To follow this mission press V",
+    "current": "按 V 追蹤這項任務"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12858,
+    "source": "Toggle Galaxy Map",
+    "current": "切換銀河地圖"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12859,
+    "source": "Toggle Journal",
+    "current": "切換任務日誌"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12899,
+    "source": "Total People",
+    "current": "總人口"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12904,
+    "source": "Total indicator of people health and morale",
+    "current": "綜合反映人民健康與士氣的指標"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 12957,
+    "source": "Training Military Personnel",
+    "current": "訓練軍事人員"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13065,
+    "source": "Turn Off",
+    "current": "關閉"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13068,
+    "source": "Tutorial Hint",
+    "current": "教學提示"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13376,
+    "source": "Under Construction",
+    "current": "建造中"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13379,
+    "source": "Unemployed",
+    "current": "未就業"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13493,
+    "source": "Unfollow",
+    "current": "取消追蹤"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13799,
+    "source": "Unlimited",
+    "current": "無限制"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13802,
+    "source": "Unload Cargo Command",
+    "current": "卸載貨物指令"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13835,
+    "source": "Unsaved Changes",
+    "current": "尚未儲存的變更"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13836,
+    "source": "Unsaved progress will be lost. Load anyway?",
+    "current": "尚未儲存的進度將會遺失。仍要載入嗎？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 13931,
+    "source": "Use the galaxy map to inspect nearby systems and follow the highlighted objective when you are ready.",
+    "current": "使用銀河地圖查看附近星系，準備好後即可前往標示的任務目標。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14194,
+    "source": "Weapon Stats",
+    "current": "武器屬性"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14203,
+    "source": "Well Being",
+    "current": "福祉"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14235,
+    "source": "Windowed",
+    "current": "視窗化"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14404,
+    "source": "YES",
+    "current": "是"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14413,
+    "source": "You Survived: {0} Days",
+    "current": "存活天數：{0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14435,
+    "source": "You don't have any workers assigned for production",
+    "current": "尚未配置生產人員"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14436,
+    "source": "You have already finished the tutorial. Skip it and start with bonus resources?",
+    "current": "你已完成教學。要略過教學，並以額外資源開始遊戲嗎？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14438,
+    "source": "You have unsaved changes. Apply or discard?",
+    "current": "你有尚未儲存的變更。要套用還是捨棄？"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14450,
+    "source": "Your People, the soul of your fleet, main workforce. Need to be accommodated in Living Quarters. Need to have enough water and food.",
+    "current": "人民是艦隊的靈魂，也是主要勞動力。需要居住艙安置，並確保水與食物充足。"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14451,
+    "source": "Your fleet got nuked by Aliens",
+    "current": "你的艦隊遭到外星人的核彈摧毀"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 14452,
+    "source": "Your fleet was destroyed by its own nuke",
+    "current": "你的艦隊被自己的核彈摧毀"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 19155,
+    "source": "s reload",
+    "current": " 秒裝填"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20623,
+    "source": "{0} Available",
+    "current": "可用：{0}"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20626,
+    "source": "{0} Days",
+    "current": "{0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20745,
+    "source": "{0}, {1}{2:0}% Ammo Cost",
+    "current": "{0}，{1}{2:0}% 彈藥消耗"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20800,
+    "source": "{0}D",
+    "current": "{0} 天"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20801,
+    "source": "{0}D {1}H",
+    "current": "{0} 天 {1} 小時"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20802,
+    "source": "{0}H",
+    "current": "{0} 小時"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20816,
+    "source": "{0}s",
+    "current": "{0} 秒"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20823,
+    "source": "{0}{1:0.##} Research capacity",
+    "current": "{0}{1:0.##} 研究容量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20824,
+    "source": "{0}{1:0}% Alien trader spawn chance",
+    "current": "{0}{1:0}% 外星商人出現機率"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20825,
+    "source": "{0}{1:0}% Attack Speed",
+    "current": "{0}{1:0}% 攻擊速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20826,
+    "source": "{0}{1:0}% Consumption",
+    "current": "{0}{1:0}% 消耗"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20827,
+    "source": "{0}{1:0}% Explosion Range",
+    "current": "{0}{1:0}% 爆炸範圍"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20828,
+    "source": "{0}{1:0}% FTL Fuel cost",
+    "current": "{0}{1:0}% FTL 燃料消耗"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20829,
+    "source": "{0}{1:0}% HP",
+    "current": "{0}{1:0}% 生命值"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20830,
+    "source": "{0}{1:0}% Hidden deposit chance",
+    "current": "{0}{1:0}% 隱藏礦藏機率"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20831,
+    "source": "{0}{1:0}% Miner cargo",
+    "current": "{0}{1:0}% 採礦船貨艙容量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20832,
+    "source": "{0}{1:0}% Mining efficiency",
+    "current": "{0}{1:0}% 採礦效率"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20833,
+    "source": "{0}{1:0}% Production",
+    "current": "{0}{1:0}% 生產量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20834,
+    "source": "{0}{1:0}% Projectile Speed",
+    "current": "{0}{1:0}% 彈體速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20835,
+    "source": "{0}{1:0}% Radar range",
+    "current": "{0}{1:0}% 雷達範圍"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20836,
+    "source": "{0}{1:0}% Required workers",
+    "current": "{0}{1:0}% 所需工人"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20837,
+    "source": "{0}{1:0}% Speed",
+    "current": "{0}{1:0}% 速度"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20838,
+    "source": "{0}{1:0}% Squadron damage",
+    "current": "{0}{1:0}% 中隊傷害"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20839,
+    "source": "{0}{1:0}% Storage capacity",
+    "current": "{0}{1:0}% 儲存容量"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20840,
+    "source": "{0}{1:0}% Weapon Range",
+    "current": "{0}{1:0}% 武器射程"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20841,
+    "source": "{0}{1:0}% Weapon damage",
+    "current": "{0}{1:0}% 武器傷害"
+  },
+  {
+    "version": "0.2.0",
+    "category": "METADATA_LITERAL",
+    "index": 20842,
+    "source": "{0}{1:0}% {2} consumption",
+    "current": "{0}{1:0}% {2}消耗"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11218,
+    "field": "_firstBirthDialogue.Title",
+    "source": "Pavel Irek",
+    "current": "帕維爾・伊雷克"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11218,
+    "field": "_firstBirthDialogue.Description",
+    "source": "Good news, Commander. Our population has grown! During FTL travel, our people can raise families as long as everyone is fed and we have more than enough Food in storage.",
+    "current": "好消息，指揮官！我們的人口增加了！在 FTL 航行期間，只要每個人都吃得飽，庫存中也有充足的食物，大家就能成家育兒。"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11218,
+    "field": "_firstBirthDialogue.Options[0].OptionText",
+    "source": "OK",
+    "current": "確定"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11217,
+    "field": "ThreatIcons.Name",
+    "source": "Possible threat",
+    "current": "可能有威脅"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11217,
+    "field": "ThreatIcons.Name",
+    "source": "Medium threat",
+    "current": "中度威脅"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11217,
+    "field": "ThreatIcons.Name",
+    "source": "High threat",
+    "current": "高度威脅"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11217,
+    "field": "ThreatIcons.Name",
+    "source": "Extreme threat",
+    "current": "極高威脅"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[0]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "無"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[1]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "食物"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[2]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "水"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[3]",
+    "source": "Raw Materials",
+    "current": "原料"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[4]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "金屬"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[5]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "電子零件"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[6]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "化學品"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[7]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "彈藥"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[8]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "核彈"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[9]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "燃料"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[10]",
+    "source": "Mining Ship",
+    "current": "採礦船"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[11]",
+    "source": "Attack Squadron",
+    "current": "攻擊中隊"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[12]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "人口"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[13]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "廢棄物"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[14]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "雷楚座標"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[15]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "商品"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[16]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "護衛艦"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11220,
+    "field": "_resourceNameOverrides[17]",
+    "source": "(原版未設定覆寫，使用英文列舉名稱)",
+    "current": "研究資料"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11242,
+    "field": "Description",
+    "source": "zone click",
+    "current": "點擊區域"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11245,
+    "field": "_description",
+    "source": "Middle",
+    "current": "中間"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11246,
+    "field": "_description",
+    "source": "Middle",
+    "current": "中間"
+  },
+  {
+    "version": "0.2.1",
+    "category": "ASSET_FIELD",
+    "file": "sharedassets1.assets",
+    "path_id": 11399,
+    "field": "<Description>k__BackingField",
+    "source": "Burst the Flak Barrage zone fills its area with. Spawned by FlakBarrageZone, not by shells.",
+    "current": "填滿防空彈幕區域的爆炸效果。由 FlakBarrageZone 產生，而非由砲彈產生。"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 5465,
+    "source": "EXIT",
+    "current": "離開"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10207,
+    "source": "READY",
+    "current": "準備完成"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 6036,
+    "source": "FLEET",
+    "current": "艦隊"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10664,
+    "source": "SKIP",
+    "current": "略過"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10891,
+    "source": "Send",
+    "current": "傳送"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10211,
+    "source": "REPLACE",
+    "current": "替換"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10213,
+    "source": "RESTART",
+    "current": "重新開始"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 275,
+    "source": " and ",
+    "current": "與"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 2449,
+    "source": "APPLY",
+    "current": "套用"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 3440,
+    "source": "CANCEL",
+    "current": "取消"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 4249,
+    "source": "Close",
+    "current": "關閉"
+  }
+]

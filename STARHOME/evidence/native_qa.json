@@ -1,0 +1,46 @@
+{
+  "version": "0.2.1",
+  "native_002": [
+    "isolated user autosave loaded",
+    "recycling tooltip Chinese",
+    "research center built through normal pointer input",
+    "population dialogue naturally triggered on day 24; Chinese text and confirmation worked",
+    "metallurgy research tooltip Chinese",
+    "Research button started the queue",
+    "Alt+F4 shutdown observed"
+  ],
+  "native_003_final": [
+    "same checkpoint reloaded",
+    "population dialogue triggered and confirmed",
+    "FTL arrival displayed 離開",
+    "production overview rendered and operated",
+    "Alt+F4 shutdown observed"
+  ],
+  "native_004_polished": [
+    "final build started",
+    "Chinese exit confirmation observed",
+    "clicked Yes and observed process termination",
+    "normal Input System shutdown; no crash marker"
+  ],
+  "native_core_objects_identical_after_polish": "PASS",
+  "user_entry_exit": "USER_REPORTED_PASS",
+  "original_0_2_0_exit_crash": "Historical isolated/control observation only; not evidence of current user-game failure.",
+  "upgrade_and_both_rollback_paths": "PASS after correcting previous-version rollback hash check; initial failure retained in test history.",
+  "logs": {
+    "native_002.log": {
+      "shutdown_observed": true,
+      "major_error_matches": []
+    },
+    "native_003_final.log": {
+      "shutdown_observed": true,
+      "major_error_matches": []
+    },
+    "native_004_polished.log": {
+      "shutdown_observed": true,
+      "major_error_matches": []
+    }
+  },
+  "all_story_branches": "NOT_RUN",
+  "save_load_scope": "Existing user autosave copy loaded; creating/reloading every save kind was not exhaustively tested.",
+  "known_nonfatal_network_warning": "Unity TLS handshake/authentication warnings may appear; native menu and bounded gameplay remained usable."
+}

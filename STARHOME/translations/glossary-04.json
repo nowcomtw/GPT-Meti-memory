@@ -1,0 +1,718 @@
+[
+  {
+    "source": "Nuke Launcher",
+    "translation": "核彈發射器"
+  },
+  {
+    "source": "Nuke Storage",
+    "translation": "核彈倉庫"
+  },
+  {
+    "source": "OR Destroy all alien ships ",
+    "translation": "或者，摧毀所有外星艦船 "
+  },
+  {
+    "source": "Obsidian",
+    "translation": "黑曜"
+  },
+  {
+    "source": "Odyssey",
+    "translation": "遠征"
+  },
+  {
+    "source": "Off",
+    "translation": "關閉"
+  },
+  {
+    "source": "Oh no! Ours planet seems to be lost!",
+    "translation": "不！我們的行星似乎已經淪陷了！"
+  },
+  {
+    "source": "Okay, now some real action. See those holograms projected by our ships? Send your Squadron to destroy them.",
+    "translation": "好，來點真實的戰鬥練習。看到我方艦船投影出的全像目標了嗎？派中隊摧毀它們。"
+  },
+  {
+    "source": "On",
+    "translation": "開啟"
+  },
+  {
+    "source": "Open Shop menu.",
+    "translation": "開啟商店選單。"
+  },
+  {
+    "source": "Opens the Research Tree, where you unlock new modules and upgrades for your fleet.",
+    "translation": "開啟研究樹，為艦隊解鎖新模組與升級。"
+  },
+  {
+    "source": "Or you can press {bindings} on keyboard to rotate the camera.",
+    "translation": "也可以按鍵盤上的 {bindings} 旋轉視角。"
+  },
+  {
+    "source": "Orbital Facility.",
+    "translation": "軌道設施。"
+  },
+  {
+    "source": "Order selected cargo-capable units to collect debris or cargo.",
+    "translation": "命令所選具載貨能力的單位收集殘骸物資或貨物。"
+  },
+  {
+    "source": "Order selected cargo-capable units to unload cargo to a target ship.",
+    "translation": "命令所選具載貨能力的單位將貨物卸至目標船艦。"
+  },
+  {
+    "source": "Order selected miners to mine an asteroid.",
+    "translation": "命令所選採礦船開採小行星。"
+  },
+  {
+    "source": "Order selected ships to ram an enemy target.",
+    "translation": "命令所選船艦撞擊敵方目標。"
+  },
+  {
+    "source": "Order selected squadrons or raptors to return to their hangar.",
+    "translation": "命令所選中隊或猛禽機返回機庫。"
+  },
+  {
+    "source": "Order selected units to defend a target ship.",
+    "translation": "命令所選單位護衛目標船艦。"
+  },
+  {
+    "source": "Order selected units to move to a location. Hold Shift to queue the order.",
+    "translation": "命令所選單位前往指定位置。按住 Shift 可將命令加入佇列。"
+  },
+  {
+    "source": "Order selected units to move toward a location and attack enemies they encounter.",
+    "translation": "命令所選單位前往指定位置，並攻擊沿途遭遇的敵人。"
+  },
+  {
+    "source": "Our Attack Squadron and Miner are still docked. Release them, Commander.",
+    "translation": "攻擊中隊與採礦船還停在機庫裡。指揮官，讓它們出動。"
+  },
+  {
+    "source": "Our Ship was Destroyed",
+    "translation": "我方艦船遭到摧毀"
+  },
+  {
+    "source": "Our ammo storage is full, Commander. Mining Ships will leave any resources we can’t store outside the fleet as cargo.",
+    "translation": "指揮官，彈藥庫已滿。採礦船會將無法存放的資源以貨物形式留在艦隊外。"
+  },
+  {
+    "source": "Our offensive ships are destroyed! We are stuck here forever!",
+    "translation": "我們的攻擊艦全被摧毀了！這下永遠也離不開這裡了！"
+  },
+  {
+    "source": "Our radars detected a point of interest. See that red exclamation mark? It could mean hostile threats or a wreck worth salvaging. Let’s investigate.",
+    "translation": "雷達偵測到值得調查的目標。看到那個紅色驚嘆號了嗎？它可能代表敵方威脅，也可能是值得回收的殘骸。去調查吧。"
+  },
+  {
+    "source": "Our ships are vulnerable out in the open. Command them back to the hangar to keep them safe.",
+    "translation": "小型艦船在外面太容易受到攻擊。命令它們返回機庫，確保安全。"
+  },
+  {
+    "source": "Out Of Ammo!",
+    "translation": "彈藥耗盡！"
+  },
+  {
+    "source": "Overcrowded",
+    "translation": "過度擁擠"
+  },
+  {
+    "source": "Override Charging",
+    "translation": "強制充能"
+  },
+  {
+    "source": "Own ship",
+    "translation": "我方船艦"
+  },
+  {
+    "source": "Own {targetMetal} Metal for Storage module. In storage: {amountMetal} Metal.",
+    "translation": "準備倉儲模組所需的 {targetMetal} 金屬。目前庫存：{amountMetal} 金屬。"
+  },
+  {
+    "source": "Own {targetMetal} Metal for Supply Hold module. In storage: {amountMetal} Metal.",
+    "translation": "準備補給艙模組所需的 {targetMetal} 金屬。目前庫存：{amountMetal} 金屬。"
+  },
+  {
+    "source": "PFAS Goods Factory",
+    "translation": "PFAS 商品工廠"
+  },
+  {
+    "source": "Pale",
+    "translation": "蒼白"
+  },
+  {
+    "source": "Passage",
+    "translation": "航道"
+  },
+  {
+    "source": "Pause",
+    "translation": "暫停"
+  },
+  {
+    "source": "Pavel Irek",
+    "translation": "帕維爾・伊雷克"
+  },
+  {
+    "source": "People",
+    "translation": "人口"
+  },
+  {
+    "source": "People Capacity",
+    "translation": "人口容量"
+  },
+  {
+    "source": "People of Ship",
+    "translation": "艦上居民"
+  },
+  {
+    "source": "People sleeping everywhere",
+    "translation": "人們只能四處露宿"
+  },
+  {
+    "source": "Perfect Ship Health - 100% ship hp",
+    "translation": "艦船狀態完整 - 艦船生命值 100%"
+  },
+  {
+    "source": "Perfect ship hp 100%",
+    "translation": "艦船生命值完整：100%"
+  },
+  {
+    "source": "Pilgrim",
+    "translation": "朝聖者"
+  },
+  {
+    "source": "Pioneer",
+    "translation": "開拓者"
+  },
+  {
+    "source": "Place Farm module anywhere on any ship in your fleet.",
+    "translation": "在艦隊任一艘艦船上放置農場模組。"
+  },
+  {
+    "source": "Place Farm module anywhere on ship.",
+    "translation": "在艦船上放置農場模組。"
+  },
+  {
+    "source": "Place Flak module  on ship with farm modules.",
+    "translation": "在裝有農場模組的艦船上放置防空砲模組。"
+  },
+  {
+    "source": "Place Gauss Cannon module anywhere on ship with farm modules.",
+    "translation": "在裝有農場模組的艦船上放置高斯砲模組。"
+  },
+  {
+    "source": "Place Recycling Station module anywhere on any ship.",
+    "translation": "在任一艘艦船上放置回收站模組。"
+  },
+  {
+    "source": "Place Recycling Station module anywhere on ship.",
+    "translation": "在艦船上放置回收站模組。"
+  },
+  {
+    "source": "Planet bomber",
+    "translation": "行星轟炸機"
+  },
+  {
+    "source": "Pleasure Club",
+    "translation": "休閒俱樂部"
+  },
+  {
+    "source": "Possible threat",
+    "translation": "可能有威脅"
+  },
+  {
+    "source": "President",
+    "translation": "總統"
+  },
+  {
+    "source": "Press Pause button in UI panel or spacebar to pause game. ",
+    "translation": "點擊介面上的暫停按鈕，或按空白鍵暫停遊戲。 "
+  },
+  {
+    "source": "Press Play button in UI panel or spacebar to unpause game.",
+    "translation": "點擊介面上的播放按鈕，或按空白鍵繼續遊戲。"
+  },
+  {
+    "source": "Press and hold {bindings} mouse, to rotate the camera with mouse.",
+    "translation": "按住 {bindings} 滑鼠按鍵，移動滑鼠即可旋轉視角。"
+  },
+  {
+    "source": "Press undock button",
+    "translation": "點擊出動按鈕。"
+  },
+  {
+    "source": "Press undock button to launch the Miner and Squadron ships from your capital ship.",
+    "translation": "點擊出動按鈕，讓採礦船與中隊從主力艦出動。"
+  },
+  {
+    "source": "Press {bindings} reset camera to default.",
+    "translation": "按 {bindings} 將視角重設為預設位置。"
+  },
+  {
+    "source": "Press {bindings} to move camera around.",
+    "translation": "按 {bindings} 移動視角。"
+  },
+  {
+    "source": "Prevents the spread of disease and treats up to 10 sick people, providing a full recovery within 10 days.",
+    "translation": "防止疾病傳播，並同時治療最多 10 名病患，使其在 10 天內完全康復。"
+  },
+  {
+    "source": "Prevents the spread of disease and treats up to 10 sick people, providing a full recovery within 5 days. Also contributes to research at 80% efficiency",
+    "translation": "防止疾病傳播，並同時治療最多 10 名病患，使其在 5 天內完全康復。另以 80% 效率提供研究產出。"
+  },
+  {
+    "source": "Prevents the spread of disease and treats up to 25 sick people, providing a full recovery within 10 days.",
+    "translation": "防止疾病傳播，並同時治療最多 25 名病患，使其在 10 天內完全康復。"
+  },
+  {
+    "source": "Probable Resources",
+    "translation": "可能有資源"
+  },
+  {
+    "source": "Produced by your people as they eat. Fills up storage and needs somewhere to go.",
+    "translation": "人們進食後產生的廢棄物，會占用儲存空間，必須妥善處理。"
+  },
+  {
+    "source": "Production",
+    "translation": "生產"
+  },
+  {
+    "source": "Production Off",
+    "translation": "停止生產"
+  },
+  {
+    "source": "Production On",
+    "translation": "開始生產"
+  },
+  {
+    "source": "Production Overview",
+    "translation": "生產總覽"
+  },
+  {
+    "source": "Progress",
+    "translation": "進度"
+  },
+  {
+    "source": "Promise",
+    "translation": "誓言"
+  },
+  {
+    "source": "Pub House",
+    "translation": "酒館"
+  },
+  {
+    "source": "QUEST NAME",
+    "translation": "任務名稱"
+  },
+  {
+    "source": "Quality",
+    "translation": "畫質"
+  },
+  {
+    "source": "Quasar",
+    "translation": "類星體"
+  },
+  {
+    "source": "Quest",
+    "translation": "任務"
+  },
+  {
+    "source": "Queue",
+    "translation": "佇列"
+  },
+  {
+    "source": "Quiet",
+    "translation": "靜謐"
+  },
+  {
+    "source": "Quit",
+    "translation": "離開"
+  },
+  {
+    "source": "RESEARCH SPEED",
+    "translation": "研究速度"
+  },
+  {
+    "source": "RESTART",
+    "translation": "重新開始"
+  },
+  {
+    "source": "REWARDS",
+    "translation": "獎勵"
+  },
+  {
+    "source": "Radiant",
+    "translation": "輝煌"
+  },
+  {
+    "source": "Radioactive Danger",
+    "translation": "輻射危害"
+  },
+  {
+    "source": "Raise HP of all Mining Ships and Attack Squadrons by 30%. Can be built once.",
+    "translation": "所有採礦船與攻擊中隊的生命值提高 30%。限建一座。"
+  },
+  {
+    "source": "Raise Range of all Flak Cannons by 25%.",
+    "translation": "所有防空砲的射程提高 25%。"
+  },
+  {
+    "source": "Raise max speed of all ships by 20%.",
+    "translation": "所有艦船的最高速度提高 20%。"
+  },
+  {
+    "source": "Raise storage place for {storedResources}",
+    "translation": "增加 {storedResources} 的儲存空間"
+  },
+  {
+    "source": "Raises production of Goods in every Goods Factory by 20%. Can be built once. ",
+    "translation": "所有商品工廠的商品產量提高 20%。限建一座。 "
+  },
+  {
+    "source": "Ram",
+    "translation": "撞擊"
+  },
+  {
+    "source": "Range",
+    "translation": "射程"
+  },
+  {
+    "source": "Raptors",
+    "translation": "採礦船"
+  },
+  {
+    "source": "Rations",
+    "translation": "配給"
+  },
+  {
+    "source": "Raw Materials",
+    "translation": "原料"
+  },
+  {
+    "source": "Reach",
+    "translation": "遠域"
+  },
+  {
+    "source": "Reactive Armor",
+    "translation": "反應裝甲"
+  },
+  {
+    "source": "Recycling Law",
+    "translation": "回收法"
+  },
+  {
+    "source": "Recycling Station",
+    "translation": "回收站"
+  },
+  {
+    "source": "Reduce Fuel Cost of FTL travel by 10%.",
+    "translation": "FTL 航行的燃料消耗降低 10%。"
+  },
+  {
+    "source": "Reduces consuption of Food by 10%. Can be built once.",
+    "translation": "食物消耗降低 10%。限建一座。"
+  },
+  {
+    "source": "Refinery",
+    "translation": "精煉廠"
+  },
+  {
+    "source": "Reflective Armor",
+    "translation": "反射裝甲"
+  },
+  {
+    "source": "Reinforced Miner Cargo Storage",
+    "translation": "強化採礦船貨艙"
+  },
+  {
+    "source": "Release All",
+    "translation": "全部出動"
+  },
+  {
+    "source": "Reload  ",
+    "translation": "裝填  "
+  },
+  {
+    "source": "Remove selected squadrons from their current formation.",
+    "translation": "讓所選中隊脫離目前的編隊。"
+  },
+  {
+    "source": "Repair Bay",
+    "translation": "維修艙"
+  },
+  {
+    "source": "Repair Squadron",
+    "translation": "維修中隊"
+  },
+  {
+    "source": "Repair current ship during FTL travel.",
+    "translation": "在 FTL 航行期間修復所在艦船。"
+  },
+  {
+    "source": "Repairs all damaged ships in the fleet during FTL travel. Repair drones are deployed to 2 ships, sharing the bay’s total repair capacity.",
+    "translation": "在 FTL 航行期間修復艦隊中所有受損艦船。維修無人機會派往 2 艘艦船，共享維修艙的總修復能力。"
+  },
+  {
+    "source": "Repairs all damaged ships in the fleet during FTL travel. Repair drones are deployed to 4 ships, sharing the bay’s total repair capacity.",
+    "translation": "在 FTL 航行期間修復艦隊中所有受損艦船。維修無人機會派往 4 艘艦船，共享維修艙的總修復能力。"
+  },
+  {
+    "source": "Repairs all damaged ships in the fleet during FTL travel. Repair drones are deployed to each ship, sharing the bay’s total repair capacity.",
+    "translation": "在 FTL 航行期間修復艦隊中所有受損艦船。維修無人機會派往每艘艦船，共享維修艙的總修復能力。"
+  },
+  {
+    "source": "Report Bug",
+    "translation": "回報問題"
+  },
+  {
+    "source": "Research",
+    "translation": "研究"
+  },
+  {
+    "source": "Research\n",
+    "translation": "研究\n"
+  },
+  {
+    "source": "Research Center",
+    "translation": "研究中心"
+  },
+  {
+    "source": "Research Speed",
+    "translation": "研究速度"
+  },
+  {
+    "source": "Research Tree",
+    "translation": "研究樹"
+  },
+  {
+    "source": "Research complete!",
+    "translation": "研究完成！"
+  },
+  {
+    "source": "Research description",
+    "translation": "研究說明"
+  },
+  {
+    "source": "Research the Metallurgy module in research tree ({currentResearch}).",
+    "translation": "在研究樹中研究冶金模組（{currentResearch}）。"
+  },
+  {
+    "source": "Reset",
+    "translation": "重設"
+  },
+  {
+    "source": "Reset Game Data",
+    "translation": "重設遊戲資料"
+  },
+  {
+    "source": "Resolution",
+    "translation": "解析度"
+  },
+  {
+    "source": "Resource Selection",
+    "translation": "選擇資源"
+  },
+  {
+    "source": "Restart",
+    "translation": "重新開始"
+  },
+  {
+    "source": "Restless",
+    "translation": "不息"
+  },
+  {
+    "source": "Results-Only Shift",
+    "translation": "成果導向班制"
+  },
+  {
+    "source": "Resumes production in this module.",
+    "translation": "恢復此模組的生產。"
+  },
+  {
+    "source": "Retrievable materials from destroyed ships or dropped storage.",
+    "translation": "可從毀損船艦或散落貨物中回收的物資。"
+  },
+  {
+    "source": "Return to Hangar",
+    "translation": "返回機庫"
+  },
+  {
+    "source": "Rich asteroid full of resources.",
+    "translation": "蘊藏豐富資源的小行星。"
+  },
+  {
+    "source": "Right click on projected enemy to destroy it.",
+    "translation": "以滑鼠右鍵點擊模擬敵軍，將其摧毀。"
+  },
+  {
+    "source": "Right-click a capital ship with your Squadron to guard it.",
+    "translation": "選取中隊後，以滑鼠右鍵點擊主力艦，即可讓中隊護衛它。"
+  },
+  {
+    "source": "Right-click anywhere to move the selected ship to new destination.",
+    "translation": "以滑鼠右鍵點擊目的地，命令選取的艦船移動。"
+  },
+  {
+    "source": "Right-click on wreck to send Miner there to search.",
+    "translation": "以滑鼠右鍵點擊殘骸，派採礦船前往搜索。"
+  },
+  {
+    "source": "Right-click on wreck to send it there.",
+    "translation": "以滑鼠右鍵點擊殘骸，命令艦船前往。"
+  },
+  {
+    "source": "Right-click on wreck.",
+    "translation": "以滑鼠右鍵點擊殘骸。"
+  },
+  {
+    "source": "Right-click the decommissioned ship for ships to attack.",
+    "translation": "以滑鼠右鍵點擊退役船艦，命令我方船艦攻擊。"
+  },
+  {
+    "source": "Right-click the projected enemy ships to attack.",
+    "translation": "以滑鼠右鍵點擊投影出的敵艦，發動攻擊。"
+  },
+  {
+    "source": "Right-click the smaller asteroid for ships to attack.",
+    "translation": "以滑鼠右鍵點擊較小的小行星，命令艦船攻擊。"
+  },
+  {
+    "source": "Run the simulation at double speed.",
+    "translation": "以兩倍速度進行遊戲。"
+  },
+  {
+    "source": "Run the simulation at normal speed.",
+    "translation": "以正常速度進行遊戲。"
+  },
+  {
+    "source": "Run the simulation at the fastest speed.",
+    "translation": "以最快速度進行遊戲。"
+  },
+  {
+    "source": "SIDE MISSIONS",
+    "translation": "支線任務"
+  },
+  {
+    "source": "START GAME",
+    "translation": "開始遊戲"
+  },
+  {
+    "source": "Sable",
+    "translation": "漆黑"
+  },
+  {
+    "source": "Salvage Wreck",
+    "translation": "回收殘骸"
+  },
+  {
+    "source": "Salvage options",
+    "translation": "回收選項"
+  },
+  {
+    "source": "Saturates an area with flak fire, damaging enemy fighters and missiles inside it. Needs at least two flak cannons.",
+    "translation": "以密集防空火力覆蓋區域，傷害其中的敵方戰機與飛彈。至少需要兩門防空砲。"
+  },
+  {
+    "source": "Save Game",
+    "translation": "儲存遊戲"
+  },
+  {
+    "source": "Save first ally ship by destroying its attacker with your Capital ships. Capital ship's gauss cannons are strong against Reactive Armor on enemy Frigate.",
+    "translation": "用主力艦摧毀攻擊者，救下第一艘友軍艦船。主力艦的高斯砲能有效對付敵方巡防艦的反應裝甲。"
+  },
+  {
+    "source": "Save first ship (optional)",
+    "translation": "救援第一艘艦船（選擇性）"
+  },
+  {
+    "source": "Save second ally ship  by destroying its attacker with your Corvette. Corvette's rockets are strong against Reflective Armor on enemy Light Destroyer.",
+    "translation": "用護衛艦摧毀攻擊者，救下第二艘友軍艦船。護衛艦的飛彈能有效對付敵方輕型驅逐艦的反射裝甲。"
+  },
+  {
+    "source": "Save second ship (optional)",
+    "translation": "救援第二艘艦船（選擇性）"
+  },
+  {
+    "source": "Save {amountRaptor}/{targetRaptor} Mining Ships from Wrecks (optional)",
+    "translation": "從殘骸中救出採礦船：{amountRaptor}/{targetRaptor}（選擇性）"
+  },
+  {
+    "source": "Screen Edge Scrolling",
+    "translation": "畫面邊緣捲動"
+  },
+  {
+    "source": "Screen Mode",
+    "translation": "顯示模式"
+  },
+  {
+    "source": "Search For Lechu",
+    "translation": "尋找利丘"
+  },
+  {
+    "source": "Search Near By Systems",
+    "translation": "搜索附近星系"
+  },
+  {
+    "source": "Search nearby star systems for resources and a safe route forward. Our fleet’s survival depends on what you find.",
+    "translation": "搜索附近星系，尋找資源與安全的前進路線。艦隊能否生存，就取決於你的發現。"
+  },
+  {
+    "source": "Search the ancient artefact structure.",
+    "translation": "搜索古代遺物建築。"
+  },
+  {
+    "source": "Search the lechu for lost coordinates that are inside Wrecks. {amountLechuCoordinates}/{targetLechuCoordinates}",
+    "translation": "搜索殘骸，找回失落的利丘座標。{amountLechuCoordinates}/{targetLechuCoordinates}"
+  },
+  {
+    "source": "Section",
+    "translation": "區段"
+  },
+  {
+    "source": "Secure the core and prepare the fleet to jump. We’ll study what we’ve found on the way. Whoever answered that signal, we’re not waiting here to meet them.",
+    "translation": "保護好核心，讓艦隊準備躍遷。路上再研究這些發現。不管是誰回應了訊號，我們都不會留在這裡等他們。"
+  },
+  {
+    "source": "Select",
+    "translation": "選擇"
+  },
+  {
+    "source": "Select Capital Ship.",
+    "translation": "選取主力艦。"
+  },
+  {
+    "source": "Select Farm module.",
+    "translation": "選擇農場模組。"
+  },
+  {
+    "source": "Select Flak module.",
+    "translation": "選擇防空砲模組。"
+  },
+  {
+    "source": "Select Gauss Canon module.",
+    "translation": "選擇高斯砲模組。"
+  },
+  {
+    "source": "Select Main Ship.",
+    "translation": "選取主艦。"
+  },
+  {
+    "source": "Select Miner Ship.",
+    "translation": "選取採礦船。"
+  },
+  {
+    "source": "Select Miner and send it to search the other red exclamation mark.",
+    "translation": "選取採礦船，派它前往另一個紅色驚嘆號處調查。"
+  },
+  {
+    "source": "Select Miner and send it to search the red exclamation mark.",
+    "translation": "選取採礦船，派它前往紅色驚嘆號處調查。"
+  },
+  {
+    "source": "Select Miner and send it to the debris.",
+    "translation": "選取採礦船並派往散落物資處。"
+  },
+  {
+    "source": "Select Multiple Mining Ships",
+    "translation": "選取多艘採礦船"
+  }
+]

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.dll
+*.exe
+*.assets
+*.resS
+*.dat
+*.data
+*.ttf
+*.zip
+Saves/
+payload/
+backup_original/
+backup_previous_0.2.0/
+node_modules/

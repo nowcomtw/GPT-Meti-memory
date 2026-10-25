@@ -1,0 +1,220 @@
+{
+  "time": "2026-10-22T08:07:14.527831+08:00",
+  "game_files": 42,
+  "localized_files": 2,
+  "original_unchanged_files": 40,
+  "unexpected_files": [],
+  "user_save_files_unchanged": 3,
+  "files": [
+    {
+      "path": "baselib.dll",
+      "sha256": "0cb038fe8e30f9b348a9528311515a63b5e3bf53abe424906875954b12eead87",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "D3D12\\D3D12Core.dll",
+      "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "GameAssembly.dll",
+      "sha256": "5bc1f0b2c3e42077a1bc1476ca586f2aff0638e494347de6e6e9d95702a449c5",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome.exe",
+      "sha256": "cd92b05ed769afaa7b8555885e1164c80a3217f513ccb4d3e5c9daac337dc16f",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\app.info",
+      "sha256": "f814ca20a0a9cc411d5f0bb46dd74281dad1a2684fb0507a79d2e0522ece743f",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\boot.config",
+      "sha256": "0420e15206ab59bb78058cc715d3a5cbdfa8a2c546beddf86bf6ae174fcfb5f0",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\globalgamemanagers",
+      "sha256": "5c75e4f4cc4a3d90a19f0ce70af8b98fc50ee1700587137b23d28dd2f4af06d8",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\globalgamemanagers.assets",
+      "sha256": "23fd941f91cda6e7b5277db58e034c65b5504736803ef3fcb4e4d35bd9be948f",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\globalgamemanagers.assets.resS",
+      "sha256": "146a7ab4bd5c7d7862530673132dddc4b8846b868b986f3855d90b0697b8a664",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\il2cpp.usym",
+      "sha256": "d90b97f81edb4a0dab7c53ea9e990829f2b4a39f5176529ca8b721f6240b7528",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+      "sha256": "27885f366dda66cec4f762082699da3025301ab213a8c72cd6d1c9143e1b953b",
+      "status": "LOCALIZATION_0.2.1"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\Resources\\mscorlib.dll-resources.dat",
+      "sha256": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\Resources\\Newtonsoft.Json.dll-resources.dat",
+      "sha256": "531de49e73ddea25554c9f656f54da2a665946f3fec57048e0cfe3b9e49b03f8",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\Resources\\System.Data.dll-resources.dat",
+      "sha256": "98a7950ec6de3242c2e190dfa630188dfa32511a125542b94baa952d1c757d49",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\il2cpp_data\\Resources\\System.Drawing.dll-resources.dat",
+      "sha256": "7c33aa707bc3fdc83991b81a97d6fc622b140762a767300f08f616c2c0a91255",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\level0",
+      "sha256": "415bfaac7df20d5008ff153f1ca9a3758f499212f577fede0b1aad65c2d711b1",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\level1",
+      "sha256": "3e98704e73d4e0390a6ad80d810763a31eb598b6c072a0c18f41f361e331f321",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Plugins\\ARM64\\AppUINativePlugin.dll",
+      "sha256": "aa5481f1838e3392757a8661927fd61a90417491f17a9a24d753be0dfd62c9ad",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Plugins\\Steamworks.NET.txt",
+      "sha256": "61b338adccd28fc685c1e242a5a2365591b49c4d3928242a3b58cd73d399f63a",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Plugins\\x86_64\\AppUINativePlugin.dll",
+      "sha256": "f2227af57d2c01cae8a2ec2d14bc5b32c4c2ff163b4be22db26e2397e22ebbf5",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Plugins\\x86_64\\lib_burst_generated.dll",
+      "sha256": "3993d7e17ce668245edd3fd29573a1a3c0883ff35478a59dad3295862ab4382c",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Plugins\\x86_64\\steam_api64.dll",
+      "sha256": "e3fe06e2d802c2f753aeb46869e2af898f34715ce85f08001456fd8a80ecd21e",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Resources\\unity default resources",
+      "sha256": "fb2492cd1ad7c38dda8a4ce5f1a1fb57edcff44e3ae250b263e44beae3660ec4",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\Resources\\unity_builtin_extra",
+      "sha256": "1f7548a0e8397902eb1e2ee9424144f26cfc57d57edd97815219a5fecc05dc88",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\resources.assets",
+      "sha256": "ec649bbd426eaca248fb4f934c92d775f2979dd588487fa4a56f8bb7847e4021",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\resources.assets.resS",
+      "sha256": "68b1ce5dfe0ec99f5c44abb0861b9b394a4bfa874515979994574ac6674936ca",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\RuntimeInitializeOnLoads.json",
+      "sha256": "a61c13d8e5830b1e141650ebe50374b64af44f62e1168bebce604469c26c46af",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\ScriptingAssemblies.json",
+      "sha256": "a2a677a44a5239bd167d81e991f8a0f497619949ca212976fc4a258082534da7",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets0.assets",
+      "sha256": "fd1e1d58df71441d60b1aeb276c5a94ce74abb1f2bd2c03760f043375c632104",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets0.assets.resS",
+      "sha256": "a901184084676ce854ed8eb8906a204140e4d7b691762747e7f085f3c62d0ce8",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets0.resource",
+      "sha256": "5d661a4c974bd97ec6c573a4eb573c2ecdc1de57b139f012cdd6c74b8ec88e18",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets1.assets",
+      "sha256": "f280b9f05c0a35c740869e2af58460c926f7a5b4782f7ad87ad48f940f4430ad",
+      "status": "LOCALIZATION_0.2.1"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets1.assets.resS",
+      "sha256": "13b5b7a47f1718ba9d8b9725013723a90db488144fa143cda43d944c41d9a96b",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\sharedassets1.resource",
+      "sha256": "97c43dcbb9d09e6bda9d311c9f785fdf5b5d4caab195c8176be86d9bce13024d",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\aa\\AddressablesLink\\link.xml",
+      "sha256": "e676677802664de09835833f8814be9b139fa1bff948d4d3a2d909c268f9a023",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\aa\\catalog.bin",
+      "sha256": "4baa680f2ce1b6b7e850ff3f2de95316dce6d6621c00c90c3d042272e1aadc45",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\aa\\catalog.hash",
+      "sha256": "e755802ebbf064351ef31f0b30fef4b058e35586b649cb8ba0ca4fa73692bec0",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\aa\\settings.json",
+      "sha256": "201ade33f4c1d9f3bd8b7e9925544ae0780ec940369e442d4783a16942c0b3b9",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\EntityScenes\\scene_info.bin",
+      "sha256": "d2be8a202cbba748d023cb42f5374a6e695ffd657e8218964abca030a1621cce",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "StarHome_Data\\StreamingAssets\\UnityServicesProjectConfiguration.json",
+      "sha256": "6271ffeb3bf0bb1544d85072ebcef9d7c059023cb2be0738e49f66dcf5de3d40",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "UnityCrashHandler64.exe",
+      "sha256": "d29e842f79a2fb0088162d11192a5d6c6b3cd9ab548714e10cb4402a52bcf459",
+      "status": "ORIGINAL_UNCHANGED"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "sha256": "2be93e588150d71d68ff7c06a745838cee97faf9ebef00bd0d59e8c1698fb85a",
+      "status": "ORIGINAL_UNCHANGED"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "objects_parsed": 1684,
+  "parse_errors": 0,
+  "typed_latin_string_entries": 2004,
+  "odin_latin_string_entries": 5417,
+  "method_bodies_scanned_for_shared_literals": 146424,
+  "resource_enum_display_coverage": "18/18 including None",
+  "incremental_typed_display_fields": 7,
+  "incremental_odin_display_fields": 4,
+  "incremental_resource_display_values": 18,
+  "incremental_metadata_literals": 25,
+  "query_key_rename": "Construction -> 建造: metadata lookup + 2 UXML serialized mirrors, no matching USS selector",
+  "gameplay_values_and_ids": "unchanged",
+  "user_entry_exit": "USER_REPORTED_PASS",
+  "native_verification": "Reported screenshot targets passed, see native_qa.json",
+  "final_objects_parsed": 1684,
+  "final_parse_errors": 0,
+  "remaining_odin_display_latin_values": [
+    "A",
+    "Starhome",
+    "a"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "odin_display_remaining": [
+    {
+      "file": "sharedassets1.assets",
+      "oid": 11240,
+      "asset": "AlliedArmada",
+      "field": "Title",
+      "value": "A"
+    },
+    {
+      "file": "sharedassets1.assets",
+      "oid": 11240,
+      "asset": "AlliedArmada",
+      "field": "Description",
+      "value": "a"
+    },
+    {
+      "file": "sharedassets1.assets",
+      "oid": 11536,
+      "asset": "MainShip_PlayerFleet",
+      "field": "<Name>k__BackingField",
+      "value": "Starhome"
+    },
+    {
+      "file": "sharedassets1.assets",
+      "oid": 11537,
+      "asset": "MainShip_PlayerFleet_Easy",
+      "field": "<Name>k__BackingField",
+      "value": "Starhome"
+    },
+    {
+      "file": "sharedassets1.assets",
+      "oid": 11567,
+      "asset": "MainShip_PlayerFleet_fight",
+      "field": "<Name>k__BackingField",
+      "value": "Starhome"
+    }
+  ],
+  "branding_and_abbreviations": [
+    "STARHOME",
+    "DISCORD",
+    "GAMEOPS",
+    "FTL",
+    "HP",
+    "DPS",
+    "PFAS"
+  ],
+  "existing_user_ship_names": "Preserved in saves; no save rewriting.",
+  "bitmap_text": "Existing promotional/external survey image text retained.",
+  "developer_diagnostic_interfaces": "Third-party Hot Reload, Runtime Debug UI and console/internal command identifiers retained.",
+  "native_acceptance_limit": "All story branches and every UI state have not been played through."
+}

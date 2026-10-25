@@ -1,0 +1,626 @@
+[
+  {
+    "source": "Select aggressive mode on your Squadron.",
+    "translation": "將中隊切換至進攻模式。"
+  },
+  {
+    "source": "Select defensive mode on your Squadron.",
+    "translation": "將中隊切換至防禦模式。"
+  },
+  {
+    "source": "Select module to recycle",
+    "translation": "選擇要拆解的模組"
+  },
+  {
+    "source": "Select newly build Storage module on your ship, and select Raw Materials option in its menu.",
+    "translation": "選取艦上新建的倉儲模組，並在其選單中選擇原料。"
+  },
+  {
+    "source": "Select newly build Supply Hold module on your ship, and select Water option in its menu.",
+    "translation": "選取艦上新建的補給艙模組，並在其選單中選擇水。"
+  },
+  {
+    "source": "Select one of your mining ships (marked with rectangular icon) and then right-click on any minable asteroid to start mining",
+    "translation": "選取一艘採礦船（以長方形圖示標示），再以滑鼠右鍵點擊可開採的小行星，開始開採。"
+  },
+  {
+    "source": "Select star system and travel to escape from this star system using FTL.",
+    "translation": "選擇一個星系，使用 FTL 航行逃離目前星系。"
+  },
+  {
+    "source": "Select weapons category.",
+    "translation": "選擇武器分類。"
+  },
+  {
+    "source": "Select wreck button to search the wreck. Then select a resource you want to save from wreck.",
+    "translation": "點擊搜索殘骸按鈕，再選擇要從殘骸中回收的資源。"
+  },
+  {
+    "source": "Select your Attack Squadron with left-click.",
+    "translation": "以滑鼠左鍵選取攻擊中隊。"
+  },
+  {
+    "source": "Select your Capital Ship with left-click.",
+    "translation": "以滑鼠左鍵選取主力艦。"
+  },
+  {
+    "source": "Select your Miner ship (marked with rectangular icon).",
+    "translation": "選取採礦船（以長方形圖示標示）。"
+  },
+  {
+    "source": "Sell",
+    "translation": "出售"
+  },
+  {
+    "source": "Send",
+    "translation": "送出"
+  },
+  {
+    "source": "Send Squadrons to search the red exclamation mark.",
+    "translation": "派中隊前往紅色驚嘆號處調查。"
+  },
+  {
+    "source": "Send Us Feedback",
+    "translation": "提供意見"
+  },
+  {
+    "source": "Send it to search the red exclamation mark.",
+    "translation": "派它前往紅色驚嘆號處調查。"
+  },
+  {
+    "source": "Send our Attack Squadron's to battle. Use nukes! Anything!",
+    "translation": "派攻擊中隊投入戰鬥！發射核彈！能用的全用上！"
+  },
+  {
+    "source": "Send the selected squadron to the nearest free emergency repair bay. It docks, gets repaired and launches again on its own.",
+    "translation": "將所選中隊派往最近且空閒的緊急維修艙。中隊會自行入塢、接受維修，並在完成後再次出動。"
+  },
+  {
+    "source": "Sentinel",
+    "translation": "哨兵"
+  },
+  {
+    "source": "Serves lower-quality meals. Food consumption drops by 50%, but every production module loses 40% of its output. Switch it on or off any time.",
+    "translation": "供應品質較差的餐食，使食物消耗降低 50%，但所有生產模組的產出也會降低 40%。可隨時啟用或停用。"
+  },
+  {
+    "source": "Set how this module operates — turn production on or off, or switch to a researched shift.",
+    "translation": "設定此模組的運作方式：開啟或關閉生產，或切換為已研發的輪班制度。"
+  },
+  {
+    "source": "Settings",
+    "translation": "設定"
+  },
+  {
+    "source": "Settings ",
+    "translation": "設定 "
+  },
+  {
+    "source": "Sewage Treatment Plant",
+    "translation": "污水處理廠"
+  },
+  {
+    "source": "Shark",
+    "translation": "鯊魚號"
+  },
+  {
+    "source": "Shift penalties",
+    "translation": "輪班懲罰"
+  },
+  {
+    "source": "Shift-click multiple debris with a Mining Ship selected to queue an automatic collection route.",
+    "translation": "選取採礦船後，按住 Shift 並逐一點擊多處散落物資，即可排定自動收集路線。"
+  },
+  {
+    "source": "Shifts",
+    "translation": "輪班制度"
+  },
+  {
+    "source": "Ship",
+    "translation": "艦船"
+  },
+  {
+    "source": "Ship Morale",
+    "translation": "艦船士氣"
+  },
+  {
+    "source": "Ship Workforce",
+    "translation": "艦船勞動力"
+  },
+  {
+    "source": "Ship health",
+    "translation": "艦船生命值"
+  },
+  {
+    "source": "Ship weapon ammunition. Keeps threats at bay.",
+    "translation": "艦載武器使用的彈藥，可用來抵禦威脅。"
+  },
+  {
+    "source": "Ship {Name} is under attack!",
+    "translation": "艦船 {Name} 正遭受攻擊！"
+  },
+  {
+    "source": "Shop",
+    "translation": "商店"
+  },
+  {
+    "source": "Short range offensive weapons. So fast it never miss.",
+    "translation": "短程攻擊武器。射擊速度極快，必定命中目標。"
+  },
+  {
+    "source": "Side ship 1",
+    "translation": "支援艦 1"
+  },
+  {
+    "source": "Side ship 2",
+    "translation": "支援艦 2"
+  },
+  {
+    "source": "Side ship 3",
+    "translation": "支援艦 3"
+  },
+  {
+    "source": "Side ship 4",
+    "translation": "支援艦 4"
+  },
+  {
+    "source": "Side ship 5",
+    "translation": "支援艦 5"
+  },
+  {
+    "source": "Signal",
+    "translation": "訊號"
+  },
+  {
+    "source": "Silent",
+    "translation": "寂靜"
+  },
+  {
+    "source": "Slight casulties in current system",
+    "translation": "在目前星系有少量傷亡"
+  },
+  {
+    "source": "Small craft used to escape from ship in emergency situation. Contain living people inside.",
+    "translation": "緊急時用來逃離船艦的小型載具，內有生還者。"
+  },
+  {
+    "source": "Solar",
+    "translation": "太陽"
+  },
+  {
+    "source": "Solstice",
+    "translation": "至日"
+  },
+  {
+    "source": "Some of your people have nowhere to live, which lowers well-being.\nBuild more Living Quarters modules.",
+    "translation": "部分族人無處居住，導致身心狀態下降。\n請建造更多生活艙模組。"
+  },
+  {
+    "source": "Speed",
+    "translation": "速度"
+  },
+  {
+    "source": "Squadron Factory",
+    "translation": "中隊工廠"
+  },
+  {
+    "source": "Squadron Hangar",
+    "translation": "中隊機庫"
+  },
+  {
+    "source": "Squadrons focus on dealing damage.",
+    "translation": "中隊優先追求火力輸出。"
+  },
+  {
+    "source": "Squadrons have two additional modes in addition to the base one: Aggressive and Defensive. Now, let’s try Aggressive mode! The shots are much stronger, but the ship's defense is low.",
+    "translation": "除了標準模式，中隊還有進攻與防禦兩種模式。現在先試試進攻模式！火力會更強，但防禦能力也會下降。"
+  },
+  {
+    "source": "Squadrons prioritize survival and evasion.",
+    "translation": "中隊優先確保生存並閃避攻擊。"
+  },
+  {
+    "source": "Squadrons use balanced combat behavior.",
+    "translation": "中隊採取均衡的戰鬥方式。"
+  },
+  {
+    "source": "Square Formation",
+    "translation": "方形編隊"
+  },
+  {
+    "source": "Star Stability Warning",
+    "translation": "恆星穩定性警告"
+  },
+  {
+    "source": "Stasis Pod",
+    "translation": "休眠艙"
+  },
+  {
+    "source": "Station",
+    "translation": "太空站"
+  },
+  {
+    "source": "Stats",
+    "translation": "屬性"
+  },
+  {
+    "source": "Steam ID:",
+    "translation": "Steam 識別碼："
+  },
+  {
+    "source": "Stellar",
+    "translation": "星辰"
+  },
+  {
+    "source": "Stockpile Raw Materials ({amountRawMaterials}/{targetRawMaterials}).",
+    "translation": "儲備原料（{amountRawMaterials}/{targetRawMaterials}）。"
+  },
+  {
+    "source": "Stockpile Water {amountWater}/{targetWater}.",
+    "translation": "儲備水 {amountWater}/{targetWater}。"
+  },
+  {
+    "source": "Stop",
+    "translation": "停止"
+  },
+  {
+    "source": "Stop Construction (Return 100% Resources)",
+    "translation": "停止建造（退還 100% 資源）"
+  },
+  {
+    "source": "Stop the flow of time. Press again to resume at the previous speed.",
+    "translation": "暫停時間。再次點擊即可恢復先前的速度。"
+  },
+  {
+    "source": "Stops production in this module immediately.",
+    "translation": "立即停止此模組的生產。"
+  },
+  {
+    "source": "Storage",
+    "translation": "倉儲"
+  },
+  {
+    "source": "Storage Full ",
+    "translation": "倉庫已滿 "
+  },
+  {
+    "source": "Storage capacity",
+    "translation": "儲存容量"
+  },
+  {
+    "source": "Storage for {storedResources}",
+    "translation": "儲存 {storedResources}"
+  },
+  {
+    "source": "Store and fix Corvette during FTL jump",
+    "translation": "在 FTL 躍遷期間收納並修復護衛艦"
+  },
+  {
+    "source": "Store and fix Miner Ships during FTL jump",
+    "translation": "在 FTL 躍遷期間收納並修復採礦船"
+  },
+  {
+    "source": "Store and fix Squadron during FTL jump",
+    "translation": "在 FTL 躍遷期間收納並修復中隊"
+  },
+  {
+    "source": "Store and fix {storedResources}s during FTL jump",
+    "translation": "在 FTL 躍遷期間收納並修復 {storedResources}"
+  },
+  {
+    "source": "Stores aditional {storedResources} missiles",
+    "translation": "額外儲存 {storedResources} 枚飛彈"
+  },
+  {
+    "source": "Strategy Operations Headquarters",
+    "translation": "戰略作戰總部"
+  },
+  {
+    "source": "Streamer Mode",
+    "translation": "實況模式"
+  },
+  {
+    "source": "Streamlined Engine",
+    "translation": "流線型引擎"
+  },
+  {
+    "source": "Strong vs. flak",
+    "translation": "善於抵禦防空砲"
+  },
+  {
+    "source": "Strong vs. gauss but weak vs. laser",
+    "translation": "善於抵禦高斯砲，但不耐雷射攻擊"
+  },
+  {
+    "source": "Strong vs. laser but weak vs. rockets",
+    "translation": "善於抵禦雷射，但不耐飛彈攻擊"
+  },
+  {
+    "source": "Strong vs. rockets but weak vs. gauss",
+    "translation": "善於抵禦飛彈，但不耐高斯砲攻擊"
+  },
+  {
+    "source": "Stuck Here",
+    "translation": "受困於此"
+  },
+  {
+    "source": "Summit",
+    "translation": "頂峰"
+  },
+  {
+    "source": "Supernova",
+    "translation": "超新星"
+  },
+  {
+    "source": "Supply Hold",
+    "translation": "補給艙"
+  },
+  {
+    "source": "Survival Protocol",
+    "translation": "生存協議"
+  },
+  {
+    "source": "Survivalist",
+    "translation": "求生者"
+  },
+  {
+    "source": "Switch between the fleet view and the galaxy map to plan your next FTL jump.",
+    "translation": "在艦隊視角與星系地圖之間切換，規劃下一次超光速跳躍。"
+  },
+  {
+    "source": "Synthetics Labs",
+    "translation": "合成實驗室"
+  },
+  {
+    "source": "TO ALL FLEETS! WE ARE UNDER ATTACK BY UNKNOWN FORCES! ALL UNITS, SCRAMBLE!",
+    "translation": "通告所有艦隊！我們正遭受不明勢力攻擊！所有單位，立即出動！"
+  },
+  {
+    "source": "TRANSMISSION INCOMING",
+    "translation": "收到通訊"
+  },
+  {
+    "source": "TRAVEL",
+    "translation": "躍遷"
+  },
+  {
+    "source": "TRAVELING",
+    "translation": "航行中"
+  },
+  {
+    "source": "Teaching Medical Bay",
+    "translation": "教學醫療艙"
+  },
+  {
+    "source": "Thank you for saving us. Our ship has no working defenses left, but we still have supplies to offer. We can offer you some resources as thanks, or would you consider us to join your fleet?",
+    "translation": "謝謝你們救了我們。我們的艦船已經沒有能用的防禦裝備，但還有一些補給。我們可以送些資源作為謝禮，或者，你們願意讓我們加入艦隊嗎？"
+  },
+  {
+    "source": "Thank you for saving us. We don't have any functional defenses left on our ship. Can we join your fleet?",
+    "translation": "謝謝你們救了我們。我們艦上已沒有能用的防禦裝備。能讓我們加入你們的艦隊嗎？"
+  },
+  {
+    "source": "That is not a good idea.",
+    "translation": "這不是個好主意。"
+  },
+  {
+    "source": "That smaller asteroid will make a perfect target for our artillery guns. We've marked it as an enemy ship. Let's destroy it.",
+    "translation": "那顆較小的小行星很適合作為火砲的練習目標。我們已將它標記為敵艦，摧毀它吧。"
+  },
+  {
+    "source": "That was one hell of an explosion! The nuclear test was successful. The missiles are fully operational.",
+    "translation": "這次爆炸真夠猛烈！核彈測試成功，飛彈已確認可正常運作。"
+  },
+  {
+    "source": "That's everything we needed to cover during the practice mission.",
+    "translation": "本次演習需要練習的內容都已完成。"
+  },
+  {
+    "source": "That's how it's done! Another enemy unit will be projected. Since we can't always know how strong our enemies are, let's switch to Defensive mode. We won't hit as hard, but our Squadron will be much harder to take down.",
+    "translation": "做得好！接下來會模擬另一個敵方單位。由於我們不一定能掌握敵軍實力，這次改用防禦模式。火力雖會降低，但中隊也會更難被擊潰。"
+  },
+  {
+    "source": "That’s comforting to hear Pavel.",
+    "translation": "聽你這麼說就安心了，帕維爾。"
+  },
+  {
+    "source": "The Behemoth",
+    "translation": "貝希摩斯號"
+  },
+  {
+    "source": "The Enemy Cruiser has appeared, we must prevail!",
+    "translation": "敵方巡洋艦出現了，我們必須撐過去！"
+  },
+  {
+    "source": "The FTL engines are now ready.",
+    "translation": "超光速引擎已準備就緒。"
+  },
+  {
+    "source": "The best strategists are making the best of the ships we have. When built, increases damage by 20%. Can be built once.",
+    "translation": "頂尖戰略家能充分發揮現有艦船的戰力。建成後，傷害提高 20%。限建一座。"
+  },
+  {
+    "source": "The final part of our practice mission is a nuclear test. We can use it on that asteroid group to simulate an enemy fleet. Keep in mind, Commander, we have a very limited number of nukes.",
+    "translation": "演習的最後一部分是核彈測試。我們可以用那群小行星模擬敵方艦隊。請留意，指揮官，我們的核彈數量非常有限。"
+  },
+  {
+    "source": "The salvage team recovered an intact data core. It will take time to decipher, but the preliminary findings are extraordinary. This could open up entirely new fields of research. New technologies that could give our people a better future.",
+    "translation": "回收小隊帶回了一枚完整的資料核心。解讀它還需要時間，但初步發現已經十分驚人。它可能開啟全新的研究領域，帶來讓我們的人民擁有更好未來的新科技。"
+  },
+  {
+    "source": "Then we change course toward Alpha Centauri. Prepare the fleet.",
+    "translation": "那就改變航向，前往半人馬座阿爾法星。讓艦隊做好準備。"
+  },
+  {
+    "source": "Then we keep moving. Until we know more, our priority is keeping our people alive. We need to strengthen the fleet and make sure the colony can sustain itself.",
+    "translation": "那就繼續前進。在掌握更多情報之前，讓人民活下去是首要任務。我們得壯大艦隊，並確保殖民地能自給自足。"
+  },
+  {
+    "source": "There are too many homeless people",
+    "translation": "無家可歸的人太多了"
+  },
+  {
+    "source": "There is several resources on this wreckage that you can salvage",
+    "translation": "這處殘骸有數種可回收的資源"
+  },
+  {
+    "source": "There’s something else, Commander. When we extracted the core, the artefact transmitted a signal beyond this sector. We’ve just received a reply.",
+    "translation": "還有一件事，指揮官。我們取出核心時，遺物向這個星區之外發出了一道訊號。我們剛剛收到回應。"
+  },
+  {
+    "source": "These ships don't match the signatures of any known fleet. We don't know who they are, or where they came from.",
+    "translation": "這些艦船的特徵與任何已知艦隊都不相符。我們不知道他們是誰，也不知道他們從哪裡來。"
+  },
+  {
+    "source": "They're still coming. They just keep coming! Forget the perimeter. Get every ship that can move. We're getting out of here!",
+    "translation": "他們還在來，一波接一波！別管防線了，讓所有還能動的艦船集合。我們要撤離這裡！"
+  },
+  {
+    "source": "This is Wyatt to Fleet Command. Do you copy? What are your orders?",
+    "translation": "這裡是威亞特，呼叫艦隊司令部。收到請回答。我們該如何行動？"
+  },
+  {
+    "source": "This wreckage is empty",
+    "translation": "這處殘骸已無物資"
+  },
+  {
+    "source": "Threat",
+    "translation": "威脅"
+  },
+  {
+    "source": "Tide",
+    "translation": "潮汐"
+  },
+  {
+    "source": "To attack, left-click to select your squadron and then either click the attack button followed by the enemy squadron, or simply left-click directly on the enemy squadron after selecting yours.",
+    "translation": "以滑鼠左鍵選取我方中隊，再點擊攻擊按鈕並選取敵方中隊；也可以選好我方中隊後，直接以滑鼠左鍵點擊敵方中隊。"
+  },
+  {
+    "source": "To build stable colony on Leechu, we gonna need resources. I have provided list of neccesery resources.",
+    "translation": "要在利丘建立穩定的殖民地，我們需要資源。我已列出所需資源的清單。"
+  },
+  {
+    "source": "Toggle whether selected ships fire their weapons automatically.",
+    "translation": "切換所選船艦是否自動開火。"
+  },
+  {
+    "source": "Too dangerous, we don't have enogh firepower to fight them off",
+    "translation": "太危險了，我們的火力不足以擊退他們"
+  },
+  {
+    "source": "Too dangerous, we don't have enough firepower to fight them off.",
+    "translation": "太危險了，我們的火力不足以擊退他們。"
+  },
+  {
+    "source": "Trade currency that can be produced by your factories. Trade them for resources or use them to advance your colony's needs.",
+    "translation": "可由工廠生產的交易貨幣。用它交換資源，或滿足殖民地的發展需求。"
+  },
+  {
+    "source": "Trading Hub",
+    "translation": "貿易中心"
+  },
+  {
+    "source": "Travel Cost",
+    "translation": "旅行成本"
+  },
+  {
+    "source": "Travel Time: 3 Days",
+    "translation": "旅行時間：3 天"
+  },
+  {
+    "source": "Travel limit reached in the demo",
+    "translation": "已達試玩版的旅行次數上限"
+  },
+  {
+    "source": "Travel to",
+    "translation": "前往"
+  },
+  {
+    "source": "Travel to destination",
+    "translation": "前往目的地"
+  },
+  {
+    "source": "Travel to destroyed colony",
+    "translation": "前往遭摧毀的殖民地"
+  },
+  {
+    "source": "Travel to lechu",
+    "translation": "前往利丘"
+  },
+  {
+    "source": "Travel to system with many asteroids (optional).",
+    "translation": "前往小行星眾多的星系（選擇性）。"
+  },
+  {
+    "source": "Tutorial",
+    "translation": "教學"
+  },
+  {
+    "source": "Tutorial Construct",
+    "translation": "建造教學"
+  },
+  {
+    "source": "Under Construction",
+    "translation": "建造中"
+  },
+  {
+    "source": "Universal Repair Bay",
+    "translation": "通用維修艙"
+  },
+  {
+    "source": "Unknown contacts ahead! Multiple targets! They're coming straight for us! Open fire! We can't let them reach the fleet!",
+    "translation": "前方發現不明目標！數量眾多！他們正朝我們衝過來！開火！不能讓他們接近艦隊！"
+  },
+  {
+    "source": "Unload Cargo",
+    "translation": "卸載貨物"
+  },
+  {
+    "source": "Unload collected water it at the Capital Ship.",
+    "translation": "將收集到的水卸載至主力艦。"
+  },
+  {
+    "source": "Unlock Option to mine Planets or Abandoned Ships in encounters with the ship",
+    "translation": "解鎖艦船在遭遇事件中開採行星或廢棄艦船的能力。"
+  },
+  {
+    "source": "Unlocks the ability to produce lower-quality meals, reducing Food consumption by 50%, but reducing the output of all production modules by 40%.",
+    "translation": "解鎖製作低品質餐點的能力，食物消耗降低 50%，但所有生產模組的產出也會降低 40%。"
+  },
+  {
+    "source": "Unstable",
+    "translation": "不穩定"
+  },
+  {
+    "source": "Unsuitable location",
+    "translation": "位置不合適"
+  },
+  {
+    "source": "Upgrade",
+    "translation": "升級"
+  },
+  {
+    "source": "Upgrade Building\n",
+    "translation": "升級建築\n"
+  },
+  {
+    "source": "Use a Mining Ship to salvage the wreck of enemy Light Destroyer to discover more about our new enemy.",
+    "translation": "用採礦船回收敵方輕型驅逐艦的殘骸，以取得新敵人的情報。"
+  },
+  {
+    "source": "Use squadron to guard ship",
+    "translation": "派中隊護衛船艦。"
+  },
+  {
+    "source": "Use {bindings} on Mouse to zoom in or out with camera.",
+    "translation": "使用滑鼠的 {bindings} 縮放視角。"
+  },
+  {
+    "source": "Use {consumedResources} to create {producedResources}",
+    "translation": "消耗 {consumedResources}，生產 {producedResources}"
+  },
+  {
+    "source": "Used to build modules and manufacture equipment. Can be mined from asteroids, recovered from wrecks, or produced from Raw Materials in Metallurgy modules.",
+    "translation": "用於建造模組與製造設備。可從小行星開採、從殘骸回收，或在冶金模組中由原料加工而成。"
+  }
+]

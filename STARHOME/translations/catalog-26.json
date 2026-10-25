@@ -1,0 +1,100 @@
+[
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 4440,
+    "source": "Construction",
+    "current": "建造"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 4451,
+    "source": "Consumption",
+    "current": "消耗"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 4827,
+    "source": "DISCARD",
+    "current": "放棄變更"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 6302,
+    "source": "Food",
+    "current": "食物"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 9422,
+    "source": "Off",
+    "current": "關閉"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 13365,
+    "source": "Unbound",
+    "current": "未綁定"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 14184,
+    "source": "Water",
+    "current": "水"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 2930,
+    "source": "Asteroid #{0}",
+    "current": "小行星 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 4578,
+    "source": "Corvette #{0}",
+    "current": "護衛艦 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 6190,
+    "source": "FighterSquadron #{0}",
+    "current": "戰鬥機中隊 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 7030,
+    "source": "HumanStation #{0}",
+    "current": "人類太空站 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 10251,
+    "source": "Raptor #{0}",
+    "current": "採礦船 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 11296,
+    "source": "Squadron #{0}",
+    "current": "中隊 #{0}"
+  },
+  {
+    "version": "0.2.1",
+    "category": "METADATA_LITERAL",
+    "index": 14270,
+    "source": "Wreck #{0}",
+    "current": "殘骸 #{0}"
+  }
+]

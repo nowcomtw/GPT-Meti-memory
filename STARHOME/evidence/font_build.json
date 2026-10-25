@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Windows\\Fonts\\NotoSansTC-VF.ttf",
+  "weight": 400,
+  "output": "${WORKSPACE}\\work\\prototype_evidence\\MetiTCPrototype-Regular.ttf",
+  "bytes": 7149656,
+  "family": "Meti TC Prototype",
+  "sample": "繁體中文漢化研究艦隊歡迎指揮官懷亞特",
+  "all_sample_glyphs_present": true,
+  "unitsPerEm": 1000,
+  "ascent": 1000,
+  "descent": -200,
+  "lineGap": 0,
+  "capHeight": 733,
+  "xHeight": 543
+}
