@@ -1,0 +1,12 @@
+{
+  "version": "2026-10-27.1",
+  "files": {
+    "evidence/2026-10-27-observations.json": "2bbade2b269d3bb83050ed5856883d6aeb49d2c97b924b638ddbe780991fafe1",
+    "HANDOFF.md": "c1983bffda6a4c5bcb7e6fc72f1eef69e603917cb82b7b75ccc8ab35d7a74238",
+    "notes/2026-10-27-loading-and-fps.md": "e6245258bf4947869680c4db9485a5091fd936387e875c7f42a3768d7bd5f91d",
+    "notes/2026-10-27-quest-stash-marker-fix.md": "c884f2c7d1a87316c97d8d91b5572ec89f3c8be9cd7523907638bfc9c263eeb1",
+    "README.md": "e85f4edb41594bc1dc87c8315b55e6862d68767c731dfe1f630e902c28237000",
+    "references/2026-10-27-sources.json": "837ebdb37e255a00f4a6113ab5a1ca623af80ddbbb910975383f5762d5382ed5"
+  },
+  "scope": "Only the enumerated files are published; the manifest excludes its own hash."
+}

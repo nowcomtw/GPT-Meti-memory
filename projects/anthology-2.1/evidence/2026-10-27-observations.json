@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "scope": "curated evidence, no game changes for performance research",
+  "engine": {
+    "sha256": "6bbc9b630fa496f9d0c31eb3864b6ed29fe9d8cf0d35302ba756e462bdb5ff9e",
+    "log_label": "MT-TEST 2026.09.30 / Anthology v86",
+    "official_channel_pinned": "2026.7.20",
+    "matching_public_build": "NOT_CONFIRMED"
+  },
+  "storage": {
+    "formal_drive": "D:",
+    "media": "SATA HDD",
+    "system_drive": "C:",
+    "system_media": "NVMe SSD",
+    "free_system_GiB_at_read": 451.2
+  },
+  "user_decision": {
+    "ssd_relocation": "DEFERRED_BY_USER",
+    "cache_policy": "KEEP_CURRENT",
+    "prefetch_changes": "NOT_APPLIED",
+    "further_performance_changes": "PAUSED"
+  },
+  "log_identity": {
+    "name": "xray_user.log",
+    "sha256": "da68830c003af0716079664a1cd78127741ddc20c4a35e2df615a203d4c917fe",
+    "bytes": 2174391,
+    "lines": 33556,
+    "game_start": "2026-10-27 19:29:47",
+    "last_write_taipei": "2026-10-27T20:08:33.420599+08:00"
+  },
+  "loading": {
+    "main_menu_ms": 138563,
+    "first_load_engine_ready_ms": 188403,
+    "sequential_total_ms": 326966,
+    "manual_menu_wait_included": false,
+    "phase_warning": "Internal load phase timers can overlap; do not sum them as separate wall-clock costs.",
+    "startup_texture_descriptions": {
+      "files": 26375,
+      "ms": 70088,
+      "line": 186
+    },
+    "first_load_save_file_report_seconds": 8.785,
+    "save_file_line": 2161,
+    "first_client_spawn": {
+      "objects": 12093,
+      "ms": 67966.83,
+      "line": 2583
+    },
+    "prefetch": {
+      "ms": 10450,
+      "line": 1234,
+      "kind": "models/textures; not all attributable to prefetch_sounds"
+    },
+    "object_registry_count": 55167
+  },
+  "settings_at_read": {
+    "r__clear_resources_on_unload": "off",
+    "r__no_ram_textures": "off",
+    "load_world_warmup_ms": 0,
+    "mt_load_spawn_decode": 0,
+    "mt_ui": 1,
+    "launch": "Anomaly (DX11-AVX)",
+    "commandline": [
+      "-smap2048",
+      "-dbg",
+      "-prefetch_sounds"
+    ]
+  },
+  "fps_findings": {
+    "native_profile_windows": 445,
+    "fatal_hits": 0,
+    "closed_logger": true,
+    "measured_inventory_opens": [
+      {
+        "line": 2796,
+        "open": 1,
+        "success": "true",
+        "ms": 2149.935,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=1 scope=ui_inventory.start success=true total_raw=2149935.25 total_ms_local=2149.935 cache=false; nested metrics overlap; samples are NOT total cost"
+      },
+      {
+        "line": 2939,
+        "open": 2,
+        "success": "true",
+        "ms": 0.061,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=2 scope=ui_inventory.start success=true total_raw=60.520957946777 total_ms_local=0.061 cache=false; nested metrics overlap; samples are NOT total cost"
+      },
+      {
+        "line": 2942,
+        "open": 3,
+        "success": "true",
+        "ms": 0.03,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=3 scope=ui_inventory.start success=true total_raw=29.720012664795 total_ms_local=0.030 cache=false; nested metrics overlap; samples are NOT total cost"
+      },
+      {
+        "line": 15162,
+        "open": 1,
+        "success": "true",
+        "ms": 1127.279,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=1 scope=ui_inventory.start success=true total_raw=1127279 total_ms_local=1127.279 cache=false; nested metrics overlap; samples are NOT total cost"
+      },
+      {
+        "line": 15234,
+        "open": 2,
+        "success": "true",
+        "ms": 1160.563,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=2 scope=ui_inventory.start success=true total_raw=1160563.25 total_ms_local=1160.563 cache=false; nested metrics overlap; samples are NOT total cost"
+      },
+      {
+        "line": 15280,
+        "open": 3,
+        "success": "true",
+        "ms": 1627.392,
+        "cache": "false",
+        "text": "[MetiInventoryProbe 0.5.0] open=3 scope=ui_inventory.start success=true total_raw=1627391.625 total_ms_local=1627.392 cache=false; nested metrics overlap; samples are NOT total cost"
+      }
+    ],
+    "incremental_fallbacks": [
+      {
+        "line": 4830,
+        "text": "[MetiIncremental 0.5.0] fallback snapshot unavailable: read error"
+      },
+      {
+        "line": 15228,
+        "text": "[MetiIncremental 0.5.0] fallback snapshot unavailable: read error"
+      },
+      {
+        "line": 15318,
+        "text": "[MetiIncremental 0.5.0] fallback snapshot unavailable: read error"
+      },
+      {
+        "line": 15806,
+        "text": "[MetiIncremental 0.5.0] fallback snapshot unavailable: read error"
+      }
+    ],
+    "selected_native_windows": [
+      {
+        "line": 15308,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 52.8,
+        "avg_main_ms": 38.75,
+        "avg_render_ms": 13.37,
+        "avg_wait_ms": 0.38,
+        "max_total_ms": 1700.89,
+        "max_main_ms": 1670.12,
+        "max_render_ms": 30.48,
+        "max_wait_ms": 11.53
+      },
+      {
+        "line": 15720,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 9.95,
+        "avg_main_ms": 4.37,
+        "avg_render_ms": 5.16,
+        "avg_wait_ms": 0.29,
+        "max_total_ms": 56.28,
+        "max_main_ms": 49.81,
+        "max_render_ms": 7.46,
+        "max_wait_ms": 8.64
+      },
+      {
+        "line": 15733,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 38.93,
+        "avg_main_ms": 23.27,
+        "avg_render_ms": 15.27,
+        "avg_wait_ms": 0.2,
+        "max_total_ms": 2799.96,
+        "max_main_ms": 2146.46,
+        "max_render_ms": 653.04,
+        "max_wait_ms": 12.55
+      },
+      {
+        "line": 15758,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 77.03,
+        "avg_main_ms": 59.04,
+        "avg_render_ms": 17.75,
+        "avg_wait_ms": 0.06,
+        "max_total_ms": 339.54,
+        "max_main_ms": 317.47,
+        "max_render_ms": 27.41,
+        "max_wait_ms": 8.82
+      },
+      {
+        "line": 15771,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 50.72,
+        "avg_main_ms": 36.69,
+        "avg_render_ms": 13.79,
+        "avg_wait_ms": 0.06,
+        "max_total_ms": 324.78,
+        "max_main_ms": 303.14,
+        "max_render_ms": 27.83,
+        "max_wait_ms": 6.43
+      },
+      {
+        "line": 15787,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 49.96,
+        "avg_main_ms": 36.0,
+        "avg_render_ms": 13.58,
+        "avg_wait_ms": 0.19,
+        "max_total_ms": 340.09,
+        "max_main_ms": 328.85,
+        "max_render_ms": 23.11,
+        "max_wait_ms": 12.13
+      },
+      {
+        "line": 15797,
+        "generation": 2,
+        "first_after_ready": false,
+        "frames": 300,
+        "avg_total_ms": 45.58,
+        "avg_main_ms": 30.41,
+        "avg_render_ms": 14.89,
+        "avg_wait_ms": 0.1,
+        "max_total_ms": 373.63,
+        "max_main_ms": 351.0,
+        "max_render_ms": 70.45,
+        "max_wait_ms": 11.4
+      }
+    ],
+    "limits": "Selected windows include UI; not a global gameplay FPS benchmark. No newly installed stash patch appears in this log."
+  },
+  "stash_patch": {
+    "version": "0.1.0",
+    "script": "[DBG] Kristiano Fixes ALL IN ONE NEW/gamedata/scripts/fix_quest_stash_hint.script",
+    "source_sha256": "20ab0cbe57c5b5c19087192664de61b0ac4a8d3056106a87a12a6a9b638dd51e",
+    "installed_sha256": "ce00ac6ea4c52ea718e1e3de7d353edd303b38f0f79898eaeddae6d156d68776",
+    "installed": "CONFIRMED",
+    "syntax_static_model_checks": 30,
+    "native_two_boxes": "NOT_RUN",
+    "game_started_by_install": false,
+    "direct_save_writes": false
+  },
+  "source_exclusions": [
+    "save files",
+    "game resources",
+    "EXE/DLL",
+    "full logs",
+    "screenshots",
+    "credentials",
+    "personal absolute paths"
+  ]
+}

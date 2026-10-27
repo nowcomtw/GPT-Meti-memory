@@ -1,0 +1,58 @@
+{
+  "checked_date": "2026-10-27",
+  "sources": [
+    {
+      "url": "https://github.com/Alex020104/AnthologyLauncher",
+      "kind": "maintainer documentation",
+      "finding": "Supports adjacent game/MO2 directories, launcher adjusts MO2 paths and makes backup. Local folder name differs from documented SYS folder; must verify local launcher before relocation, no automatic update requested."
+    },
+    {
+      "url": "https://github.com/Alex020104/anthology-mt-engine/blob/main/engine_version.json",
+      "kind": "maintainer current version channel",
+      "finding": "Fetched channel pins 2026.7.20, not proven identical to current locally modified EXE."
+    },
+    {
+      "url": "https://github.com/Alex020104/anthology-mo2-modpack",
+      "kind": "maintainer update channel",
+      "finding": "Updates light configs/scripts. Updating is not harmless copying; do not run updater to relocate current custom patches."
+    },
+    {
+      "url": "https://github.com/themrdemonized/xray-monolith/pull/730",
+      "commit": "17eaeaf80d82e90c11cd0b4e542674fec77d8fb8",
+      "merged": "2026-10-10",
+      "kind": "upstream implementation",
+      "finding": "Adds LTX texture metadata and removes unsafe parallel THM map writes. Not a proven cache converter/speed fix, not proven supported by local EXE."
+    },
+    {
+      "url": "https://github.com/themrdemonized/xray-monolith/releases/tag/2026.10.11",
+      "kind": "upstream release",
+      "finding": "Contains PR730, does not establish compatibility with Anthology-specific native optimizations and current custom patches."
+    },
+    {
+      "url": "https://github.com/themrdemonized/xray-monolith/blob/c57fe5b9fab4fe0506659db03137c52d2500eb2f/src/xrSound/SoundRender_Core.cpp",
+      "kind": "upstream source",
+      "finding": "prefetch_sounds creates all sound sources in upstream, local implementation needs bounded check before experiment; cannot treat model/texture prefetch's entire 10.45 seconds as sound-only."
+    },
+    {
+      "url": "https://github.com/themrdemonized/xray-monolith/blob/c57fe5b9fab4fe0506659db03137c52d2500eb2f/src/xrEngine/IGame_Persistent.cpp",
+      "kind": "upstream source",
+      "finding": "Upstream noprefetch skips Prefetch, not proved same behavior in local custom build. Defers work, can add first-use stalls."
+    },
+    {
+      "url": "https://github.com/themrdemonized/xray-monolith",
+      "kind": "upstream changelog",
+      "finding": "clear_resources_on_unload frees pools but increases subsequent loading. Local already off; no benefit from changing it to off again."
+    },
+    {
+      "url": "https://www.moddb.com/mods/stalker-anomaly/forum/thread/long-loading-times",
+      "kind": "community reports 2019 / Anomaly 1.5 beta",
+      "finding": "Similar 5-6 min reports; HDD vs SSD and loose-file I/O discussed. Old-version anecdotes, not current Anthology author fix."
+    },
+    {
+      "url": "https://ap-pro.ru/forums/topic/4266-anthology-21-final/",
+      "kind": "Anthology forum checked",
+      "finding": "No verified one-setting remedy for local 2026 custom build established from page inspected."
+    }
+  ],
+  "scope": "No third-party tools or source code downloaded for execution."
+}
