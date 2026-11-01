@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-11-01T11:21:51+08:00",
+  "files": {
+    "ERRORS_AND_LESSONS.md": {
+      "bytes": 5499,
+      "sha256": "fedb095a4a4dc9cd06d1a2b5eb468d6827686413a5c9ee47f57ba065247ccbc2"
+    },
+    "EVIDENCE.json": {
+      "bytes": 25070,
+      "sha256": "cd3f3e0c99741bc81666c4342dfb9c7b95c1699e56ae1f00a12df3910a74ec11"
+    },
+    "HISTORICAL_AUDIT_2026-10-29.txt": {
+      "bytes": 46559,
+      "sha256": "cfe245814a46c9958ddcf5692cf6ef0c1d31e4a4303b0666215c0bff4e70fa91"
+    },
+    "MOD_STATUS.md": {
+      "bytes": 7065,
+      "sha256": "6a745e8e0a487eee1f67ef529d7c5085d89ae64f0212c3be43fc239f3bc1f96f"
+    },
+    "README.md": {
+      "bytes": 13862,
+      "sha256": "c4fd2c330c1bdd6a9ae1ea7566a0dd6d1f19c34d2990dcabfcad2067b652cd09"
+    },
+    "SOURCES.md": {
+      "bytes": 4535,
+      "sha256": "d3b311b0bb6e2ad19e8d5ba03565d0f46e99e6b0b9c6ea38386dbd3e0eab5445"
+    }
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "recorded_at": "2026-11-01T11:21:51+08:00",
+  "repository": "nowcomtw/GPT-Meti-memory",
+  "repository_directory": "projects/anthology-2.1/notes/2026-11-01-mod-maintenance",
+  "scope": "text documentation only; no game launch or gameplay tests; no save or MOD writes",
+  "path_aliases": {
+    "${PROJECT}": "current Anthology chat workspace",
+    "${PREVIOUS_PROJECT}": "previous Anthology handoff workspace",
+    "${MO2}": "formal Anthology MO2 root",
+    "${GAME}": "formal Anthology game root"
+  },
+  "profile_snapshot": {
+    "source": "${MO2}/profiles/Anthology 2.1 Standart Стандарт/modlist.txt",
+    "sha256": "6f63933fa8305d2d9232b0df90eac793dfa1a81f10bcd713134dfb61f346f353",
+    "observed_at": "2026-11-01T11:21:51+08:00",
+    "mods": [
+      {
+        "name": "Meti_AutodocRefill_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_Needs_Half_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ThermalGreenScopes_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_SameMapPrewarm_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_AmmoTextAndYield_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_AuditFixes_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ArtefactServices_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_TechnicianUndo_v0.4.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_CraftingExpansion_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_AmmoMaterialsSupply_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_TalentChineseTooltip_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_TechnicianFull80_v1.5.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ChineseUILabels_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_TalentRespecKeepLevels_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_LootEquipment100_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_PackCompatibility_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_WorkshopUpgradeParity_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ArmorFull50_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_LegacyFavoriteCleanup_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_CraftNoWait_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_Levsha_MeetingFix_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_Levsha_Diagnosis_v0.1.0_READONLY",
+        "enabled": false
+      },
+      {
+        "name": "Meti_AmmoCompactLabels_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_MaterialRepair25_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_InventoryActions_v0.2.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_InventoryActions_v0.1.0_TRIAL",
+        "enabled": false
+      },
+      {
+        "name": "Meti_BatteryDrain25_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_RegionalToolsRecipes_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ArtefactSpecialty_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_InventoryCounterBatch_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_NVG_ClearFocus_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_RVR_Materials_v0.1.0_EXPERIMENTAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_NVG_CtrlBrightness_v0.1.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_WeaponActions150_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_AN94_SightAlignment_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_LootMarkers_v0.1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_TechnicianNumeric_v1.0_TRIAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_EnemyMarkers100m_v0.2.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_ActorJumpHeight25_v0.1.0_EXPERIMENTAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_LoadTipWrap_v0.2.0_EXPERIMENTAL",
+        "enabled": true
+      },
+      {
+        "name": "Meti_PlayerGunfeel_v0.1.0_TRIAL",
+        "enabled": false
+      },
+      {
+        "name": "Meti_Anthology_BaseCarry999999_v0.2.0",
+        "enabled": true
+      },
+      {
+        "name": "Meti_Anthology_StartPoints_100000_v0.1.0",
+        "enabled": true
+      }
+    ],
+    "limitation": "Enabled line only; not a winner-resolution or runtime validation"
+  },
+  "receipt_extracts": [
+    {
+      "source": "work/material_supply/LOW_STOCK_INSTALLED.json",
+      "source_sha256": "698d88cbd487b82dc24a9e78ef7e93497637035575e5d9df37215c062461d27d",
+      "receipt": {
+        "version": "Material Supply 0.3.0 low stock",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN",
+        "backup": "${PROJECT}\\outputs\\material_supply_low_before_20261101_100637",
+        "files": {
+          "gamedata/configs/items/trade/mod_trade_generic_mechanic_zzzzzz_meti_ammo_materials.ltx": {
+            "source": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_generic_mechanic_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "target": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_generic_mechanic_zzzzzz_meti_ammo_materials.ltx",
+            "source_relative": "gamedata/configs/items/trade/mod_trade_generic_mechanic_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "original_sha256": "0ca66681663f65cdf0106056ee03b96490c3db73ca13333cb9941cc81da66d40",
+            "candidate_sha256": "1c43a9f63413660746327a79f765eeeef2ca7275f976805cc3c0dd4bcb27edae",
+            "promote_hidden": true
+          },
+          "gamedata/configs/items/trade/mod_trade_ecolog_sakharov_zzzzzz_meti_ammo_materials.ltx": {
+            "source": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_ecolog_sakharov_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "target": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_ecolog_sakharov_zzzzzz_meti_ammo_materials.ltx",
+            "source_relative": "gamedata/configs/items/trade/mod_trade_ecolog_sakharov_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "original_sha256": "9dcd50c3939922f91825d7aad7a0fa1789ff7fdfdaf917d5d552778b0dad94f6",
+            "candidate_sha256": "709263819d90e59b063c73ac2697e89b8f1f519cfd19f62a8536344efed4e869",
+            "promote_hidden": true
+          },
+          "gamedata/configs/items/trade/mod_trade_ecolog_hermann_zzzzzz_meti_ammo_materials.ltx": {
+            "source": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_ecolog_hermann_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "target": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\configs\\items\\trade\\mod_trade_ecolog_hermann_zzzzzz_meti_ammo_materials.ltx",
+            "source_relative": "gamedata/configs/items/trade/mod_trade_ecolog_hermann_zzzzzz_meti_ammo_materials.ltx.mohidden",
+            "original_sha256": "d42ffa840baf05a8dc7f9beb3c51756ee53fb2f5ca359326ea2724c2904f3f16",
+            "candidate_sha256": "709263819d90e59b063c73ac2697e89b8f1f519cfd19f62a8536344efed4e869",
+            "promote_hidden": true
+          },
+          "gamedata/scripts/zzzzzzzzzz_meti_supply_guard.script": {
+            "source": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\scripts\\zzzzzzzzzz_meti_supply_guard.script",
+            "target": "${MO2}\\mods\\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL\\gamedata\\scripts\\zzzzzzzzzz_meti_supply_guard.script",
+            "source_relative": "gamedata/scripts/zzzzzzzzzz_meti_supply_guard.script",
+            "original_sha256": "990c6b5653eacd62d10b188caeaff9bdebfb5acc553ec74d593c234e0d7428bb",
+            "candidate_sha256": "dc0e049bdf7a6a9ba5246ffdb479aa5fa5f9b78656a347c3706548fcd1c7c3f7",
+            "promote_hidden": false
+          }
+        },
+        "scope": {
+          "generic_mechanic": [
+            "bullet_pistol",
+            "bullet_pistol_ap",
+            "bullet_r5",
+            "bullet_r5_ap",
+            "bullet_r7",
+            "bullet_r7_ap",
+            "bullet_shotgun",
+            "bullet_shotgun_ap",
+            "casing_p",
+            "casing_r5",
+            "casing_r7",
+            "casing_s",
+            "powder_1",
+            "powder_2",
+            "powder_3",
+            "powder_fire"
+          ],
+          "ecolog_sakharov": [
+            "powder_battery",
+            "powder_blood",
+            "powder_fireball",
+            "powder_gravi"
+          ],
+          "ecolog_hermann": [
+            "powder_battery",
+            "powder_blood",
+            "powder_fireball",
+            "powder_gravi"
+          ]
+        },
+        "formal_save_writes": 0,
+        "game_launched": false
+      }
+    },
+    {
+      "source": "work/travel_prewarm_v011/TRIAL012_INSTALLED.json",
+      "source_sha256": "fa36b166104580fc1a1601b078d8ff592a78a490ddbe9f5d425e2945b388f8af",
+      "receipt": {
+        "version": "Same-map Prewarm 0.1.2 TRIAL",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\fast_travel_trial012_before_20261101_110210",
+        "files": {
+          "gamedata/scripts/meti_pda_prewarm.script": {
+            "target": "${MO2}\\mods\\Meti_SameMapPrewarm_v0.1.0\\gamedata\\scripts\\meti_pda_prewarm.script",
+            "original_sha256": "c57407d298afa5220b7b26775845f2c4701f5222a6c87e5eaa0eef6f1a5ccc75",
+            "candidate_sha256": "9db76559d808b72f78d1c8526f00bc8a00c0442487771fa92686ba47ac70ad1c"
+          },
+          "gamedata/scripts/game_fast_travel.script": {
+            "target": "${MO2}\\mods\\Meti_SameMapPrewarm_v0.1.0\\gamedata\\scripts\\game_fast_travel.script",
+            "original_sha256": "244b90000a12f7811f0ee8052187a21796155eed679b2f131f0d494e89b84a4a",
+            "candidate_sha256": "7a7b6f8e901b4b501c20d56b182f5d4635388a83f9b03b5d99120792ccb6ee17"
+          },
+          "gamedata/configs/text/rus/st_meti_pda_prewarm.xml": {
+            "target": "${MO2}\\mods\\Meti_SameMapPrewarm_v0.1.0\\gamedata\\configs\\text\\rus\\st_meti_pda_prewarm.xml",
+            "original_sha256": "f1ad8d80f41bddc602e4c44f4991a0f06a254538ca006d6a3055f29165dae823",
+            "candidate_sha256": "8c7f7c02b83a2d8649e4658a7de6452b3f22bf9d75247bb192d4e0fcfca77e59"
+          },
+          "gamedata/configs/text/eng/st_meti_pda_prewarm.xml": {
+            "target": "${MO2}\\mods\\Meti_SameMapPrewarm_v0.1.0\\gamedata\\configs\\text\\eng\\st_meti_pda_prewarm.xml",
+            "original_sha256": "c7df058526417964ebf3e0ec95ca98201651b562edb435161755151e6b25b194",
+            "candidate_sha256": "d3ba14c41608eaf59d9c6325ee029e16050dd788574852b5cf2b449a9da92f38"
+          },
+          "profile/modlist.txt": {
+            "target": "${MO2}\\profiles\\Anthology 2.1 Standart Стандарт\\modlist.txt",
+            "original_sha256": "1bc44d9e6fffbd3c93f77445d04238f035579c835b4d516e726e9dc2c167ee34",
+            "candidate_sha256": "6f63933fa8305d2d9232b0df90eac793dfa1a81f10bcd713134dfb61f346f353"
+          }
+        },
+        "formal_save_writes": 0,
+        "wait_limit_seconds": 1,
+        "radius_cap": 2000,
+        "game_launched": false,
+        "latest_save_backup": "${PROJECT}\\outputs\\rvr_latest_save_backup_20261101_091240"
+      }
+    },
+    {
+      "source": "work/rvr_task_marks/INSTALLED.json",
+      "source_sha256": "8cbba28ad789a8dad127e0dfb5de28404a20b5cd279776de960421f612689a1b",
+      "receipt": {
+        "version": "Materials 0.7.2 / Mouse 0.5.1 EXPERIMENTAL",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\rvr_task_marks_before_20261101_084736",
+        "files": {
+          "gamedata/scripts/meti_rvr_mouse.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_mouse.script",
+            "original_sha256": "20814df24a236f244d6123f360ce5284700010f0ef45d6929851211e698207e7",
+            "candidate_sha256": "f41f9f6b0ebe2aaf46d594ad77746449b08197b974ddb38013db4e2892e60ce1"
+          }
+        },
+        "scope": "Display existing backpack task mark as [任务] beside matching RVR rows; preserve favorites/trash, transfer and stored data",
+        "formal_save_writes": 0
+      }
+    },
+    {
+      "source": "work/rvr_task_marks/VERIFICATION.json",
+      "source_sha256": "34e8171378080ab024deb7df5e98380e66855d7f1318ff62af652857ad2c3655",
+      "receipt": {
+        "version": "Materials 0.7.2 / Mouse 0.5.1 EXPERIMENTAL",
+        "status": "INSTALLATION_AND_SOURCE_CONTRACT_REVIEW_COMPLETE",
+        "runtime_test": "NOT_RUN: no confirmed launch path that guarantees no desktop window/focus change",
+        "files": [
+          {
+            "file": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_mouse.script",
+            "installed_sha256": "f41f9f6b0ebe2aaf46d594ad77746449b08197b974ddb38013db4e2892e60ce1",
+            "matches_installed_payload": true
+          }
+        ],
+        "formal_save_writes": 0,
+        "game_launched": false,
+        "enabled": {
+          "Meti_RVR": true,
+          "Utjan_QoL": true,
+          "RVR_base": true
+        },
+        "latest_save_backup": "${PROJECT}\\outputs\\rvr_latest_save_backup_20261101_091240"
+      }
+    },
+    {
+      "source": "work/rvr_return_review/INSTALLED.json",
+      "source_sha256": "e8e74aa9d6f3af72a85562107751ba2ec345bb1ef987b6d03865a84860f19b8e",
+      "receipt": {
+        "version": "Materials 0.7.2 / Mouse 0.5.0 EXPERIMENTAL",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\rvr_return_review_before_20261101_080048",
+        "files": {
+          "gamedata/scripts/meti_rvr_materials.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_materials.script",
+            "original_sha256": "ab0b3701ef6eff9816418fe8afbb9684867c10552d41bd17af2b7f442294c1a9",
+            "candidate_sha256": "ed63dfe93ef5ab197e2d7624ef71966024317139c51cf24ce205262907084c67"
+          }
+        },
+        "scope": "Narrow return-value review: ordinary withdrawal ID guard and oversized-ammo-box success report",
+        "formal_save_writes": 0
+      }
+    },
+    {
+      "source": "work/rvr_ammo_return_fix/INSTALLED.json",
+      "source_sha256": "025832887766c6f162d7532fcb4c2e1f401c539e80ad5ed1610b7b9dd09970b9",
+      "receipt": {
+        "version": "Materials 0.7.1 / Mouse 0.5.0 EXPERIMENTAL",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\rvr_ammo_return_fix_before_20261101_071322",
+        "files": {
+          "gamedata/scripts/meti_rvr_materials.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_materials.script",
+            "original_sha256": "0258c74f164eb4872d441fd041d0139a270b9ee406f5020a647c3feb9ef0357e",
+            "candidate_sha256": "ab0b3701ef6eff9816418fe8afbb9684867c10552d41bd17af2b7f442294c1a9"
+          }
+        },
+        "scope": "Fix ammunition withdrawal return handling only; keep selected-type 500 cap and existing storage data",
+        "formal_save_writes": 0
+      }
+    },
+    {
+      "source": "work/rvr_batch500/INSTALLED.json",
+      "source_sha256": "f2d1f36cf4c4eae17aab8736421bb16cd243ed1e573586e43bd7fd74f320afad",
+      "receipt": {
+        "version": "Materials 0.7.0 / Mouse 0.5.0 EXPERIMENTAL",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\rvr_batch500_before_20261101_030445",
+        "files": {
+          "gamedata/scripts/meti_rvr_materials.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_materials.script",
+            "original_sha256": "b0fb75bcd518dcdbec8c2ed0940961210b48bd54d74eb2f05c95e1e21b2f7b3e",
+            "candidate_sha256": "0258c74f164eb4872d441fd041d0139a270b9ee406f5020a647c3feb9ef0357e"
+          },
+          "gamedata/scripts/meti_rvr_mouse.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_mouse.script",
+            "original_sha256": "adb846171f490011d4169ff1faca50a13374adea4d612b0c05865bd711070b73",
+            "candidate_sha256": "20814df24a236f244d6123f360ce5284700010f0ef45d6929851211e698207e7"
+          },
+          "gamedata/configs/ui/meti_rvr_mouse.xml": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\configs\\ui\\meti_rvr_mouse.xml",
+            "original_sha256": "cb273a01e5f28895cab3146d71358c5c80f8498b057193ee465f3162d651e1b6",
+            "candidate_sha256": "f28264df8d46c6b357083956322f9e52481df7f694e380eca5f01171c872c5ce"
+          },
+          "gamedata/configs/text/rus/st_meti_rvr_mouse.xml": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\configs\\text\\rus\\st_meti_rvr_mouse.xml",
+            "original_sha256": "4b1a80693a1bd6158263882712a013ddd22823ffa2a618b99ce26f4ebc8b123e",
+            "candidate_sha256": "36a104218b002a0be20176ae880ec699b9b652d5595c9641757577c70ecfb426"
+          }
+        },
+        "scope": "Selected type only; up to 500 ordinary items or ammunition rounds per action",
+        "formal_save_writes": 0
+      }
+    },
+    {
+      "source": "work/rvr_exclusion_types/INSTALLED.json",
+      "source_sha256": "69c8699bc2eae3002b4b0281c594ce6d806e7edf2b68932811ab3fd91c6f5e72",
+      "receipt": {
+        "version": "0.6.0",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\rvr_exclusion_types_before_20261101_022728",
+        "files": {
+          "scripts/meti_rvr_materials.script": {
+            "target": "${MO2}\\mods\\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL\\gamedata\\scripts\\meti_rvr_materials.script",
+            "original_sha256": "779495e91b3310399c3d62911ef0562314629235c178c010bb137e42c477a24a",
+            "candidate_sha256": "b0fb75bcd518dcdbec8c2ed0940961210b48bd54d74eb2f05c95e1e21b2f7b3e"
+          }
+        },
+        "scope": "Remove ordinary kind/class whitelist and stale static metadata gate. Native weapon/armor and quest/story exclusion. Full condition and full uses retained.",
+        "formal_save_writes": 0
+      }
+    },
+    {
+      "source": "work/ubgl_b_only/INSTALLED.json",
+      "source_sha256": "cec0ac2812d960abdaad99d04264b0377801e402987db085ffae9868a9793d7a",
+      "receipt": {
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "backup": "${PROJECT}\\outputs\\ubgl_b_only_before_20261031_230607",
+        "files": {
+          "magnifier_switch.script": {
+            "target": "${MO2}\\mods\\Meti_PackCompatibility_v0.1.0\\gamedata\\scripts\\magnifier_switch.script",
+            "original_sha256": "d030176bfbd5bcb460b5f86977d36c7c1e958b512c9d305c91293b2a1090f5cc",
+            "candidate_sha256": "78d20984a6929021c2673e30fe0d023d4fab16ca3cd990f83e814d81d1082b22"
+          },
+          "item_device.script": {
+            "target": "${MO2}\\mods\\Meti_BatteryDrain25_v0.1.0_TRIAL\\gamedata\\scripts\\item_device.script",
+            "original_sha256": "06b899e36e9a6820336fdf2b1ee2eb3bcaeb1c1f448dda63b11196ec16ea4c66",
+            "candidate_sha256": "e685f0582e360dee467a1f05d012fd2c4acf6fab0e247990e9594d27cc5574c5"
+          }
+        },
+        "keys": {
+          "UBGL": "B (existing native custom21 binding)",
+          "Ctrl+V": "UBGL forwarding removed",
+          "V": "existing aim/sight function",
+          "N": "short press brightness; long press night vision"
+        },
+        "scope": "Only two scripts changed; existing battery-drain and thermal shader changes retained.",
+        "save_files_modified_by_installer": false
+      }
+    },
+    {
+      "source": "work/autodoc_refill/INSTALLED.json",
+      "source_sha256": "580b7b226c53bb0aa3bb5bd5b7eacec6bbee4872ca03f9d3aab5ba15d5e83dd8",
+      "receipt": {
+        "version": "0.1.0",
+        "status": "INSTALLED_USER_TEST_PENDING",
+        "runtime_test": "NOT_RUN_USER_WILL_TEST",
+        "installed_at": "20261031_221948",
+        "backup": "${PROJECT}\\outputs\\autodoc_refill_before_20261031_221948",
+        "files": [
+          "scripts\\autodoc_binder.script",
+          "configs\\plugins\\context_menu_overhaul\\mod_menu_meti_autodoc_refill.ltx",
+          "configs\\text\\rus\\st_meti_autodoc_refill.xml"
+        ],
+        "installed_files": {
+          "scripts\\autodoc_binder.script": "7e55cc68ae77b2d0721de9738898d79d6d6cd72ad3c3779a98fdc4ad044ddad9",
+          "configs\\plugins\\context_menu_overhaul\\mod_menu_meti_autodoc_refill.ltx": "036c582b2bacb3c944d59cacb14dfb8c199e608cc2ebbd3219260dd3788fea7c",
+          "configs\\text\\rus\\st_meti_autodoc_refill.xml": "c502758754ed109dfef59dabb66afe571b9c342b813c4a2909b78b981174ba8b"
+        },
+        "save_files_modified_by_installer": false
+      }
+    }
+  ],
+  "saved_object_comparison": {
+    "source": "outputs/id_usage_after_rvr_20261101T001131Z/COMPARISON.json",
+    "data": {
+      "status": "READ_ONLY_COMPARISON_COMPLETE",
+      "formal_save_writes": 0,
+      "latest": {
+        "name": "0742.scop",
+        "mtime": "2026-10-31T18:35:42.519Z",
+        "sha256": "8c3f8798431c2a23839750265318303c208fe26dc23dc5cd77351258a823f25a",
+        "bytes": 3511856
+      },
+      "baseline": "fatal_ctd_save_5.scop, saved objects 65484 (2026-10-31 fatal snapshot)",
+      "previous": {
+        "total": 65484,
+        "actor_objects": 21188,
+        "other_held_objects": 8902,
+        "root_or_unattached_objects": 35394,
+        "role_named_merchant_service_estimate": 2252,
+        "storage_owned_descendants": 59,
+        "actor_material_objects": 1025
+      },
+      "current": {
+        "total": 48197,
+        "actor_objects": 4254,
+        "other_held_objects": 8734,
+        "root_or_unattached_objects": 35209,
+        "role_named_merchant_service_estimate": 2252,
+        "storage_owned_descendants": 59,
+        "actor_material_objects": 0,
+        "material_objects_worldwide": 41
+      },
+      "delta": {
+        "total": -17287,
+        "actor_objects": -16934,
+        "other_held_objects": -168,
+        "root_or_unattached_objects": -185,
+        "role_named_merchant_service_estimate": 0,
+        "storage_owned_descendants": 0,
+        "actor_material_objects": -1025
+      },
+      "unresolved_parent": {},
+      "saved_count_reduction_percent": 26.398814977704475,
+      "caveats": [
+        "Saved records are not the exact live allocated-ID count or guaranteed free IDs.",
+        "Root/unattached includes world entities; it does not mean loose items on the current map.",
+        "Named merchant/service count is based on section names, not confirmed sale stock.",
+        "Latest on-disk save only; unsaved gameplay changes are not included."
+      ],
+      "classification_note": "Named merchant/service groups recalculated from detailed baseline and current owners using the same section regex; old summary estimate was 7 lower."
+    },
+    "limitation": "Historical saved-record classification; not a fresh scan or live free-ID measurement"
+  },
+  "player_evidence": [
+    {
+      "topic": "Thermal aligned scene",
+      "status": "PLAYER_CONFIRMED_FOR_SHOWN_CASES",
+      "basis": "User posted natural-background magnified thermal success, then green-background magnified thermal success; screenshots not uploaded"
+    },
+    {
+      "topic": "g_always_active",
+      "status": "PLAYER_CONFIRMED",
+      "basis": "User entered and saved console setting; reported background operation worked"
+    }
+  ]
+}

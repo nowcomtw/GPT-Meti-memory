@@ -1,0 +1,697 @@
+【歷史快照，非目前啟停／供貨／按鍵狀態】
+個人絕對路徑已代號化；原始內容保留作追溯。最新決定見 README.md。
+
+Anthology 2.1 修改清單與問題分析
+盤點時間：2026-10-29T20:15:23.641145+08:00
+範圍：交接包＋目前正式 Profile 的 Meti 模組＋已知直接修改＋可追溯設定；未與整套原廠包逐位元組比對，沒有宣稱涵蓋來源不明的全部歷史改動。
+Profile：Anthology 2.1 Standart Стандарт
+遊戲：${GAME}
+MO2：${MO2}
+
+本輪結論：已列出 37 個 Meti 模組（34 啟用、3 停用）、7 個原模組直接修改腳本、設定變更及歷史項目。語法與雜湊核對通過，但仍有文件／門檻問題、持久資料限制及原生驗收缺口。
+工作方式：只讀取正式環境與舊證據。沒有啟動遊戲、執行舊部署或回退工具；沒有修改遊戲、設定、模組、存檔。純 Lua 模型只執行選定的修飾鍵 helper 與條件，未執行完整遊戲腳本。
+本輪驗證：65 份 Meti Lua（LuaJIT 只編譯）＋28 份 XML 解析＋7 份直接修改 Lua（Lua 5.1 只編譯）通過。176 個盤點路徑前後 SHA256 一致。
+證據等級：檔案／靜態與純函式模型是本輪結果；舊報告中的測試數、原生日誌及玩家回報保留原時間和範圍，不升格為本輪全面實機驗收。
+既有 log：2026-10-29 07:48:13（UTC+8）最後寫入，約 2.4 MB，讀取時已凍結；晚於該時間的新模組不能用此 log 當驗收。
+
+一、問題與處理優先順序
+
+F01　舊停用／回退說明對不到目前勝出檔　[優先處理／確定的維護問題]
+證據：CraftNoWait、InventoryCounterBatch、LegacyFavoriteCleanup、NVG_CtrlBrightness 的主腳本由 PackCompatibility 勝出。移除原模組的唯讀覆蓋模型顯示勝出者不變。ArmorFull50 控制腳本由 WorkshopUpgradeParity 勝出。
+影響：照舊 README 只取消原模組，或在原目錄改 ENABLED／MODE／enabled，可能完全無效；收藏恢復流程與停止新護甲補足尤其容易操作錯位置。
+建議：若後續修復，應先把每項開關／回退對應到現行勝出檔，建立受控的最小變更；不要為了停一項功能直接拆掉整個相容層。此次未改動。
+來源：${PREVIOUS_PROJECT}\work\inventory_counter_batch_v01\README.md:20,47
+${PREVIOUS_PROJECT}\work\favorite_cleanup_craft_v01\README.md:12,24
+${PREVIOUS_PROJECT}\work\nvg_ctrl_v010\README.md:23
+${PREVIOUS_PROJECT}\work\technician_undo_armor50_v01\README.md:34
+${MO2}\mods\Meti_WorkshopUpgradeParity_v0.1.0_TRIAL\gamedata\scripts\zzzz_meti_armor_full50.script
+${PROJECT}\work\audit\toggle_resolution.json
+
+F02　滿改升級與 RVR 倉儲不能直接拆除　[保留規則／確定的存檔限制]
+證據：Full80／舊技師使用 mf13、mf14、mf15；ArmorFull50 使用 ma50 持久升級。RVR 使用 meti_unit_format=2，整件數量放在 Content[section]["100%"]，與原多次物品的次數解釋不同。
+影響：已保存後停用升級定義或將 RVR 降回舊核心，可能造成載入或物品數量解讀問題。這是資料相容邊界，並非本輪已發現存檔損壞。
+建議：持久 ID 定義需保留；回退先確認適用存檔或設計遷移，RVR 先驗證領出與存讀檔。收藏清理有自己的恢復紀錄；撤銷口徑／瞄具不是完整卸除方案。
+來源：${PREVIOUS_PROJECT}\work\technician_full80_damage30_v01\README.md
+${PREVIOUS_PROJECT}\work\technician_undo_armor50_v01\README.md
+${PREVIOUS_PROJECT}\work\rvr_mouse_ui_v031\README.md
+${PREVIOUS_PROJECT}\work\rvr_storage_expansion_v02\README.md
+
+F03　Full80 仍有瞬時非正數值窗口　[優先驗證／模型已見／原生未知]
+證據：歷史 1145 個候選 Lua 模型案例的回呼結束值通過；96 種相關 PDM 子集合為正。但舊原子節點與補償之間仍有 43 組瞬時非正值模型記錄。
+影響：最終目標正確不等於原生引擎每個中間步驟都安全。不能稱已證明崩潰，也不能稱全槍型、全部順序完全安全。
+建議：以最小原生測例確認受影響武器升級過程及存讀檔；若將來修改，避免破壞既有持久 ID／舊裝備。此次未啟動遊戲。
+來源：${PREVIOUS_PROJECT}\work\technician_full80_damage30_v01\README.md
+
+F04　洗點標價 100000，確認門檻卻為 100002　[低／原有程式邊界問題]
+證據：目前勝出的 talents_gui.script 使用 money()-1 > respec_money，respec_money=100000；純條件模型：100000／100001 都拒絕，100002 才接受。扣款仍是 100000。
+影響：玩家剛好帶足標價仍不能洗點；不是多扣兩元。此式在原 Classes & Talents GUI，並非保留等級補丁新增。
+建議：可另行做最小門檻修正並驗證 99999／100000／100001；本次只提出問題，不改正式腳本。
+來源：${MO2}\mods\[GAM] Classes & Talents — Классы и таланты\gamedata\scripts\talents_gui.script:979
+${PROJECT}\work\audit\respec_boundary.json
+
+F05　F 操作與移動倍率不同於早期紀錄　[需核對意圖／設定漂移已確認]
+證據：WPO second_key 現值 0，早期 2026-10-24 設為 2（Ctrl）；目前是雙按 F。GGGF 現值 run=1.3／sprint=1.7，早期正式整合為 1.5／1。
+影響：若仍期待 Ctrl＋雙按 F 或早期移速，體感會不符。尚未確認這是玩家後續調整、其他寫入者或遺漏，不能逕自稱錯改。
+建議：後續確認想保留的值，再依單鍵更新；不要整份舊 axr_options 覆蓋目前設定。
+來源：${GAME}\gamedata\configs\axr_options.ltx:2463
+${GAME}\gamedata\configs\axr_options.ltx:911
+${PREVIOUS_PROJECT}\outputs\Anthology_SmallChanges_2026-10-24\README.md
+${PREVIOUS_PROJECT}\work\formal_mod_integration_v01\INSTALLATION.json
+
+F06　7 個自訂改動直接放在原模組內　[中／確定的維護風險]
+證據：5 個 MCM 按鍵說明腳本、PDA 藏匿點修復與 Promin health UI，現行雜湊均符合部署紀錄，修改前備份均存在。
+影響：日後更新原供應模組可能蓋掉改動；單看 Meti 目錄會漏列這 7 項。不是目前已遺失。
+建議：更新前依檔案清單做差異合併；可在後續工作評估獨立覆蓋層，但需重核現有優先序。
+來源：${PROJECT}\work\audit\direct_scripts.json
+
+F07　完整背包重建仍有明顯成本　[中／原生日誌觀察／非新測試]
+證據：凍結的既有 xray_user.log 中，4 次完整開啟的 total_ms_local 約 1601、1673、1654、1611 ms；場景有約 1.7 萬物件。其他零工作／不同路徑開啟更快，不能混成同一組。
+影響：0.5.1 增量優化仍可能因失效或完整重建停頓。cache=false 在此探針代表 CLASSIFY_CACHE，不能直接推論增量快取沒啟用。
+建議：後續按完整重建／增量重用、物件量、UI 階段分別量測；不要以本次讀舊 log 宣稱已修好或回歸。
+來源：${PROJECT}\work\audit\xray_user_snapshot.log:2704,2773,3141,29294
+
+F08　動態音樂 callback 與夜視 MCM 路徑警告　[低／既有日誌警告]
+證據：舊 log 有 3 段 xrs_dyn_music.script:115 的 on_game_end 註冊 traceback，後面仍繼續記錄；另有夜視 gain min/max 的 bad path。原夜視腳本有 0.5／2.0 fallback。
+影響：屬需要追蹤的包內問題／警告，不能據此判定此次自訂 MOD 造成致命崩潰。掃描未見 FATAL ERROR 也不是整體安全證明。
+建議：動態音樂另查引擎 callback 是否支援；夜視可整理缺漏 MCM 項，先保留既有 fallback。本次未修。
+來源：${PROJECT}\work\audit\xray_user_snapshot.log:1548,14022,28460
+${PROJECT}\work\audit\log_summary.json
+
+F09　語法與雜湊通過不等於遊戲功能驗收　[驗收缺口／尚未全面原生驗證]
+證據：本次 65 份 Meti Lua 以 LuaJIT 只編譯、28 份 XML 解析、7 份直接修改 Lua 以 Lua 5.1 只編譯，全部通過。未啟動遊戲或執行原部署工具。
+影響：最新神器服務、製作／材料、RVR 0.3.1、全槍型 Full80、護甲滿改、AN-94 視線等仍缺完整當前原生流程證據。有限 Undo 原生測例不能外推全部功能。
+建議：驗收優先看存讀檔及物品結算，再看升級／修理／倉儲／製作與 UI；分開標記靜態、模型、舊原生日誌、玩家回報。
+來源：${PROJECT}\work\audit\syntax.json
+${PROJECT}\work\audit\direct_syntax.json
+${PREVIOUS_PROJECT}\work\technician_undo_v04\README.md
+
+F10　資料夾版本號落後於實際內容　[低／確定的文件問題]
+證據：AmmoCompact 資料夾 v0.1.0 實際 0.1.3；EnemyMarkers v0.2.0 實際 0.2.3；CounterBatch 目錄 v0.1.0／meta 0.5.0，而勝出腳本為 0.5.1；RVR UI／核心也有不同版本。
+影響：用資料夾名判斷版本、拿舊 README 直接回退，容易誤判；不表示程式載入兩份同名版本。
+建議：保留既有資料夾與 MO 設定，以清單記錄「目錄名／實際內容／勝出提供者」；不要只為改名擾動安裝。
+來源：${PROJECT}\work\audit\inventory.json
+${PROJECT}\work\audit\providers.json
+
+F11　交接的 CURRENT_MODLIST 有額外 CR　[低／交接包格式問題]
+證據：交接副本有 276 處 CRCRLF；正式 modlist 是正常 CRLF，去除額外 CR 後內容相同。
+影響：閱讀工具通常可處理，但以位元組或不正確 split 方式分析會誤報差異；正式清單沒有因此損壞。
+建議：將正式檔作現況依據，副本只供閱讀；若日後重打交接包可修正換行，本次未改原交接。
+來源：${PREVIOUS_PROJECT}\work\handoff_20261029_192501\REVIEW\current\CURRENT_MODLIST.txt
+${MO2}\profiles\Anthology 2.1 Standart Стандарт\modlist.txt
+
+二、全部 Meti 模組（依目前 Profile）
+
+M01　跳躍高度　[啟用；0.1.0]
+模組：Meti_ActorJumpHeight25_v0.1.0_EXPERIMENTAL
+改動：jump_speed 6.85 → 7.658533，依拋體關係設計約增加 25% 跳躍高度。
+限制／問題：高度是模型目標；地形、碰撞及實測頂點未驗收。
+位置：${MO2}\mods\Meti_ActorJumpHeight25_v0.1.0_EXPERIMENTAL
+依據：${PREVIOUS_PROJECT}\work\formal_mod_integration_v01\INSTALLATION.json
+
+M02　彈藥簡稱　[啟用；0.1.3]
+模組：Meti_AmmoCompactLabels_v0.1.0_TRIAL
+改動：155 個彈藥 ID／465 種狀態標籤；顯示口徑、類型及老舊／損壞狀態，補 RAK 別名及 .50 AE。
+限制／問題：只改文字與圖示；資料夾仍叫 v0.1.0。
+位置：${MO2}\mods\Meti_AmmoCompactLabels_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\ammo_compact_labels_v012\README.md
+
+M03　彈藥材料商店供應　[啟用；0.1.0]
+模組：Meti_AmmoMaterialsSupply_v0.1.0_TRIAL
+改動：16 類材料由技師、Sakharov、Hermann 供應；依每盒 10／15 次使用量配置約 45～60 單位。
+限制／問題：沿用價格、任務條件及原生補貨；不是立刻刷新現有商店。實機未驗收。
+位置：${MO2}\mods\Meti_AmmoMaterialsSupply_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\crafting_expansion_v01\README.md
+
+M04　AN-94 瞄準位置　[啟用；0.1.0]
+模組：Meti_AN94_SightAlignment_v0.1.0_TRIAL
+改動：16 個 HUD section、80 欄位由 ALT 定位恢復成包內 RAK BASE 定位。
+限制／問題：靜態定位還原；尚未證明所有瞄具視線真正對齊。
+位置：${MO2}\mods\Meti_AN94_SightAlignment_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\an94_sight_v01\DEPLOYMENT.json
+
+M05　基礎負重　[啟用；0.2.0]
+模組：Meti_Anthology_BaseCarry999999_v0.2.0
+改動：基礎負重改為 999999；保留裝備、天賦及分組倍率；行走門檻仍由原邏輯推算。
+限制／問題：不是 999999 個物品上限，也不保證大量背包無卡頓。
+位置：${MO2}\mods\Meti_Anthology_BaseCarry999999_v0.2.0
+依據：${PREVIOUS_PROJECT}\work\formal_mod_integration_v01\INSTALLATION.json
+
+M06　開局裝備點數　[啟用；0.1.0]
+模組：Meti_Anthology_StartPoints_100000_v0.1.0
+改動：新遊戲裝備購買點數設為 100000。
+限制／問題：不會把既有存檔金錢或經驗變成 100000。
+位置：${MO2}\mods\Meti_Anthology_StartPoints_100000_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\formal_mod_integration_v01\INSTALLATION.json
+
+M07　護甲滿改補足　[啟用；0.1.0]
+模組：Meti_ArmorFull50_v0.1.0_TRIAL
+改動：188 個 section／168 組基準／4258 目標：滿改後正向防護與恢復至少達基準 ×1.5；以 ma50 持久升級補足。
+限制／問題：已存檔的 ma50 定義不可直接移除；目前控制腳本由 WorkshopUpgradeParity 勝出。特殊骨骼防護仍有限制。
+位置：${MO2}\mods\Meti_ArmorFull50_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\technician_undo_armor50_v01\README.md
+
+M08　神器維修與培育服務　[啟用；0.1.0]
+模組：Meti_ArtefactServices_v0.1.0_TRIAL
+改動：既有技師接神器維修；共享 37 種配方聯集、35 種完整配方；缺資料的 af_gubka／af_sluda 隱藏。沿用原費用與一次選項規則。
+限制／問題：尚未實機驗收維修、交易、培育及存讀檔。不是新增所有神器特殊能力。
+位置：${MO2}\mods\Meti_ArtefactServices_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\artefact_services_v01\README.md
+
+M09　培育神器專長　[啟用；0.1.0]
+模組：Meti_ArtefactSpecialty_v0.1.0_TRIAL
+改動：35 種原料、105 個結果，102 項有變更；既有正向防護不足 15% 者目標 18%（gd_novice）；恢復與負輻射排除 ×1.2。
+限制／問題：不是全部屬性統一 18%；不改價格、重量或 PBA 特殊回呼。實機未驗收。
+位置：${MO2}\mods\Meti_ArtefactSpecialty_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\artefact_specialty_v01\README.md
+
+M10　耗電降至原來 25%　[啟用；0.1.0]
+模組：Meti_BatteryDrain25_v0.1.0_TRIAL
+改動：4 個管理腳本、6 處正向消耗乘 0.25，涵蓋普通設備、Promin、外骨骼及相關能力。
+限制／問題：不改電池容量、充電或開關閾值；不能據此保證每種設備續航固定四倍。
+位置：${MO2}\mods\Meti_BatteryDrain25_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\battery_drain75_v01\README.md
+
+M11　成就與箱子中文　[啟用；0.1.0]
+模組：Meti_ChineseUILabels_v0.1.0
+改動：調整成就字型與箱子標記中文；箱子標記的現行腳本由本層提供。
+限制／問題：畫面字形／裁切需要實機確認；目前已啟用，不能沿用舊候選狀態描述。
+位置：${MO2}\mods\Meti_ChineseUILabels_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\ui_text_font_fix_20261028_v01\README.md
+
+M12　製作配方擴充　[啟用；0.1.0]
+模組：Meti_CraftingExpansion_v0.1.0_TRIAL
+改動：新增 22 類彈藥、10 類裝備配方並保留 4 條既有路線；移除兩處初始化刪除，保留 VOG-25／M209。
+限制／問題：80 項歷史靜態／模型檢查；不是 80 次實機製作驗收。
+位置：${MO2}\mods\Meti_CraftingExpansion_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\crafting_expansion_v01\README.md
+
+M13　製作／拆解免演出等待　[啟用；勝出腳本 0.1.1]
+模組：Meti_CraftNoWait_v0.1.0_TRIAL
+改動：跳過約 3 秒演出等待，保留真正扣料、生成及完成事件；由相容層接到 Banjaji 入口。
+限制／問題：舊 README 的單獨停用方式失效，見 F01；不等於所有批次間隔歸零。
+位置：${MO2}\mods\Meti_CraftNoWait_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\favorite_cleanup_craft_v01\README.md
+
+M14　100 米敵人標記　[啟用；0.2.3]
+模組：Meti_EnemyMarkers100m_v0.2.0
+改動：100 米內敵人姓名／距離中文標記，最多 64 個；掃描與繪製節拍約 16.67 ms。
+限制／問題：節拍不等於實際 60 FPS；繁忙場景成本仍在。
+位置：${MO2}\mods\Meti_EnemyMarkers100m_v0.2.0
+依據：${PREVIOUS_PROJECT}\work\enemy_refresh60_v023\DEPLOYMENT.json
+
+M15　舊版背包動作　[停用；0.1.0]
+模組：Meti_InventoryActions_v0.1.0_TRIAL
+改動：保留舊試驗檔，已由 v0.2.0 及相容層接替。
+限制／問題：目前停用；不能把檔案存在當作仍有第二份功能運行。
+位置：${MO2}\mods\Meti_InventoryActions_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\inventory_actions_v01\README.md
+
+M16　背包修理、拆解與換電池　[啟用；0.2.0＋相容層]
+模組：Meti_InventoryActions_v0.2.0_TRIAL
+改動：修理子選單按相容工具顯示；垃圾彈藥批次拆解最多 1024 物件；普通電池可手選，另有每秒檢查的自動換電池。
+限制／問題：主腳本由 PackCompatibility 勝出；不含外骨骼電池；批次需等真實完成回呼再等 250 ms。
+位置：${MO2}\mods\Meti_InventoryActions_v0.2.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\inventory_actions_v02\README.md
+
+M17　背包計數與增量重建　[啟用；勝出腳本 0.5.1]
+模組：Meti_InventoryCounterBatch_v0.1.0_TRIAL
+改動：批次計數／裝飾、圖示軸快取；玩家背包與搜刮背包增量更新。128 次變更重整，32768 上限回退；交易仍走相應刷新。
+限制／問題：原資料夾 v0.1.0、meta 0.5.0；現行勝出 0.5.1。舊 log 完整重建仍約 1.6 秒，見 F07。
+位置：${MO2}\mods\Meti_InventoryCounterBatch_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\inventory_incremental_v05\README.md
+
+M18　舊收藏清理與新增防護　[啟用；0.2.0]
+模組：Meti_LegacyFavoriteCleanup_v0.1.0
+改動：一次性清掉彈藥／配件的舊收藏並記錄；後續同類新增收藏限右鍵選單，阻止原快速路徑。
+限制／問題：會保存清理紀錄；改原模組 MODE 無法控制相容層勝出腳本，見 F01。
+位置：${MO2}\mods\Meti_LegacyFavoriteCleanup_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\favorite_guard_ads_v02\README.md
+
+M19　Levsha 唯讀診斷　[停用；0.1.0]
+模組：Meti_Levsha_Diagnosis_v0.1.0_READONLY
+改動：任務診斷記錄腳本保留備查。
+限制／問題：目前停用；不修改任務旗標，也不應當作任務修復。
+位置：${MO2}\mods\Meti_Levsha_Diagnosis_v0.1.0_READONLY
+依據：${PREVIOUS_PROJECT}\work\levsha_diagnosis_v01\README.md
+
+M20　Levsha 會面流程修正　[啟用；0.1.0]
+模組：Meti_Levsha_MeetingFix_v0.1.0_TRIAL
+改動：兩處帶條件的 NPC 會面路徑修正；不強制灌入完成旗標。
+限制／問題：完整自然任務進度未驗收；相關診斷模組現已停用。
+位置：${MO2}\mods\Meti_Levsha_MeetingFix_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\levsha_meeting_fix_v01\README.md
+
+M21　載入提示換行　[啟用；0.2.0]
+模組：Meti_LoadTipWrap_v0.2.0_EXPERIMENTAL
+改動：改善中文長載入提示換行，保留已採用的版面。
+限制／問題：有歷史有限原生畫面證據；不代表所有提示及解析度都驗收。
+位置：${MO2}\mods\Meti_LoadTipWrap_v0.2.0_EXPERIMENTAL
+依據：${PREVIOUS_PROJECT}\work\load_tip_finish_v04\README.md
+
+M22　掉落裝備外觀耐久 100%　[啟用；0.1.0]
+模組：Meti_LootEquipment100_v0.1.0
+改動：新死亡 NPC／首次箱子生成的槍械、護甲、頭盔外觀耐久設 100%。
+限制／問題：不回溯既有物件，不改活人；WPO 內部零件耐久不保證 100%。
+位置：${MO2}\mods\Meti_LootEquipment100_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\ui_loot_respec_review_20261028_v01
+
+M23　按住 F 顯示箱子標記　[啟用；0.1.1]
+模組：Meti_LootMarkers_v0.1.0_TRIAL
+改動：按住 F 顯示 40 米內箱子／藏匿點，最多 32 個；不操作 PDA 地圖點。
+限制／問題：中文字由 ChineseUILabels 較高層勝出；F 尚有其他條件功能。
+位置：${MO2}\mods\Meti_LootMarkers_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\loot_markers_hold_f_v011\README.md
+
+M24　材料修理至少 25%　[啟用；0.1.0]
+模組：Meti_MaterialRepair25_v0.1.0_TRIAL
+改動：Attachments 材料分支採 math.max(toolbonus,0.25)；鋼板／克維拉板依工具相容性使用。
+限制／問題：不是所有修理途徑都增加 25%；最終耐久仍封頂 100%。
+位置：${MO2}\mods\Meti_MaterialRepair25_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\repair_material_floor25_v01\README.md
+
+M25　夜視近距模糊移除　[啟用；0.1.0]
+模組：Meti_NVG_ClearFocus_v0.1.0
+改動：三種夜視 shader 各移除一處 NEARBLUR。
+限制／問題：顏色、雜訊、bloom 保留；本輪未原生編譯 shader。
+位置：${MO2}\mods\Meti_NVG_ClearFocus_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\nvg_clear_v010\README.md
+
+M26　夜視右 Ctrl 調亮度　[啟用；勝出腳本 0.1.1]
+模組：Meti_NVG_CtrlBrightness_v0.1.0
+改動：普通夜視以右 Ctrl＋主鍵盤 −／＝調整，每次按下調一次；相容層排除熱像。另提供跨模組按鍵說明文字。
+限制／問題：修飾鍵模型通過；實機輸入未重測；舊停用說明見 F01。
+位置：${MO2}\mods\Meti_NVG_CtrlBrightness_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\nvg_ctrl_v010\README.md
+
+M27　整合包相容層　[啟用；0.1.0]
+模組：Meti_PackCompatibility_v0.1.0
+改動：10 Lua＋2 XML：UI raw identity、BHS 兩階段背包、圖示去重、CSI／KeepCraft、批次結算、Shift 快移重驗、Cocoon 10 層速度、PBA 超 5 顆封頂、夜視／隊友鍵。
+限制／問題：歷史 25 項中 13 項已修、12 項保留說明；原生全面驗收未完成。完整明細見相容修復頁。
+位置：${MO2}\mods\Meti_PackCompatibility_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\pack_compatibility_fixes_20261028_v01\README.txt
+
+M28　舊玩家槍感試驗　[停用；0.1.0]
+模組：Meti_PlayerGunfeel_v0.1.0_TRIAL
+改動：試驗檔保留，現行 Profile 未啟用。
+限制／問題：不能把本試驗效果加算到目前 Full80；不代表現行技師改裝只對玩家有效。
+位置：${MO2}\mods\Meti_PlayerGunfeel_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\player_gunfeel_trial_v01\README.md
+
+M29　地區工具與配方紙　[啟用；0.1.0]
+模組：Meti_RegionalToolsRecipes_v0.1.0_TRIAL
+改動：8 份商店 DLTX 擴充地區工具及配方紙供應。
+限制／問題：沿用原生補貨、價格及門檻；不代表每個商人即刻販售全部內容。
+位置：${MO2}\mods\Meti_RegionalToolsRecipes_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\trader_tools_recipes_v01\DEPLOYMENT.json
+
+M30　RVR 材料倉儲　[啟用；UI 0.3.1／核心 0.3.0]
+模組：Meti_RVR_Materials_v0.1.0_EXPERIMENTAL
+改動：449 個白名單 section；滿耐久且滿使用次數才能按整件入庫。左 Shift＋背包鍵，數量 1～50，滑鼠存取及單件選單。
+限制／問題：使用 meti_unit_format=2。不是全物品倉庫，也不自動由虛擬倉庫製作；不可直接降回舊核心，見 F02。
+位置：${MO2}\mods\Meti_RVR_Materials_v0.1.0_EXPERIMENTAL
+依據：${PREVIOUS_PROJECT}\work\rvr_mouse_ui_v031\README.md
+
+M31　天賦中文描述字型　[啟用；0.1.0]
+模組：Meti_TalentChineseTooltip_v0.1.0
+改動：描述欄 font=di → letterica16；190 段中文描述字形核對。
+限制／問題：不改天賦效果；長文字裁切仍需實機確認。
+位置：${MO2}\mods\Meti_TalentChineseTooltip_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\technician_full80_damage30_v01\README.md
+
+M32　洗點保留等級／經驗　[啟用；0.1.0]
+模組：Meti_TalentRespecKeepLevels_v0.1.0
+改動：保留四類等級與當前經驗，重設職業／天賦及已花點數；可用點回到等級值，避免重複累加。
+限制／問題：沿用 100000 費用；原 GUI 實際需至少 100002 才可確認，見 F04。
+位置：${MO2}\mods\Meti_TalentRespecKeepLevels_v0.1.0
+依據：${PREVIOUS_PROJECT}\work\ui_loot_respec_review_20261028_v01
+
+M33　槍械滿改目標　[啟用；1.5.0]
+模組：Meti_TechnicianFull80_v1.5.0_TRIAL
+改動：射程／初速／射速／回正 ×1.8；支援散布、PDM、耗損 ×0.2；10 個後座角欄位 ×0.1；傷害／衝擊 ×1.3；一般彈匣 ×1.8 向上取整。
+限制／問題：121 根組、361 基準、8314 變體；18 彈匣例外、802 無樹與 49 發射器排除。持久 mf15、43 瞬時非正模型記錄見 F02／F03。
+位置：${MO2}\mods\Meti_TechnicianFull80_v1.5.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\technician_full80_damage30_v01\README.md
+
+M34　原技師數值與舊 ID 層　[啟用；meta 1.4.0]
+模組：Meti_TechnicianNumeric_v1.0_TRIAL
+改動：提供既有技師數值／文字／資料及 mf13、mf14 相容定義，是 Full80 依賴的一部分。
+限制／問題：不是另一個可隨意刪除的重複增益；部分檔案已由 Full80 勝出。
+位置：${MO2}\mods\Meti_TechnicianNumeric_v1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\technician_recoil90_v01\README.md
+
+M35　口徑／瞄具撤銷　[啟用；0.4.0]
+模組：Meti_TechnicianUndo_v0.4.0_TRIAL
+改動：僅支援審核過的口徑／瞄具替換；卸彈、處理附件，再重建武器物件，物件 ID 會改變。
+限制／問題：不退費、不保證所有武器；PM／M24／AK74＋PSO 有有限原生與重讀證據。任務／未知狀態／部分榴彈器拒絕。
+位置：${MO2}\mods\Meti_TechnicianUndo_v0.4.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\technician_undo_v04\README.md
+
+M36　拔收、換彈與 ADS 加速　[啟用；0.2.1]
+模組：Meti_WeaponActions150_v0.1.0_TRIAL
+改動：玩家持有時拔槍、收槍、一般換彈動畫 ×2.25；8766 個共享 section 的 ADS 時間 ÷2.25；保留例外與原技能疊加。
+限制／問題：普通裝填例外保留；音效未同步加速可能不同步。共享 ADS 設定不應稱全體玩家專屬欄位。
+位置：${MO2}\mods\Meti_WeaponActions150_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\weapon_actions225_v02
+
+M37　工具工作台滿改對齊　[啟用；0.1.0]
+模組：Meti_WorkshopUpgradeParity_v0.1.0_TRIAL
+改動：工作台的槍械／護甲滿改補足與技師對齊，保留原工具、材料及價格規則。
+限制／問題：護甲控制器由本層勝出；槍械控制器目前由 Full80 接替。不是新增撤銷入口。
+位置：${MO2}\mods\Meti_WorkshopUpgradeParity_v0.1.0_TRIAL
+依據：${PREVIOUS_PROJECT}\work\workshop_technician_parity_v01\README.md
+
+三、直接修改、設定與歷史項目
+
+O01　夜視 MCM 說明　[原模組直接改檔；現行／雜湊一致]
+內容：加入組合鍵／亮度按鍵說明，功能仍由原夜視及相容腳本控制。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[GAM] Beefs NVGs Improved — Улучшенные ПНВ\gamedata\scripts\z_beefs_nvgs_mcm.script
+依據：${PREVIOUS_PROJECT}\work\hotkey_notes_v010\DEPLOYMENT.json
+
+O02　AmmoCheck MCM 說明　[原模組直接改檔；現行／雜湊一致]
+內容：補充彈藥檢查按鍵、修飾鍵與觸發模式說明。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[WPN] Fire Mode Check + Ammmocheck\gamedata\scripts\ammo_check_mcm.script
+依據：${PREVIOUS_PROJECT}\work\hotkey_notes_v010\DEPLOYMENT.json
+
+O03　射擊模式 MCM 說明　[原模組直接改檔；現行／雜湊一致]
+內容：補充射擊模式檢查／切換相關按鍵說明。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[WPN] Fire Mode Check + Ammmocheck\gamedata\scripts\ish_firemode_mcm.script
+依據：${PREVIOUS_PROJECT}\work\hotkey_notes_v010\DEPLOYMENT.json
+
+O04　瞄具標記 MCM 說明　[原模組直接改檔；現行／雜湊一致]
+內容：補充瞄具標記切換按鍵說明。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[WPN][1][SCP][R.A.K Weapon Pack Adaptation Global Anomaly 3DSS (OBT)]\gamedata\scripts\z_mark_switch_mcm.script
+依據：${PREVIOUS_PROJECT}\work\hotkey_notes_v010\DEPLOYMENT.json
+
+O05　RVR MCM 說明　[原模組直接改檔；現行／雜湊一致]
+內容：補充倉儲按鍵及乘數操作說明。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[GAM] Optimized Storage System — Оптимизированная система хранения\gamedata\scripts\rvr_storage_system_mcm.script
+依據：${PREVIOUS_PROJECT}\work\hotkey_notes_v010\DEPLOYMENT.json
+
+O06　PDA 藏匿點提示修復　[原模組直接改檔；現行／雜湊一致]
+內容：修正已知藏匿點／任務提示更新路徑；與按住 F 的世界箱子標記是不同層。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[DBG] Kristiano Fixes ALL IN ONE NEW\gamedata\scripts\fix_quest_stash_hint.script
+依據：${PREVIOUS_PROJECT}\work\stash_marker_fix_v01\DEPLOYMENT.json
+
+O07　Promin 無 BHS 顯示相容　[原模組直接改檔；現行／雜湊一致]
+內容：修正無 BHS 環境的健康顯示路徑，避免空白畫面；保留最終已採用的直接腳本修復。
+限制／問題：更新原模組可能覆蓋；不是獨立 Meti 開關。修改前備份存在。
+位置：${MO2}\mods\[GAM] Wearable Devices\gamedata\scripts\d_promin_health_ui.script
+依據：${PREVIOUS_PROJECT}\work\wearable_black_screen_v01\no_bhs_compat_v010\DEPLOYMENT.json
+
+O08　低草設定　[設定變更；目前保留]
+內容：density=1、height=0.5、radius=190。
+限制／問題：不是移除灌木；前期 radius=0 試驗已非現值。
+位置：${GAME}\appdata\user.ltx:505
+依據：${PREVIOUS_PROJECT}\work\low_grass_v04\README.md
+
+O09　跑步與衝刺倍率　[設定變更；與早期紀錄不同]
+內容：gggf/gotta_go_fast_run=1.3；sprint=1.7。
+限制／問題：早期正式整合為 1.5／1；何時、由誰改成目前值尚未歸因。
+位置：${GAME}\gamedata\configs\axr_options.ltx:911
+依據：${PREVIOUS_PROJECT}\work\formal_mod_integration_v01\INSTALLATION.json
+
+O10　拾取名稱顯示　[設定變更；目前保留]
+內容：hide_pickup_item_names=false；g_draw_pickup_item_names=1。
+限制／問題：與世界箱子標記分開；不代表所有物件都有可見標籤。
+位置：${GAME}\gamedata\configs\axr_options.ltx:401
+依據：${PREVIOUS_PROJECT}\work\hudmarkers_v03
+
+O11　F 檢查／排障　[設定變更；與早期紀錄不同]
+內容：WPO keybind=33(F)、modifier=1(雙按)、second_key=0(無修飾鍵)。
+限制／問題：2026-10-24 曾設 Ctrl＋雙按 F（second_key=2）；現值不是該設定，見 F05。
+位置：${GAME}\gamedata\configs\axr_options.ltx:2463
+依據：${PREVIOUS_PROJECT}\work\small_adjustments_20261024
+
+O12　開槍畫面效果　[設定變更；已關閉]
+內容：video/player/shoot_effects=false。
+限制／問題：不等同技師後座、槍模 INERTIA 或所有鏡頭震動都關閉。
+位置：${GAME}\gamedata\configs\axr_options.ltx:5084
+依據：${PREVIOUS_PROJECT}\work\shoot_effects_off_v01
+
+O13　收藏／垃圾高亮　[設定變更；已關閉]
+內容：SortingPlus/hilitefavs=false；hilitejunk=false；Seamless hl_new=false。
+限制／問題：圖示／收藏狀態仍可存在，關閉高亮不是刪除收藏。
+位置：${GAME}\gamedata\configs\axr_options.ltx:62
+依據：${PREVIOUS_PROJECT}\work\inventory_highlight_off_v01
+
+O14　SortingPlus 自動重排　[設定變更；已關閉]
+內容：SortingPlus/resort=false。
+限制／問題：手動排序保留；Seamless 的 fav_junk 另有獨立設定。
+位置：${GAME}\gamedata\configs\axr_options.ltx:71
+依據：${PREVIOUS_PROJECT}\work\favorites_plate_followup_v01\DEPLOYMENT.json
+
+O15　Seamless 自動收藏　[設定變更；已關閉]
+內容：auto_fav=false；auto_fav_own=true 但父開關關閉。
+限制／問題：既有星號需要收藏清理功能處理，不因關閉自動收藏自行消失。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1933
+依據：${PREVIOUS_PROJECT}\work\battery_drain75_v01\README.md
+
+O16　Seamless 收藏／垃圾重排　[設定變更；已關閉]
+內容：fav_junk=false、ux_preset=custom、no_slot_jump=true。
+限制／問題：避免原收藏／垃圾操作觸發額外重排；不是停用整個排序系統。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1941
+依據：${PREVIOUS_PROJECT}\work\pack_compatibility_fixes_20261028_v01\README.txt
+
+O17　Seamless Antifreeze　[設定變更；已關閉]
+內容：af_enabled=false、af_trade_enabled=false；目前預算 6、icon_step=60、sort_step=240、deferred_limit=350。
+限制／問題：關閉時這些預算不是現行加速倍數；不能把早期批次調整再加算。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1926
+依據：${PREVIOUS_PROJECT}\work\inventory_batch_150_v010
+
+O18　交易快速清除高亮　[設定變更；已關閉]
+內容：trade_fast_unhighlight=false。
+限制／問題：相容層另修 raw identity 比較；本開關關閉，不能再把舊危險比較列成目前必然觸發。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1957
+依據：${PREVIOUS_PROJECT}\work\trade_unhighlight_safe_v01\README.md
+
+O19　RVR 倉儲開關　[設定變更；目前保留]
+內容：global=true；weapon_storage=false、armor_storage=false；Shift 乘數 5、Ctrl 乘數 10。
+限制／問題：武器／護甲不因安裝材料擴充自動允許入庫。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1831
+依據：${PREVIOUS_PROJECT}\work\rvr_material_storage_v01\README.md
+
+O20　夜視調光主鍵　[設定變更；目前保留]
+內容：beef_nvg/keybind_nv_down=12；keybind_nv_up=13。
+限制／問題：主鍵盤 −／＝，相容腳本要求右 Ctrl；修飾鍵模型與 AmmoCheck 可區分。
+位置：${GAME}\gamedata\configs\axr_options.ltx:128
+依據：${PREVIOUS_PROJECT}\work\pack_compatibility_fixes_20261028_v01\README.txt
+
+O21　隊友切換姿勢　[設定變更；目前保留]
+內容：idiots/keybinds/stance/cycle_stance_key=64（F6）。
+限制／問題：避開原數字鍵盤 4 射擊模式；不附加修飾鍵。
+位置：${GAME}\gamedata\configs\axr_options.ltx:1114
+依據：${PREVIOUS_PROJECT}\work\pack_compatibility_fixes_20261028_v01\README.txt
+
+O22　PEAK 體積光　[設定變更；已關閉]
+內容：pfx_volumetric_mode=0。
+限制／問題：畫面與 FPS 未重測。
+位置：${GAME}\appdata\user.ltx:306
+依據：${PREVIOUS_PROJECT}\work\gfx_four_effects_20261028_v01\README.md
+
+O23　SSS 畫面空間陰影　[設定變更；已關閉]
+內容：ssfx_sss_quality=(12,4,0,0)；enable_dir_mcm=false、enable_point_mcm=false。
+限制／問題：原生主要陰影保留；不等於完全無陰影。
+位置：${GAME}\appdata\user.ltx:703
+依據：${PREVIOUS_PROJECT}\work\gfx_four_effects_20261028_v01\README.md
+
+O24　SSS 間接光品質　[設定變更；Very Low]
+內容：ssfx_il_quality=16；MCM quality_mcm=16，原 32。
+限制／問題：畫面細節減少；沒有以此聲稱 FPS 已提升。
+位置：${GAME}\appdata\user.ltx:682
+依據：${PREVIOUS_PROJECT}\work\gfx_four_effects_20261028_v01\README.md
+
+O25　TAA　[設定變更；已關閉]
+內容：ssfx_taa.x=0；MCM enabled_mcm=false，其餘分量保留。
+限制／問題：邊緣鋸齒／閃爍可能增加；原生畫面未重測。
+位置：${GAME}\appdata\user.ltx:704
+依據：${PREVIOUS_PROJECT}\work\gfx_four_effects_20261028_v01\README.md
+
+O26　原自動收藏彈藥　[原模組停用；停用]
+內容：避免自動加回彈藥收藏；舊收藏另外清理。
+限制／問題：非刪除；沒有本輪實測效能改善。
+位置：${MO2}\profiles\Anthology 2.1 Standart Стандарт\modlist.txt:119
+依據：${PREVIOUS_PROJECT}\work\favorite_cleanup_craft_v01\README.md
+
+O27　血泊效果　[原模組停用；停用]
+內容：停用血泊模組，檔案保留。
+限制／問題：非刪除；沒有本輪實測效能改善。
+位置：${MO2}\profiles\Anthology 2.1 Standart Стандарт\modlist.txt:212
+依據：${PREVIOUS_PROJECT}\work\optional_effects_off_v01\README.txt
+
+O28　彈殼落地音效　[原模組停用；停用]
+內容：停用此額外音效模組，檔案保留。
+限制／問題：非刪除；沒有本輪實測效能改善。
+位置：${MO2}\profiles\Anthology 2.1 Standart Стандарт\modlist.txt:83
+依據：${PREVIOUS_PROJECT}\work\optional_effects_off_v01\README.txt
+
+O29　存檔動畫　[原模組停用；停用]
+內容：停用此存檔動畫模組，檔案保留。
+限制／問題：非刪除；沒有本輪實測效能改善。
+位置：${MO2}\profiles\Anthology 2.1 Standart Стандарт\modlist.txt:111
+依據：${PREVIOUS_PROJECT}\work\optional_effects_off_v01\README.txt
+
+O30　植被／草距早期試驗　[歷史項目；歷史／非現行疊加]
+內容：曾測試草距、低草及載入問題；目前取低草的保留值 1／0.5／190。
+限制／問題：不得把已回復的 radius=0 或其他試驗當現行設定。
+位置：
+依據：${PREVIOUS_PROJECT}\work\low_grass_v04\README.md
+
+O31　舊槍感及技能路線　[歷史項目；歷史／非現行疊加]
+內容：早期 PlayerGunfeel、精度及技能研究保留；現行以模組頁的啟用狀態和技師改裝為準。
+限制／問題：分析／候選檔不自動視為正式功能；PlayerGunfeel 已停用。
+位置：
+依據：${PREVIOUS_PROJECT}\work\player_precision_validation_v02
+
+O32　舊背包效能方案　[歷史項目；歷史／非現行疊加]
+內容：從批次、視覺、軸快取演進到 0.5.1 增量與相容層；舊版證據保留。
+限制／問題：不是把各版本加速百分比相乘。
+位置：
+依據：${PREVIOUS_PROJECT}\work\inventory_incremental_v05\README.md
+
+O33　Promin 舊顯示試驗　[歷史項目；歷史／非現行疊加]
+內容：舊 shader／可見性試驗已回復；現行保留無 BHS 的 health UI 腳本修復。
+限制／問題：不把回復的 shader 試驗列成仍運作；既有玩家回報與本次靜態核對分列。
+位置：
+依據：${PREVIOUS_PROJECT}\work\wearable_black_screen_v01
+
+O34　rx_knife／輸入診斷　[歷史項目；歷史／非現行疊加]
+內容：相關調查、擷取及診斷資料保留在舊工作區。
+限制／問題：沒有因此推定一個新啟用的 Meti 功能；不執行舊測試工具。
+位置：
+依據：${PREVIOUS_PROJECT}\work\rx_knife_diag_v0.4
+
+O35　鏡頭及其他畫面現值　[設定背景（未歸因）；目前觀察值]
+內容：cam_inert=0、g_decouple_horz_recoil=0、hud_fov=0.65；blood_splash／breathing_fog／mask_hud／rain_droplets／visor_reflection=false。
+限制／問題：僅記錄現值；未以本輪證據確認每一鍵都是先前自訂修改。
+位置：${GAME}\gamedata\configs\axr_options.ltx
+依據：${GAME}\appdata\user.ltx
+
+四、相容層的 25 項歷史處置
+13 項已安裝修復，12 項保留並說明；當時為靜態／模型結果，不能統稱 25 個問題全數原生修復。
+來源：${PREVIOUS_PROJECT}\work\pack_compatibility_fixes_20261028_v01\FINDING_DISPOSITION.json
+
+INV-01　搜刮流程提前清空且延後建立，繞過 v0.5 的增量重用條件
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+INV-02　Banjaji 製作按鈕繞過 CraftNoWait 與 Utjan 舊 class 製作包裝
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。 Banjaji 本身已有低條件耗材排序，不再疊加 Utjan 同效果。
+
+INV-03　圖示 registry 同名追加，收藏防護與每次設定更新會累積重複圖層回呼
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+INV-04　SortingPlus 不重排設定無法阻止 Seamless 的收藏/垃圾即時重排
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+INV-05　CraftNoWait 不會把垃圾批次的件與件間隔降成250毫秒
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+INV-06　Keep Crafting 勝出檔覆蓋了 Banjaji 的同名相容分支
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+INV-07　Shift FastTransfer 不受 SortingPlus 的 Put All 收藏保護
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+INV-08　FastTransfer 延後搬移只保存 bag/idx，缺乏物件身分與視窗生命週期重驗
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：失效交錯風險已在模型重現並新增延後重驗；未證明此風險曾造成玩家現場事故。
+
+GP01　Cocoon 滿10層的零速度倍率被改回1
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+GP02　同類PBA神器超過5顆存在查表越界
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+GP03　GGGF與技能、衣裝、Arrival分組相乘
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+GP04　動作2.25會乘在技能／天賦速度上
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+GP05　技師cam滿改90不會消除INERTIA槍模動畫
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+GP06　Specialty不改PBA回呼，也不自動繼承PBA特殊能力
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+GP07　負重999999是基底；衣裝與跳躍天賦仍有效
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+GP08　技師／工具箱保留既有升級；外來升級會阻擋補算
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+VK01　右 Ctrl 夜視亮度鍵與 HUD／截圖共用
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+VK02　熱像與新增夜視亮度函式的保護缺口；N／B／J條件
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+VK03　射擊模式上一鍵會同時命令隊友切姿勢
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+VK04　F 互動／標記／螢光棒／排障是有條件共存
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+VK05　RVR 左 Shift＋I 跟隨背包綁定
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+VK06　檢查／檢視／準星切換需區分主鍵與觸發模式
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+VK07　3DSS／SSS／Beef／LUT是混合相容層，不能只數覆蓋
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+VK08　user.ltx／MCM差值先追換算與寫入者
+處置：PRESERVED_WITH_EXPLANATION
+說明：屬正常疊加、不同保護範圍或尚未證實的限制；維持現況，未強行修改。
+
+ROOT01　交易快速清除高亮目前已關閉；危險比較仍留在來源
+處置：FIX_INSTALLED_NATIVE_NOT_RUN
+說明：已針對確認路徑修補；安裝／靜態及模型已確認，原生效果待實玩。
+
+五、已排除的誤判與合理限制
+
+- 39 個同路徑多提供者項目包含相容／後續修訂層，不能只數覆蓋就判衝突。
+- 22 份目前勝出的 Meti DLTX 中，7944 筆跨檔同 section/key 指派全部是 upgrades 清單；後檔保留前檔 ID，再追加 mf14／mf15，未見移除既有 ID。這不是完整原生 DLTX 模擬。
+- ammo_maker.script 的 goto 在普通 Lua 5.1 檢查失敗，但原包也使用此語法，LuaJIT 編譯通過；不列為語法缺陷。
+- AmmoCheck 的主鍵盤 − 使用 MCM modifier=0，右 Ctrl 夜視使用獨立修飾條件；本機 MCM 純函式模型能區分，不能只憑共用主鍵宣稱衝突。
+- 技師改裝附在武器物件上，交給 NPC 後仍是改裝武器；這不等於玩家專屬被動。武器動作與技能乘算也屬保留設計。
+- 現有收藏、任務、掉落、服務及商店狀態，不能只靠配置檔推定存檔內每件物品都已更新。
+
+六、完整檔案與覆蓋表
+Excel 另列 168 個修改檔案的 SHA256、來源與勝出狀態，以及 39 個多提供者路徑；完整遊戲檔案數遠大於此盤點範圍。
+
+七、查核邊界與後續建議
+先處理 F01 的停用／回退對應文件與 F04 的洗點門檻；F05 須先釐清欲保留的控制設定。存檔相關功能的原生驗證以 F02／F03 為優先，其次製作、倉儲、神器服務。
+本輪沒有套用任何修復；建議是供評估的下一步，不是已執行結果。
+
+交接包 SHA256：5c35edac8d6cc3ee4cc1366dd725bdbfe3e78fdfdf30537b572a93dae633a09b
+引擎 SHA256：6bbc9b630fa496f9d0c31eb3864b6ed29fe9d8cf0d35302ba756e462bdb5ff9e
+盤點前後：176 路徑相同；控制檔 8、Meti 檔 161、直接修改腳本 7。
